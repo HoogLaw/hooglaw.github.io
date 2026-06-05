@@ -1,0 +1,606 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>From the Bench | Hoog Law | Longmont, Colorado</title>
+<meta name="description" content="Personal perspectives on law, business, and life from Longmont attorney Michael Hoog. Baseball. Mermaids. The occasional statute.">
+<meta name="author" content="Michael W. Hoog, Hoog Law">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.hooglaw.com/from-the-bench/">
+<link rel="icon" type="image/png" href="/assets/images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Raleway:wght@400;500;600;700;800;900&family=Lora:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/styles.css">
+
+<style>
+  /* ── FROM THE BENCH — editorial warmth within Hoog Law design system ── */
+
+  /* Masthead — replaces standard page-header for this section */
+  .bench-masthead {
+    background: var(--navy);
+    padding: 100px 0 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .bench-masthead::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at 70% 50%, rgba(61,79,160,0.35) 0%, transparent 65%);
+    pointer-events: none;
+  }
+
+  /* Large decorative baseball stitching texture — subtle */
+  .bench-masthead::after {
+    content: '';
+    position: absolute;
+    right: 3rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    border: 2px solid rgba(255,255,255,0.04);
+    pointer-events: none;
+  }
+
+  .bench-masthead-inner {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: end;
+    gap: 2rem;
+    padding-bottom: 0;
+  }
+
+  .bench-masthead-text {
+    padding-bottom: 2.5rem;
+  }
+
+  .bench-masthead-eyebrow {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 0.85rem;
+    display: block;
+  }
+
+  .bench-masthead h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: clamp(2.8rem, 6vw, 4.5rem);
+    font-weight: 900;
+    color: #fff;
+    line-height: 1.0;
+    margin: 0 0 1.25rem;
+    letter-spacing: -0.02em;
+  }
+
+  .bench-masthead-desc {
+    font-family: 'Lora', Georgia, serif;
+    font-style: italic;
+    font-size: 1.05rem;
+    color: rgba(255,255,255,0.6);
+    line-height: 1.7;
+    max-width: 520px;
+    margin: 0;
+  }
+
+  /* Issue-style rule line at bottom of masthead */
+  .bench-rule {
+    height: 3px;
+    background: linear-gradient(90deg, var(--gold) 0%, var(--purple) 60%, transparent 100%);
+    margin-top: 2.5rem;
+  }
+
+  /* ── FILTERS ── */
+  .bench-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 2rem 0 2.5rem;
+    border-bottom: 1px solid rgba(30,43,94,0.1);
+    margin-bottom: 3rem;
+  }
+  .bench-filter {
+    padding: 0.38rem 1rem;
+    border-radius: 100px;
+    border: 1.5px solid rgba(61,79,160,0.35);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: var(--purple);
+    cursor: pointer;
+    background: transparent;
+    text-decoration: none;
+    transition: background 0.16s, color 0.16s, border-color 0.16s;
+  }
+  .bench-filter:hover,
+  .bench-filter.active {
+    background: var(--purple);
+    color: #fff;
+    border-color: var(--purple);
+  }
+
+  /* ── FEATURED POST ── */
+  .bench-featured {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 6px 40px rgba(30,43,94,0.14);
+    margin-bottom: 4rem;
+    text-decoration: none;
+    background: var(--navy);
+    transition: transform 0.22s, box-shadow 0.22s;
+  }
+  .bench-featured:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 56px rgba(30,43,94,0.2);
+  }
+
+  .bench-featured-img-wrap {
+    position: relative;
+    overflow: hidden;
+  }
+  .bench-featured-img {
+    width: 100%;
+    height: 100%;
+    min-height: 380px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+  }
+  .bench-featured:hover .bench-featured-img {
+    transform: scale(1.03);
+  }
+  .bench-featured-img-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(30,43,94,0.3) 0%, transparent 60%);
+  }
+
+  .bench-featured-body {
+    padding: 2.75rem 2.75rem 2.75rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: var(--navy);
+    position: relative;
+  }
+  .bench-featured-body::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 2.5rem;
+    bottom: 2.5rem;
+    width: 3px;
+    background: var(--gold);
+    border-radius: 0 2px 2px 0;
+  }
+
+  .bench-featured-tag {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 1rem;
+    display: block;
+  }
+
+  .bench-featured-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.65rem;
+    font-weight: 800;
+    color: #fff;
+    line-height: 1.25;
+    margin: 0 0 1.1rem;
+  }
+
+  .bench-featured-excerpt {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 0.95rem;
+    line-height: 1.75;
+    color: rgba(255,255,255,0.65);
+    margin: 0 0 1.75rem;
+  }
+
+  .bench-featured-meta {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7rem;
+    color: rgba(255,255,255,0.4);
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  .bench-featured-meta-dot {
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: var(--gold);
+    opacity: 0.6;
+    display: inline-block;
+  }
+  .bench-read-more {
+    margin-left: auto;
+    font-weight: 700;
+    color: var(--gold);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  /* ── SECTION LABEL ── */
+  .bench-section-label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .bench-section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: rgba(30,43,94,0.1);
+  }
+
+  /* ── CARD GRID ── */
+  .bench-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.75rem;
+    margin-bottom: 4rem;
+  }
+
+  .bench-card {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(30,43,94,0.07);
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    border: 1px solid rgba(30,43,94,0.06);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .bench-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 36px rgba(30,43,94,0.13);
+  }
+
+  .bench-card-img-wrap {
+    position: relative;
+    overflow: hidden;
+  }
+  .bench-card-img {
+    width: 100%;
+    height: 195px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+  }
+  .bench-card:hover .bench-card-img {
+    transform: scale(1.05);
+  }
+
+  .bench-card-tag {
+    position: absolute;
+    top: 0.75rem;
+    left: 0.75rem;
+    background: var(--navy);
+    color: var(--gold);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.58rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 0.22rem 0.6rem;
+    border-radius: 3px;
+  }
+
+  .bench-card-body {
+    padding: 1.35rem 1.4rem 1.6rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bench-card-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--navy);
+    line-height: 1.35;
+    margin: 0 0 0.7rem;
+  }
+
+  .bench-card-excerpt {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 1.7;
+    margin: 0 0 1.2rem;
+    flex: 1;
+  }
+
+  .bench-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.85rem;
+    border-top: 1px solid rgba(30,43,94,0.07);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.68rem;
+    color: var(--text-muted);
+    letter-spacing: 0.04em;
+  }
+
+  .bench-card-arrow {
+    color: var(--purple);
+    font-weight: 700;
+    font-size: 0.9rem;
+    transition: transform 0.15s, color 0.15s;
+  }
+  .bench-card:hover .bench-card-arrow {
+    transform: translateX(4px);
+    color: var(--gold);
+  }
+
+  /* ── ABOUT THE AUTHOR strip ── */
+  .bench-author-strip {
+    background: linear-gradient(135deg, var(--navy) 0%, #2a3a7a 100%);
+    border-radius: 12px;
+    padding: 2.25rem 2.5rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 5rem;
+  }
+  .bench-author-avatar {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--gold);
+    flex-shrink: 0;
+  }
+  .bench-author-avatar-placeholder {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: var(--purple);
+    border: 3px solid var(--gold);
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #fff;
+  }
+  .bench-author-text h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 0.3rem;
+  }
+  .bench-author-text p {
+    font-family: 'Lora', Georgia, serif;
+    font-style: italic;
+    font-size: 0.88rem;
+    color: rgba(255,255,255,0.6);
+    margin: 0;
+    line-height: 1.6;
+  }
+  .bench-author-text a {
+    color: var(--gold);
+    text-decoration: none;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    margin-left: 1rem;
+  }
+  .bench-author-text a:hover { text-decoration: underline; }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 960px) {
+    .bench-featured { grid-template-columns: 1fr; }
+    .bench-featured-img { min-height: 240px; height: 240px; }
+    .bench-grid { grid-template-columns: repeat(2, 1fr); }
+    .bench-masthead-inner { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 600px) {
+    .bench-grid { grid-template-columns: 1fr; }
+    .bench-author-strip { flex-direction: column; text-align: center; }
+    .bench-masthead h1 { font-size: 2.4rem; }
+  }
+</style>
+</head>
+<body>
+
+<nav id="site-nav">
+  <div class="container nav-inner">
+    <a href="/" class="nav-logo" aria-label="Hoog Law home">
+      <img src="/assets/images/logo.png" alt="Hoog Law" style="height:120px;width:auto;display:block;">
+    </a>
+    <div class="nav-links" id="nav-links">
+      <a href="/" data-nav="home">Home</a>
+      <a href="/about.html" data-nav="about">About</a>
+      <a href="/practice-areas.html" data-nav="practice">Practice Areas</a>
+      <a href="/michael-hoog.html" data-nav="bio">Michael Hoog</a>
+      <a href="/insights/" data-nav="insights">Insights</a>
+      <a href="/from-the-bench/" data-nav="bench">From the Bench</a>
+      <a href="/contact.html" data-nav="contact" class="btn btn--primary" style="margin-left:0.5rem;">Contact Us</a>
+    </div>
+    <div class="nav-hamburger" id="hamburger" onclick="toggleMobileNav()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- Masthead -->
+<div class="bench-masthead">
+  <div class="container bench-masthead-inner">
+    <div class="bench-masthead-text">
+      <span class="bench-masthead-eyebrow">Hoog Law &nbsp;·&nbsp; Longmont, Colorado</span>
+      <h1>From the<br>Bench</h1>
+      <p class="bench-masthead-desc">Personal perspectives on law, life, and the Front Range. Baseball analogies welcome. Mermaids have made an appearance. The occasional statute, when it earns its place.</p>
+    </div>
+  </div>
+  <div class="bench-rule"></div>
+</div>
+
+<section class="section">
+  <div class="container">
+
+    <!-- Filters -->
+    <div class="bench-filters">
+      <a href="#" class="bench-filter active">All</a>
+      <a href="#" class="bench-filter">Estate Planning</a>
+      <a href="#" class="bench-filter">Business Law</a>
+      <a href="#" class="bench-filter">From the Bench</a>
+    </div>
+
+    <!-- Featured -->
+    <div class="bench-section-label">Latest</div>
+
+    <a class="bench-featured" href="/from-the-bench/llc-operating-agreement-lineup-card.html">
+      <div class="bench-featured-img-wrap">
+        <img class="bench-featured-img" src="/assets/images/blog/blog-baseball-dugout.jpg" alt="Michael Hoog coaching in the dugout at Skyline High School">
+        <div class="bench-featured-img-overlay"></div>
+      </div>
+      <div class="bench-featured-body">
+        <span class="bench-featured-tag">From the Bench &nbsp;·&nbsp; Business Law</span>
+        <h2 class="bench-featured-title">Your LLC Needs a Lineup Card</h2>
+        <p class="bench-featured-excerpt">Nine guys showing up with gloves and enthusiasm is not actually a team. Running an LLC without an operating agreement is the same problem — and Colorado's defaults are nobody's idea of a plan.</p>
+        <div class="bench-featured-meta">
+          <span>Michael Hoog</span>
+          <span class="bench-featured-meta-dot"></span>
+          <span>June 2026</span>
+          <span class="bench-read-more">Read &rarr;</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- Card grid -->
+    <div class="bench-section-label">More Posts</div>
+
+    <div class="bench-grid">
+
+      <a class="bench-card" href="/from-the-bench/safety-diver-business-succession.html">
+        <div class="bench-card-img-wrap">
+          <img class="bench-card-img" src="/assets/images/blog/blog-mermaid-underwater.png" alt="Safety diver and mermaid performer underwater handshake">
+          <span class="bench-card-tag">Business Law</span>
+        </div>
+        <div class="bench-card-body">
+          <h3 class="bench-card-title">The Best Business Succession Plan Is the One Nobody Notices</h3>
+          <p class="bench-card-excerpt">I train safety divers for underwater mermaid performances. The safety diver's job is to be invisible when everything goes right and essential when it doesn't. Your succession plan works the same way.</p>
+          <div class="bench-card-footer">
+            <span>June 2026</span>
+            <span class="bench-card-arrow">&rarr;</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="bench-card" href="/from-the-bench/outside-general-counsel-ultraviolet.html">
+        <div class="bench-card-img-wrap">
+          <img class="bench-card-img" src="/assets/images/blog/blog-ogc-podium.jpg" alt="Michael Hoog presenting at podium">
+          <span class="bench-card-tag">Business Law</span>
+        </div>
+        <div class="bench-card-body">
+          <h3 class="bench-card-title">What Outside General Counsel Actually Does</h3>
+          <p class="bench-card-excerpt">A global digital media platform. Thirty million members. A shutdown that could have been a litigation disaster and wasn't. Here's what that work actually looked like.</p>
+          <div class="bench-card-footer">
+            <span>June 2026</span>
+            <span class="bench-card-arrow">&rarr;</span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    <!-- About the author -->
+    <div class="bench-author-strip">
+      <div class="bench-author-avatar-placeholder">MH</div>
+      <div class="bench-author-text">
+        <h4>Michael Hoog</h4>
+        <p>Longmont attorney. Grew up here, raised a family here, practiced law here. Former professional baseball player, current scuba instructor and safety diver for mermaid performances. This is where he puts the things that don't fit in a brief.
+          <a href="/michael-hoog.html">Full bio &rarr;</a>
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="cta-band section--sm">
+  <div class="container text-center">
+    <span class="overline">Have a Question?</span>
+    <h2>Let's Talk</h2>
+    <p>If something here raised a question about your own situation, that's what the first conversation is for.</p>
+    <a href="/contact.html" class="btn btn--primary">Schedule a Consultation</a>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand">Hoog Law</div>
+        <div class="footer-tagline">Experienced counsel. Focused practice. Genuine relationships.</div>
+        <div style="margin-top:0.85rem;font-size:0.74rem;color:rgba(255,255,255,0.4);line-height:1.6;max-width:520px;">Serving Longmont, Boulder, Niwot, Berthoud, Mead, Erie, Frederick, Firestone, Dacono, Lafayette, Louisville, and Broomfield from our Longmont office at 115 Emery Street, Suite 5105.</div>
+      </div>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/practice-areas.html">Practice Areas</a>
+        <a href="/michael-hoog.html">Michael Hoog</a>
+        <a href="/insights/">Insights</a>
+        <a href="/from-the-bench/">From the Bench</a>
+        <a href="/contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <p>© 2026 Hoog Law, LLC. All rights reserved.</p>
+      <p style="margin-top:0.35rem;">Attorney advertising. The information on this website is for general informational purposes only and does not constitute legal advice or create an attorney-client relationship. Prior results do not guarantee similar outcomes.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  (function() {
+    document.querySelectorAll('.nav-links a[data-nav]').forEach(function(a) {
+      if (a.dataset.nav === 'bench') a.classList.add('active');
+    });
+  })();
+  window.addEventListener('scroll', function() {
+    document.getElementById('site-nav').classList.toggle('scrolled', window.scrollY > 20);
+  });
+  function toggleMobileNav() {
+    document.getElementById('nav-links').classList.toggle('open');
+  }
+</script>
+
+</body>
+</html>
