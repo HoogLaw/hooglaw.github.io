@@ -1,25 +1,25 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Best Business Succession Plan Is the One Nobody Notices | From the Bench | Hoog Law</title>
-<meta name="description" content="A safety diver's job is to be invisible when everything goes right and essential when it doesn't. Your business succession plan works exactly the same way.">
+<title>Colorado Built a Company for Artists | From the Bench | Hoog Law</title>
+<meta name="description" content="Colorado created the first business entity built specifically for artists. A lawyer with a family full of them explains what the Artist Company actually does, and who should use it.">
 <meta name="author" content="Michael W. Hoog, Hoog Law">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="https://www.hooglaw.com/from-the-bench/safety-diver-business-succession.html">
+<link rel="canonical" href="https://www.hooglaw.com/from-the-bench/colorado-artist-company.html">
 
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://www.hooglaw.com/from-the-bench/safety-diver-business-succession.html">
-<meta property="og:title" content="The Best Business Succession Plan Is the One Nobody Notices">
-<meta property="og:description" content="A safety diver's job is to be invisible when everything goes right and essential when it doesn't. Your business succession plan works exactly the same way.">
-<meta property="og:image" content="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1200&q=80">
+<meta property="og:url" content="https://www.hooglaw.com/from-the-bench/colorado-artist-company.html">
+<meta property="og:title" content="Colorado Built a Company for Artists">
+<meta property="og:description" content="I'm the least creative person at the Christmas dinner table. What Colorado's new Artist Company actually does, and who should use it.">
+<meta property="og:image" content="https://www.hooglaw.com/assets/images/blog/blog-artist-company.png">
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "The Best Business Succession Plan Is the One Nobody Notices",
+  "headline": "Colorado Built a Company for Artists",
   "author": {
     "@type": "Person",
     "name": "Michael Hoog",
@@ -31,21 +31,20 @@
     "url": "https://www.hooglaw.com",
     "logo": "https://www.hooglaw.com/assets/images/logo.png"
   },
-  "datePublished": "2026-06-04",
-  "mainEntityOfPage": "https://www.hooglaw.com/from-the-bench/safety-diver-business-succession.html"
+  "datePublished": "2026-06-24",
+  "mainEntityOfPage": "https://www.hooglaw.com/from-the-bench/colorado-artist-company.html"
 }
 </script>
 
-<link rel="icon" type="image/png" href="/assets/images/logo.png">
+<link rel="icon" type="image/png" href="../assets/images/logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Raleway:wght@400;500;600;700;800;900&family=Lora:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/styles.css">
+<link rel="stylesheet" href="../assets/styles.css">
 
 <style>
   /* ── POST PAGE — From the Bench ── */
 
-  /* Full-bleed hero with overlay */
   .post-hero-wrap {
     position: relative;
     width: 100%;
@@ -53,25 +52,44 @@
     overflow: hidden;
     background: #1E2B5E;
   }
-  .post-hero-img {
+  .post-hero-bg {
+    position: absolute;
+    inset: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center;
     display: block;
-    opacity: 0.75;
+    opacity: 0.5;
+  }
+  .post-hero-collage {
+    position: absolute;
+    top: 158px;             /* clear the 140px fixed nav so the image top isn't hidden behind it */
+    bottom: 18px;
+    right: 2.5%;
+    width: 52%;
+    height: auto;
+    max-width: none;        /* override global img{max-width:100%} */
+    object-fit: contain;    /* entire collage, never cropped */
+    object-position: right center;
+    display: block;
+    z-index: 1;
   }
   .post-hero-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(to bottom, rgba(30,43,94,0.2) 0%, rgba(30,43,94,0.7) 100%);
+    z-index: 1;
+    background:
+      linear-gradient(to right, rgba(10,15,40,0.96) 0%, rgba(10,15,40,0.9) 22%, rgba(10,15,40,0.4) 38%, rgba(10,15,40,0) 50%),
+      linear-gradient(to bottom, rgba(10,15,40,0) 55%, rgba(10,15,40,0.4) 100%);
   }
-  /* Title floats over bottom of hero */
   .post-hero-title-block {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
     padding: 2.5rem 0;
+    z-index: 2;
   }
   .post-hero-eyebrow {
     display: flex;
@@ -110,9 +128,19 @@
     font-weight: 900;
     color: #fff;
     line-height: 1.15;
-    margin: 0;
-    max-width: 780px;
+    margin: 0 0 0.5rem;
+    max-width: 600px;
     letter-spacing: -0.02em;
+  }
+  .post-hero-deck {
+    font-family: 'Lora', Georgia, serif;
+    font-style: italic;
+    font-size: clamp(1.35rem, 2.6vw, 1.9rem);
+    font-weight: 600;
+    color: rgba(255,255,255,0.92);
+    line-height: 1.35;
+    margin: 0;
+    max-width: 540px;
   }
 
   /* ── ARTICLE LAYOUT ── */
@@ -124,7 +152,6 @@
     padding: 3.5rem 0 5rem;
   }
 
-  /* Byline row */
   .post-byline {
     display: flex;
     align-items: center;
@@ -211,6 +238,16 @@
     text-decoration-color: var(--gold);
   }
 
+  /* Section divider */
+  .post-divider {
+    text-align: center;
+    margin: 2.25rem 0;
+    color: var(--gold);
+    font-size: 1.1rem;
+    letter-spacing: 0.5em;
+    opacity: 0.6;
+  }
+
   /* Pull quote */
   .post-pullquote {
     border-left: 4px solid var(--gold);
@@ -253,7 +290,6 @@
   }
   .post-footer-back:hover { color: var(--gold); }
 
-  /* Tags row */
   .post-tags {
     display: flex;
     gap: 0.5rem;
@@ -364,27 +400,22 @@
   @media (max-width: 900px) {
     .post-layout { grid-template-columns: 1fr; gap: 2.5rem; }
     .post-sidebar { position: static; }
-    .post-hero-wrap { height: 300px; }
+    .post-hero-wrap { height: 340px; }
+    .post-hero-collage { position: static; width: 100%; height: auto; max-height: 200px; object-fit: contain; margin: 0 auto; }
+    .post-hero-overlay { background: linear-gradient(to top, rgba(10,15,40,0.92) 30%, rgba(10,15,40,0.55) 60%, rgba(10,15,40,0.28) 100%); }
     .post-hero-h1 { font-size: 1.55rem; }
+    .post-hero-deck { font-size: 1.15rem; }
     .post-prose h2::before { display: none; }
     .post-prose h2 { padding-left: 0; }
   }
 </style>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-1JRLN1DYEP"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-1JRLN1DYEP');
-</script>
 </head>
 <body>
 
 <nav id="site-nav">
   <div class="container nav-inner">
     <a href="/" class="nav-logo" aria-label="Hoog Law home">
-      <img src="/assets/images/logo.png" alt="Hoog Law" style="height:120px;width:auto;display:block;">
+      <img src="../assets/images/logo.png" alt="Hoog Law" style="height:120px;width:auto;display:block;">
     </a>
     <div class="nav-links" id="nav-links">
       <a href="/" data-nav="home">Home</a>
@@ -403,15 +434,17 @@
 
 <!-- Hero -->
 <div class="post-hero-wrap">
-  <img class="post-hero-img" src="/assets/images/blog/blog-mermaid-underwater.png" alt="Safety diver and mermaid performer underwater handshake">
+  <img class="post-hero-bg" src="../assets/images/blog/blog-artist-bg.png" alt="">
+  <img class="post-hero-collage" src="../assets/images/blog/blog-artist-collage.png" alt="Creative arts collage with film, music, theater masks, a paint palette, and an artist sketching">
   <div class="post-hero-overlay"></div>
   <div class="post-hero-title-block">
     <div class="container">
       <div class="post-hero-eyebrow">
         <span class="post-hero-tag">Business Law</span>
-        <span class="post-hero-section"><a href="/from-the-bench/">From the Bench</a> &nbsp;&rsaquo;&nbsp; Business Succession</span>
+        <span class="post-hero-section"><a href="/from-the-bench/">From the Bench</a> &nbsp;&rsaquo;&nbsp; Artists &amp; Creators</span>
       </div>
-      <h1 class="post-hero-h1">The Best Business Succession Plan Is the One Nobody Notices</h1>
+      <h1 class="post-hero-h1">Colorado Built a Company for Artists</h1>
+      <p class="post-hero-deck">I'm the least creative person at the Christmas dinner table.</p>
     </div>
   </div>
 </div>
@@ -426,69 +459,69 @@
         <div class="post-byline-avatar">MH</div>
         <div class="post-byline-text">
           <div class="post-byline-name">Michael Hoog</div>
-          <div class="post-byline-meta">June 4, 2026 &nbsp;·&nbsp; 5 min read</div>
+          <div class="post-byline-meta">June 24, 2026 &nbsp;·&nbsp; 4 min read</div>
         </div>
         <div class="post-byline-share">Share</div>
       </div>
 
       <div class="post-prose">
 
-        <p>I'm a scuba instructor and safety diver. I train other safety divers. And the performances I work are put on by mermaids.</p>
+        <p>Let me introduce my family. My son has a master's in screenwriting and consults with studios on their projects. One nephew is an actor you've seen in TV series and feature films. Another is the lead singer and principal songwriter for a band you can pull up on Spotify tonight. A third nephew is one of the top travel content creators on YouTube. Two of my nieces work in film and television production, and another niece is a published poet. And on top of all that, my brother is the author of a series of best-selling children's books.</p>
 
-        <p>Yes. Mermaids. Professional mermaids — performers in monofins and elaborate tails who do underwater shows for aquariums, resorts, events, and film shoots. It's a real thing. I've been doing it for years. I'll give you a moment.</p>
+        <p>And then there's me. The lawyer. The closest I come to making art is a cleanly drafted operating agreement, and I'm told that doesn't count.</p>
 
-        <p>Okay. So. The safety diver's job during a mermaid performance is specific: stay close, stay ready, stay invisible. The audience is watching the mermaid. They're not watching me. If the performance goes perfectly, I'm just a vague shape in the background, probably mistaken for a large, unremarkable fish.</p>
+        <p>So I understand the creative mind the way a lifelong fan understands a sport, from the seats rather than the field. But I've spent a lot of holidays listening to people who make their living on talent and nerve, and I've watched how often the business side of a creative career gets ignored until it becomes a problem.</p>
 
-        <p>If something goes wrong — a performer loses consciousness, a breath hold goes too long, a tail gets caught on something — I'm already in position. I move. The situation gets handled. The performance continues or it ends safely, but either way it's controlled.</p>
+        <p>Which is why a new Colorado law caught my attention. On June 2, 2026, the Governor signed Senate Bill 26-133, the Colorado Artist Company Act, making Colorado the first state to build a business entity specifically for artists. I read it the way you read anything that affects the people you love, looking for the catch. I didn't find much of one. It's a real tool, and for some of the people at my dinner table, it's going to matter.</p>
 
-        <p>After a clean show, nobody thanks the safety diver in the program. The mermaid takes a bow. I rinse my gear.</p>
+        <h2>First, What It Is Not</h2>
+
+        <p>The press has been calling it an "A Corp." Catchy, but not necessarily accurate, which matters before anyone actually files anything.</p>
+
+        <p>An artist company is not a new kind of corporation sitting next to the S corp and the C corp. It is a Colorado limited liability company with an artistic mission written into it and a few special rules on top. It runs under the same Colorado Limited Liability Company Act as every other LLC in the state, except where this new Act changes the result. So if your songwriter cousin says he formed "an A Corp," what he really formed is an LLC that can do a few things a standard one can't.</p>
+
+        <h2>The 51 Percent Rule</h2>
+
+        <p>Here's the part my long roster of creative family members would care about first, and probably the creative people in your life too. In an artist company, the artists have to hold at least 51 percent of the voting power at all times.</p>
+
+        <p>That rule is the reason this law exists. An outside investor can put real money in, but they can't vote the artist off the creative direction of the work. Anyone who has watched money quietly take control of something it was only supposed to fund understands why that floor matters. The capital gets a seat, not the wheel.</p>
 
         <div class="post-pullquote">
-          <p>That's fine. That's the job. The whole point is that nothing happened.</p>
+          <p>An outside investor can put real money in, but they can't vote the artist off the creative direction of the work. The capital gets a seat, not the wheel.</p>
         </div>
 
-        <p>I've been doing business succession planning long enough that this feels like exactly the same thing.</p>
+        <h2>Your Art Can Be the Investment</h2>
 
-        <h2>Nobody Thinks About the Plan on a Normal Tuesday</h2>
+        <p>This is the genuinely new idea, and the one anyone who creates and owns a body of work should pay attention to. Screenwriters, songwriters, authors, visual artists, filmmakers, photographers, content creators, anyone whose work is intellectual property they hold.</p>
 
-        <p>A business succession plan does nothing visible on a day when everything is working. Revenue comes in, decisions get made, the company runs. The plan just sits there in a file somewhere, quietly governing what would happen in scenarios everyone hopes never occur.</p>
+        <p>In a normal company, you contribute cash or equipment for your ownership stake. In an artist company, you can contribute the art itself. A member can assign or exclusively license their intellectual property into the company as a capital contribution, the same way someone else might write a check. The governing documents can also require members to bring in work they create during their membership that fits the artistic mission. That gives the business a clean claim to the catalog it's built around, instead of a drawer full of loose paperwork.</p>
 
-        <p>That is the correct state of affairs. A succession plan you're constantly invoking isn't a plan — it's a symptom. The goal is for it to be boring and unused for as long as possible, and then to work perfectly the one time it matters.</p>
+        <p>And there's a safety valve. If the company dissolves, the artistic work goes back to the artist who made it, subject to any licenses, security interests, or obligations already in place. For a creator, that reversion is the difference between a partnership and a trap.</p>
 
-        <p>The mermaid never thinks about the safety diver during a good show either. That's not an insult. That's the system working.</p>
+        <h2>A Mission Option, If You Want One</h2>
 
-        <h2>What It Actually Covers</h2>
+        <p>An artist company can also elect to be a public benefit artist company. You name a specific public benefit in the governing documents, the managers take on some added duties tied to that purpose, and the company has to give its members and donors an annual statement on how it's actually serving the mission. It's there for the collective or the cause-driven outfit. It's optional, and most people won't need it.</p>
 
-        <p>For a Colorado business, succession planning addresses a few distinct situations, and what you need depends on your structure.</p>
+        <h2>So Should You Actually Form One?</h2>
 
-        <p>If you're a sole proprietor and something happens to you, your business assets go through your estate — into probate if they're not held in a trust, then to whoever inherits them, who may have zero interest in or ability to run your business. A plan puts the transfer of ownership and authority on terms you've set, not terms a probate court works out after the fact.</p>
+        <p>Honest answer: it isn't "yes, call me." For a lot of working artists, a plain LLC already does the job. It gives you liability protection and pass-through taxes and doesn't ask you to learn a new structure.</p>
 
-        <p>If you have co-owners, the operating agreement or shareholders' agreement needs to address what happens when one of them wants out, can't continue, dies, or goes through a divorce that potentially lands their ex-spouse as your new business partner. (This happens. It is not fun. It is significantly less fun than a mermaid show.) A buy-sell provision sets the terms for these events in advance: what triggers a buyout, how the interest is valued, and where the money to fund it comes from. Without it, you're negotiating under pressure with someone whose interests are no longer aligned with yours, while trying to keep the business running.</p>
+        <p>An artist company makes sense in a few specific situations. You're bringing in outside money and you want creative control guaranteed by the structure, not just promised in a side agreement. You're building around a body of work and you want the art-as-capital and the reversion handled inside the entity. Or you're forming a mission-driven creative organization and the public benefit option fits. If none of that is you, a standard LLC is simpler, and I'll tell you so. An existing LLC that already meets the 51 percent test can convert later, so there's no penalty for waiting.</p>
 
-        <p>Key person situations are their own category. Some businesses are built around specific people. Succession planning here means identifying who steps in, what they need to be effective, and how the business survives the transition. Sometimes it involves key person life insurance to provide liquidity during that gap.</p>
+        <p>One practical caution. The law is signed, but the date you can actually register or convert one depends on the Secretary of State building the filing system, which reporting put sometime in 2027. A bill becoming law and a registration portal opening are two different days. I'd confirm the timing with the Secretary of State before relying on it, and I will, before I tell a client to file.</p>
 
-        <p>And sometimes the succession event isn't a crisis at all. Retirement, selling to a third party, transferring to a family member — these benefit from planning too. A business with clean agreements, clear ownership records, and documented processes is worth more and easier to sell than one where a buyer has to spend months untangling what was whose.</p>
+        <h2>The Last Word</h2>
 
-        <h2>The Moment You Need the Safety Diver</h2>
+        <p>I'll admit a bias. I want this one to work, because I've spent years watching the people I love pour everything into work the business world tends to treat as a hobby with good lighting. Colorado built something real. The control floor and the way it treats a creator's IP are parts a generic LLC can't give you, and they were written with the artist in mind rather than the investor.</p>
 
-        <p>In an underwater performance, you learn to read signs — things the performer isn't even aware they're showing you. A hesitation. A slight change in body position. Something in the timing that's a beat off. Even under thirty feet of water, with someone in a sequined tail and a smile painted on, an experienced safety diver sees those signs before they become an emergency and is already moving.</p>
-
-        <p>In business, the signal is usually less subtle. A partner calls and says they have cancer. A founder has a stroke. A co-owner announces they're leaving and wants their money out by end of quarter. These are the moments that test whether your business was built to survive them.</p>
-
-        <p>The ones that handle it well didn't get lucky. They had a plan, and the plan was already in place before anyone needed it.</p>
-
-        <p>The ones that don't have a plan discover — at the worst possible time — that Colorado's LLC Act defaults and a probate court are now making decisions about their business. Which is the business equivalent of the boat crew scanning the surface with no idea where anyone went down.</p>
-
-        <p>If you want to talk through what a succession plan looks like for your business, <a href="/business-succession-planning-longmont.html">here's more on how Hoog Law approaches it</a>, or just <a href="/contact.html">reach out directly</a>. It's a pretty normal conversation once you start having it.</p>
-
-        <p>Probably more normal than explaining to someone that your weekend involved keeping a mermaid alive.</p>
+        <p>If you're an artist in Colorado, or you love one and you're trying to help them sort this out, <a href="/contact.html">reach out</a>. We'll have a straightforward conversation about whether this is your tool or whether a plain LLC does everything you need. I may not have the creative gene, but figuring out the right structure for the people who do is something I'm good at.</p>
 
       </div>
 
       <div class="post-tags">
         <a href="#" class="post-tag-pill">Business Law</a>
-        <a href="#" class="post-tag-pill">Succession Planning</a>
-        <a href="#" class="post-tag-pill">Colorado LLC</a>
+        <a href="#" class="post-tag-pill">Colorado Law</a>
+        <a href="#" class="post-tag-pill">Artists &amp; Creators</a>
         <a href="#" class="post-tag-pill">From the Bench</a>
       </div>
 
@@ -503,13 +536,13 @@
     <aside class="post-sidebar">
 
       <div class="sidebar-cta">
-        <h4>Have a Question?</h4>
-        <p>If this raised something about your own business situation, that's exactly what the first conversation is for.</p>
-        <a href="/contact.html" class="btn btn--primary">Get in Touch</a>
+        <h4>Forming a Colorado Entity?</h4>
+        <p>Artist company or a plain LLC, the right structure depends on your situation. Let's figure out which one fits before you file.</p>
+        <a href="/contact.html" class="btn btn--primary">Start the Conversation</a>
       </div>
 
       <div class="sidebar-related">
-        <div class="sidebar-related-label">Related Posts</div>
+        <div class="sidebar-related-label">Related Reading</div>
         <ul>
           <li>
             <a href="/from-the-bench/llc-operating-agreement-lineup-card.html">
@@ -524,15 +557,9 @@
             </a>
           </li>
           <li>
-            <a href="/insights/how-to-avoid-probate-in-colorado.html">
-              How to Avoid Probate in Colorado
-              <span class="sidebar-related-tag">Estate Planning</span>
-            </a>
-          </li>
-          <li>
-            <a href="/insights/colorado-probate-process-timeline.html">
-              Colorado Probate Process Timeline
-              <span class="sidebar-related-tag">Colorado Law</span>
+            <a href="/from-the-bench/safety-diver-business-succession.html">
+              The Best Succession Plan Is the One Nobody Notices
+              <span class="sidebar-related-tag">Business Law</span>
             </a>
           </li>
         </ul>
@@ -571,25 +598,5 @@
       </div>
     </div>
     <div class="footer-bar">
-      <p>© 2026 Hoog Law, LLC. All rights reserved.</p>
-      <p style="margin-top:0.35rem;">Attorney advertising. The information on this website is for general informational purposes only and does not constitute legal advice or create an attorney-client relationship. Prior results do not guarantee similar outcomes.</p>
-    </div>
-  </div>
-</footer>
-
-<script>
-  (function() {
-    document.querySelectorAll('.nav-links a[data-nav]').forEach(function(a) {
-      if (a.dataset.nav === 'bench') a.classList.add('active');
-    });
-  })();
-  window.addEventListener('scroll', function() {
-    document.getElementById('site-nav').classList.toggle('scrolled', window.scrollY > 20);
-  });
-  function toggleMobileNav() {
-    document.getElementById('nav-links').classList.toggle('open');
-  }
-</script>
-
-</body>
-</html>
+      <p>&copy; 2026 Hoog Law, LLC. All rights reserved.</p>
+      <p style="margi
