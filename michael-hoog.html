@@ -25,7 +25,51 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "LegalService",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.hooglaw.com/michael-hoog.html#michael-hoog",
+      "name": "Michael W. Hoog",
+      "givenName": "Michael",
+      "familyName": "Hoog",
+      "jobTitle": "Attorney",
+      "worksFor": { "@type": "LegalService", "name": "Hoog Law", "url": "https://www.hooglaw.com" },
+      "description": "Business law and estate planning attorney in Longmont, Colorado with 20+ years of experience. Former partner at Seman, Hoog & Powell, LLC and former member of the corporate and public policy practice groups at Patton Boggs LLP.",
+      "alumniOf": [
+        { "@type": "CollegeOrUniversity", "name": "University of Colorado School of Law" },
+        { "@type": "CollegeOrUniversity", "name": "University of North Carolina at Chapel Hill" }
+      ],
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Juris Doctor",
+          "credentialCategory": "degree",
+          "recognizedBy": { "@type": "CollegeOrUniversity", "name": "University of Colorado School of Law" }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Colorado Bar License",
+          "credentialCategory": "license",
+          "recognizedBy": { "@type": "Organization", "name": "Colorado Supreme Court" }
+        }
+      ],
+      "knowsAbout": [
+        "Estate Planning", "Wills and Trusts", "Revocable Living Trusts",
+        "Special Needs Trusts", "Powers of Attorney", "Advance Directives",
+        "LLC Formation", "Business Contracts", "Business Succession Planning",
+        "Colorado Probate", "Outside General Counsel"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "115 Emery Street, Suite 5105",
+        "addressLocality": "Longmont",
+        "addressRegion": "CO",
+        "postalCode": "80501",
+        "addressCountry": "US"
+      }
+    },
+    {
+      "@type": "LegalService",
   "name": "Hoog Law",
   "alternateName": "Hoog Law, LLC",
   "url": "https://www.hooglaw.com",
@@ -72,6 +116,8 @@
     ]
   },
   "priceRange": "$$"
+    }
+  ]
 }
 </script>
 
