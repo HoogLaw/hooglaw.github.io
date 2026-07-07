@@ -294,7 +294,7 @@ p:last-child { margin-bottom: 0; }
 .pa-section-header { max-width: 720px; margin-bottom: 2.5rem; }
 .pa-section-header h2 { margin-bottom: 0.75rem; }
 .pa-section-header p { color: var(--text-body); }
-.service-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+.service-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; }
 .service-card {
   background: var(--white); border: 1px solid var(--light-gray);
   border-radius: var(--radius-lg); padding: 1.75rem; position: relative;
@@ -304,7 +304,7 @@ p:last-child { margin-bottom: 0; }
 }
 .pa-section:nth-child(even) .service-card { background: var(--white); }
 .service-card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); border-color: var(--mid-gray); }
-.service-card-num { font-family: 'Raleway', sans-serif; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.5rem; }
+.service-card-num { display: none; }
 .service-card h4 { color: var(--navy); margin-bottom: 0.6rem; font-size: 1rem; }
 .service-card p { font-size: 0.875rem; color: var(--text-body); line-height: 1.65; margin: 0; }
 .service-card .card-link { margin-top: 1rem; display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--purple); transition: gap var(--transition); }
@@ -373,7 +373,7 @@ footer {
   .form-row { grid-template-columns: 1fr; }
   .footer-inner { grid-template-columns: 1fr; gap: 1.25rem; }
   .footer-links { text-align: left; flex-direction: row; flex-wrap: wrap; gap: 0.5rem 1.25rem; }
-  .service-grid { grid-template-columns: 1fr; }
+  .service-grid { grid-template-columns: repeat(2, 1fr); }
   .bio-photo-strip { grid-template-columns: 1fr; }
   .hero-cards { grid-template-columns: 1fr; }
   .page-header { padding: 160px 0 50px; }
