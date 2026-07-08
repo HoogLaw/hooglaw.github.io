@@ -4,7 +4,7 @@
   <!-- Core pages -->
   <url>
     <loc>https://www.hooglaw.com/</loc>
-    <lastmod>2026-06-08</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -32,143 +32,161 @@
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://www.hooglaw.com/faq.html</loc>
+    <lastmod>2026-07-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
   <!-- Business practice pages -->
   <url>
     <loc>https://www.hooglaw.com/practice/llc-formation-attorney-longmont.html</loc>
-    <lastmod>2026-05-17</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.hooglaw.com/practice/operating-agreements-longmont.html</loc>
-    <lastmod>2026-05-17</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.hooglaw.com/practice/commercial-contracts-attorney-longmont.html</loc>
-    <lastmod>2026-05-17</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.hooglaw.com/practice/ai-governance-compliance-longmont.html</loc>
-    <lastmod>2026-06-08</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.hooglaw.com/practice/business-succession-planning-longmont.html</loc>
-    <lastmod>2026-05-17</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.hooglaw.com/practice/outside-general-counsel-longmont.html</loc>
-    <lastmod>2026-05-17</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.hooglaw.com/practice/sb-26-189-compliance-checklist.html</loc>
+    <lastmod>2026-07-07</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Estate planning practice pages -->
   <url>
     <loc>https://www.hooglaw.com/practice/trust-attorney-longmont.html</loc>
-    <lastmod>2026-05-17</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.hooglaw.com/practice/wills-attorney-longmont.html</loc>
-    <lastmod>2026-05-17</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.hooglaw.com/practice/power-of-attorney-longmont.html</loc>
-    <lastmod>2026-05-17</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.hooglaw.com/practice/healthcare-directive-longmont.html</loc>
-    <lastmod>2026-05-17</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.hooglaw.com/practice/special-needs-trust-attorney-colorado.html</loc>
-    <lastmod>2026-05-17</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.hooglaw.com/practice/probate-attorney-longmont.html</loc>
-    <lastmod>2026-05-17</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Insights (blog) -->
   <url>
-    <loc>https://www.hooglaw.com/insights/colorado-ai-compliance-sb-26-189.html</loc>
-    <lastmod>2026-06-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
     <loc>https://www.hooglaw.com/insights/</loc>
-    <lastmod>2026-05-17</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.hooglaw.com/insights/colorado-ai-compliance-sb-26-189.html</loc>
+    <lastmod>2026-07-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
     <loc>https://www.hooglaw.com/insights/estate-planning-act-of-love.html</loc>
-    <lastmod>2026-01-06</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.hooglaw.com/insights/trust-or-will.html</loc>
-    <lastmod>2026-02-01</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.hooglaw.com/insights/power-of-attorney.html</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-07-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hooglaw.com/insights/healthcare-directive.html</loc>
+    <lastmod>2026-07-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hooglaw.com/insights/llc-death.html</loc>
+    <lastmod>2026-07-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hooglaw.com/insights/special-needs-trust.html</loc>
+    <lastmod>2026-07-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hooglaw.com/insights/update-estate-plan.html</loc>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- From the Bench (essays) -->
   <url>
-    <loc>https://www.hooglaw.com/from-the-bench/diving-blind.html</loc>
-    <lastmod>2026-06-08</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.hooglaw.com/from-the-bench/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.hooglaw.com/from-the-bench/llc-operating-agreement-lineup-card.html</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.hooglaw.com/from-the-bench/safety-diver-business-succession.html</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.hooglaw.com/from-the-bench/outside-general-counsel-ultraviolet.html</loc>
-    <lastmod>2026-06-02</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
