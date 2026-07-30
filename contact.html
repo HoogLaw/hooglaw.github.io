@@ -125,9 +125,10 @@
       <span class="overline">Send Us a Message</span>
       <h2 style="margin-bottom:0.5rem;">Get in Touch</h2>
       <div class="divider"></div>
-      <form class="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-        <input type="hidden" name="form-name" value="contact">
-        <p style="display:none;"><label>Don’t fill this out if you are human: <input name="bot-field"></label></p>
+      <form class="contact-form" action="https://formspree.io/f/xdaqvajv" method="POST">
+        <input type="hidden" name="_subject" value="New consultation request — Hoog Law">
+        <input type="hidden" name="_next" value="https://www.hooglaw.com/contact.html?sent=1">
+        <p style="display:none;"><label>Don’t fill this out if you are human: <input name="_gotcha"></label></p>
         <div class="form-row">
           <div class="form-group">
             <label for="first-name">First Name</label>
@@ -167,6 +168,9 @@
         </div>
         <button type="submit" class="btn btn--primary" style="align-self:flex-start;">Send Message &rarr;</button>
       </form>
+      <div id="form-success" style="display:none;margin-top:1.5rem;padding:1.25rem 1.5rem;background:#e8f5e9;border-left:4px solid #2e7d32;border-radius:4px;color:#1b5e20;font-size:0.95rem;">
+        Thank you — your message has been received. Hoog Law will be in touch within one business day.
+      </div>
     </div>
 
     <div>
@@ -240,6 +244,10 @@
 </footer>
 
 <script>
+  if (window.location.search.indexOf('sent=1') !== -1) {
+    document.getElementById('form-success').style.display = 'block';
+    document.querySelector('.contact-form').style.display = 'none';
+  }
   /* Active nav highlighting */
   (function() {
     var path = window.location.pathname;
