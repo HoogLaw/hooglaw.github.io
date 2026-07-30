@@ -125,10 +125,8 @@
       <span class="overline">Send Us a Message</span>
       <h2 style="margin-bottom:0.5rem;">Get in Touch</h2>
       <div class="divider"></div>
-      <form class="contact-form" action="https://formspree.io/f/xdaqvajv" method="POST">
-        <input type="hidden" name="_subject" value="New consultation request — Hoog Law">
-        <input type="hidden" name="_next" value="https://hooglaw.com/contact.html?sent=1">
-        <p style="display:none;"><label>Don’t fill this out if you are human: <input name="_gotcha"></label></p>
+      <form class="contact-form" id="contact-form">
+        <p style="display:none;"><label>Don’t fill this out if you are human: <input name="_gotcha" id="gotcha-field"></label></p>
         <div class="form-row">
           <div class="form-group">
             <label for="first-name">First Name</label>
@@ -166,10 +164,13 @@
         <div class="form-disclaimer">
           Submitting this form does not create an attorney-client relationship. Please do not include confidential information in your initial message. Hoog Law will respond within one business day.
         </div>
-        <button type="submit" class="btn btn--primary" style="align-self:flex-start;">Send Message &rarr;</button>
+        <button type="submit" id="submit-btn" class="btn btn--primary" style="align-self:flex-start;">Send Message &rarr;</button>
       </form>
       <div id="form-success" style="display:none;margin-top:1.5rem;padding:1.25rem 1.5rem;background:#e8f5e9;border-left:4px solid #2e7d32;border-radius:4px;color:#1b5e20;font-size:0.95rem;">
         Thank you — your message has been received. Hoog Law will be in touch within one business day.
+      </div>
+      <div id="form-error" style="display:none;margin-top:1.5rem;padding:1.25rem 1.5rem;background:#fdecea;border-left:4px solid #c62828;border-radius:4px;color:#7f0000;font-size:0.95rem;">
+        Something went wrong sending your message. Please try again, or call us at (720) 340-8850.
       </div>
     </div>
 
@@ -244,10 +245,32 @@
 </footer>
 
 <script>
-  if (window.location.search.indexOf('sent=1') !== -1) {
-    document.getElementById('form-success').style.display = 'block';
-    document.querySelector('.contact-form').style.display = 'none';
-  }
+  /* Contact form — Formspree AJAX */
+  document.getElementById('contact-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    if (document.getElementById('gotcha-field').value) return; // honeypot
+    var btn = document.getElementById('submit-btn');
+    btn.disabled = true;
+    btn.textContent = 'Sending…';
+    fetch('https://formspree.io/f/xdaqvajv', {
+      method: 'POST',
+      body: new FormData(this),
+      headers: { 'Accept': 'application/json' }
+    }).then(function(res) {
+      if (res.ok) {
+        document.getElementById('contact-form').style.display = 'none';
+        document.getElementById('form-success').style.display = 'block';
+      } else {
+        btn.disabled = false;
+        btn.textContent = 'Send Message →';
+        document.getElementById('form-error').style.display = 'block';
+      }
+    }).catch(function() {
+      btn.disabled = false;
+      btn.textContent = 'Send Message →';
+      document.getElementById('form-error').style.display = 'block';
+    });
+  });
   /* Active nav highlighting */
   (function() {
     var path = window.location.pathname;
