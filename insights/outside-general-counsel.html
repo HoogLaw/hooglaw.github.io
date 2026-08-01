@@ -81,39 +81,71 @@
     .nav-hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 0.5rem; }
     .nav-hamburger span { display: block; width: 22px; height: 2px; background: var(--navy); border-radius: 2px; }
 
-    /* ── ARTICLE HEADER ── */
-    .article-header {
+    /* ── ARTICLE HERO: headline left, graphic right (From the Bench pattern) ── */
+    .article-hero-wrap {
+      position: relative;
+      width: 100%;
+      height: 480px;
+      overflow: hidden;
       background: linear-gradient(90deg, var(--navy), var(--purple));
-      padding: 10.5rem 0 3.5rem;
+    }
+    .article-hero-graphic {
+      position: absolute;
+      top: 158px;             /* clear the fixed nav so the image top isn't hidden behind it */
+      bottom: 18px;
+      right: 2.5%;
+      width: 46%;
+      height: auto;
+      max-width: none;        /* override global img{max-width:100%} */
+      object-fit: contain;    /* entire banner, never cropped */
+      object-position: right center;
+      display: block;
+      z-index: 1;
+      border-radius: var(--radius);
+      box-shadow: 0 10px 30px rgba(10,8,40,0.35);
+    }
+    .article-hero-overlay {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      pointer-events: none;
+      background: linear-gradient(to bottom, rgba(20,12,58,0) 60%, rgba(20,12,58,0.35) 100%);
+    }
+    .article-hero-title-block {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      padding: 2.5rem 0;
+      z-index: 2;
     }
     .article-tag {
       font-size: 0.72rem; font-weight: 700; letter-spacing: 0.14em;
       text-transform: uppercase; color: var(--gold);
       margin-bottom: 1rem;
     }
-    .article-header h1 {
-      font-size: 2.4rem; font-weight: 900;
+    .article-hero-title-block h1 {
+      font-size: clamp(1.5rem, 2.4vw, 2.2rem);
+      font-weight: 900;
       color: var(--white); margin-bottom: 1rem;
-      max-width: 680px; line-height: 1.2;
+      max-width: 450px;       /* keep the headline clear of the graphic */
+      line-height: 1.2;
+      letter-spacing: -0.01em;
     }
     .article-meta {
       font-size: 0.82rem; color: rgba(255,255,255,0.55);
       letter-spacing: 0.05em;
     }
 
-    /* ── ARTICLE HERO IMAGE ── */
-    /* Banner is a 1024x537 graphic. Show it whole, never cropped. The wrapper
-       gradient matches the banner's own background so it blends on wide screens. */
-    .article-hero-band {
-      background: linear-gradient(180deg, #f4f6f8 0%, #eceff2 55%, #e2e6ea 100%);
-      display: block;
-    }
-    .article-hero-img {
-      display: block;
-      width: 100%;
-      max-width: 1024px;
-      height: auto;
-      margin: 0 auto;
+    /* Stack before the headline can collide with the graphic */
+    @media (max-width: 1000px) {
+      .article-hero-wrap { height: auto; padding-top: 9.5rem; }
+      .article-hero-title-block { position: static; padding: 0 0 2rem; }
+      .article-hero-title-block h1 { max-width: none; font-size: 1.9rem; }
+      .article-hero-graphic {
+        position: static;
+        width: 100%; max-width: 100%; height: auto;
+        border-radius: 0; box-shadow: none;
+      }
+      .article-hero-overlay { display: none; }
     }
 
     /* ── ARTICLE BODY ── */
@@ -243,21 +275,20 @@
       </div>
     </nav>
 
-<!-- ARTICLE HEADER -->
-<div class="article-header">
-  <div class="container">
-    <div class="article-tag">Business Law</div>
-    <h1>Outside General Counsel: What It Is and When It Makes Sense</h1>
-    <div class="article-meta">By Michael Hoog &nbsp;|&nbsp; August 1, 2026</div>
+<!-- ARTICLE HERO: headline left, graphic right -->
+<div class="article-hero-wrap">
+  <div class="article-hero-title-block">
+    <div class="container">
+      <div class="article-tag">Business Law</div>
+      <h1>Outside General Counsel: What It Is and When It Makes Sense</h1>
+      <div class="article-meta">By Michael Hoog &nbsp;|&nbsp; August 1, 2026</div>
+    </div>
   </div>
-</div>
-
-<!-- HERO IMAGE -->
-<div class="article-hero-band">
-  <img class="article-hero-img"
+  <img class="article-hero-graphic"
        src="/assets/images/blog/blog-outside-general-counsel.png"
        width="1024" height="537"
        alt="Outside general counsel: a desk layout with legal strategy, compliance, corporate governance, and contracts checklists, scales of justice, and a briefcase">
+  <div class="article-hero-overlay"></div>
 </div>
 
 <!-- ARTICLE BODY -->
