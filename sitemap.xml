@@ -124,9 +124,15 @@
   <!-- Insights (blog) -->
   <url>
     <loc>https://www.hooglaw.com/insights/</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.hooglaw.com/insights/outside-general-counsel.html</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.hooglaw.com/insights/colorado-ai-compliance-sb-26-189.html</loc>
