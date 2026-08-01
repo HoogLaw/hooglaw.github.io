@@ -89,16 +89,15 @@
       overflow: hidden;
       background: linear-gradient(90deg, var(--navy), var(--purple));
     }
+    /* The graphic is authored at exactly 660x346 and painted at exactly
+       660x346. No scaling, so the type is the size it was drawn at. */
     .article-hero-graphic {
       position: absolute;
       top: 158px;             /* clear the fixed nav so the image top isn't hidden behind it */
-      bottom: 18px;
-      right: 2.5%;
-      width: 50%;
-      height: auto;
+      right: max(2.5%, calc((100% - 1100px) / 2));   /* line up with the content column */
+      width: 660px;
+      height: 346px;
       max-width: none;        /* override global img{max-width:100%} */
-      object-fit: contain;    /* entire banner, never cropped */
-      object-position: right center;
       display: block;
       z-index: 1;
       border-radius: var(--radius);
@@ -126,7 +125,7 @@
       font-size: clamp(1.5rem, 2.4vw, 2.2rem);
       font-weight: 900;
       color: var(--white); margin-bottom: 1rem;
-      max-width: min(430px, 40vw);   /* keep the headline clear of the graphic */
+      max-width: 380px;       /* keep the headline clear of the graphic */
       line-height: 1.2;
       letter-spacing: -0.01em;
     }
@@ -135,14 +134,15 @@
       letter-spacing: 0.05em;
     }
 
-    /* Stack before the headline can collide with the graphic */
-    @media (max-width: 1000px) {
+    /* Stack before the headline can collide with the 660px graphic */
+    @media (max-width: 1150px) {
       .article-hero-wrap { height: auto; padding-top: 9.5rem; }
-      .article-hero-title-block { position: static; padding: 0 0 2rem; }
+      .article-hero-title-block { position: static; padding: 0 0 1.75rem; }
       .article-hero-title-block h1 { max-width: none; font-size: 1.9rem; }
       .article-hero-graphic {
         position: static;
-        width: 100%; max-width: 100%; height: auto;
+        width: 100%; max-width: 660px; height: auto;
+        margin: 0 auto;
         border-radius: 0; box-shadow: none;
       }
       .article-hero-overlay { display: none; }
@@ -285,8 +285,8 @@
     </div>
   </div>
   <img class="article-hero-graphic"
-       src="/assets/images/blog/blog-outside-general-counsel.png"
-       width="1024" height="537"
+       src="/assets/images/blog/blog-outside-general-counsel.svg"
+       width="660" height="346"
        alt="Outside general counsel: a desk layout with legal strategy, compliance, corporate governance, and contracts checklists, scales of justice, and a briefcase">
   <div class="article-hero-overlay"></div>
 </div>
