@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="346" viewBox="0 0 660 346" role="img" aria-label="Colorado SB 26-189 coverage test: covered ADMT, materially influence, and consequential decision must all be true; the seven covered domains; and categories the Act expressly excludes.">
+<defs>
+  <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#2D1F6E"/>
+    <stop offset="1" stop-color="#4B3BAF"/>
+  </linearGradient>
+  <style>
+    .s{font-family:'Segoe UI',Arial,Helvetica,sans-serif}
+    .kick{font-size:8.5px;font-weight:700;letter-spacing:2.6px;fill:#C9A96E}
+    .ttl{font-size:17px;font-weight:700;fill:#ffffff}
+    .sub{font-size:9px;fill:rgba(255,255,255,0.72)}
+    .num{font-size:10px;font-weight:700;fill:#2D1F6E}
+    .gt{font-size:10.5px;font-weight:700;fill:#2D1F6E;letter-spacing:0.4px}
+    .gb{font-size:8.6px;fill:#3C4256}
+    .and{font-size:8.5px;font-weight:700;fill:#C9A96E;letter-spacing:1.4px}
+    .sect{font-size:8.5px;font-weight:700;letter-spacing:1.9px;fill:#2D1F6E}
+    .chip{font-size:8.4px;fill:#2D1F6E;font-weight:600}
+    .exl{font-size:8.4px;fill:#6B7291}
+    .foot{font-size:7.6px;fill:#6B7291}
+  </style>
+</defs>
+
+<rect width="660" height="346" fill="#F7F8FC"/>
+<rect width="660" height="54" fill="url(#hdr)"/>
+<text class="s kick" x="20" y="20">COLORADO SB 26-189</text>
+<text class="s ttl" x="20" y="40">Are you covered?</text>
+<text class="s sub" x="640" y="24" text-anchor="end">All three must be true.</text>
+<text class="s sub" x="640" y="38" text-anchor="end">Effective January 1, 2027.</text>
+
+<g>
+  <rect x="20" y="68" width="196" height="104" rx="6" fill="#ffffff" stroke="#E3E7F2"/>
+  <circle cx="38" cy="86" r="9" fill="#C9A96E"/>
+  <text class="s num" x="38" y="89.5" text-anchor="middle">1</text>
+  <text class="s gt" x="54" y="89.5">COVERED ADMT</text>
+  <text class="s gb" x="20" y="110"><tspan x="34">Technology that processes personal</tspan><tspan x="34" dy="11">data and uses computation to</tspan><tspan x="34" dy="11">generate output: predictions,</tspan><tspan x="34" dy="11">recommendations, classifications,</tspan><tspan x="34" dy="11">rankings, or scores.</tspan></text>
+</g>
+
+<text class="s and" x="224" y="123" text-anchor="middle">AND</text>
+
+<g>
+  <rect x="232" y="68" width="196" height="104" rx="6" fill="#ffffff" stroke="#E3E7F2"/>
+  <circle cx="250" cy="86" r="9" fill="#C9A96E"/>
+  <text class="s num" x="250" y="89.5" text-anchor="middle">2</text>
+  <text class="s gt" x="266" y="89.5">MATERIALLY INFLUENCE</text>
+  <text class="s gb" x="232" y="110"><tspan x="246">The output is a non-de minimis</tspan><tspan x="246" dy="11">factor used in making the decision</tspan><tspan x="246" dy="11">AND affects the outcome.</tspan><tspan x="246" dy="11" fill="#6B7291">Incidental, trivial, and clerical</tspan><tspan x="246" dy="11" fill="#6B7291">uses do not count.</tspan></text>
+</g>
+
+<text class="s and" x="436" y="123" text-anchor="middle">AND</text>
+
+<g>
+  <rect x="444" y="68" width="196" height="104" rx="6" fill="#ffffff" stroke="#E3E7F2"/>
+  <circle cx="462" cy="86" r="9" fill="#C9A96E"/>
+  <text class="s num" x="462" y="89.5" text-anchor="middle">3</text>
+  <text class="s gt" x="478" y="89.5">CONSEQUENTIAL</text>
+  <text class="s gb" x="444" y="110"><tspan x="458">A decision about a consumer</tspan><tspan x="458" dy="11">relating to access to, eligibility</tspan><tspan x="458" dy="11">for, selection for, or compensation</tspan><tspan x="458" dy="11">for a covered domain.</tspan></text>
+</g>
+
+<line x1="20" y1="186" x2="640" y2="186" stroke="#E3E7F2"/>
+
+<text class="s sect" x="20" y="205">THE SEVEN COVERED DOMAINS</text>
+<g>
+  <rect x="20" y="213" width="86" height="20" rx="10" fill="#EEF0F7"/><text class="s chip" x="63" y="226.5" text-anchor="middle">Education</text>
+  <rect x="112" y="213" width="92" height="20" rx="10" fill="#EEF0F7"/><text class="s chip" x="158" y="226.5" text-anchor="middle">Employment</text>
+  <rect x="210" y="213" width="148" height="20" rx="10" fill="#EEF0F7"/><text class="s chip" x="284" y="226.5" text-anchor="middle">Residential real estate (CO)</text>
+  <rect x="364" y="213" width="110" height="20" rx="10" fill="#EEF0F7"/><text class="s chip" x="419" y="226.5" text-anchor="middle">Financial or lending</text>
+  <rect x="480" y="213" width="68" height="20" rx="10" fill="#EEF0F7"/><text class="s chip" x="514" y="226.5" text-anchor="middle">Insurance</text>
+  <rect x="554" y="213" width="86" height="20" rx="10" fill="#EEF0F7"/><text class="s chip" x="597" y="226.5" text-anchor="middle">Health care</text>
+  <rect x="20" y="238" width="192" height="20" rx="10" fill="#EEF0F7"/><text class="s chip" x="116" y="251.5" text-anchor="middle">Government services &amp; public benefits</text>
+  <text class="s foot" x="222" y="251.5">Closed list. If your decision is not one of these seven, it is not a consequential decision.</text>
+</g>
+
+<rect x="20" y="272" width="620" height="58" rx="6" fill="#ffffff" stroke="#E3E7F2"/>
+<rect x="20" y="272" width="4" height="58" rx="2" fill="#C5CAD9"/>
+<text class="s sect" x="36" y="290" fill="#6B7291">EXPRESSLY EXCLUDED BY THE ACT</text>
+<text class="s exl" x="36" y="306"><tspan x="36">Routine scheduling  &#183;  Customer service triage  &#183;  Administrative routing  &#183;  Workflow management  &#183;  Communication of decisions</tspan><tspan x="36" dy="11">Advertising &amp; marketing  &#183;  Differentiated product recommendations  &#183;  Search  &#183;  Content moderation  &#183;  Classroom personalization</tspan></text>
+
+<text class="s foot" x="640" y="341" text-anchor="end">Statutory baseline. Attorney General rulemaking pending. hooglaw.com</text>
+</svg>

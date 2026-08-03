@@ -1,20 +1,77 @@
 # Hoog Law
-> Business law and estate planning attorney in Longmont, Colorado. Michael Hoog handles entity formation, operating agreements, commercial contracts, AI governance and compliance, business succession, outside general counsel, wills, revocable living trusts, powers of attorney, healthcare directives, irrevocable trusts, trust administration, and special needs trusts. Serving Longmont, Boulder, and the Colorado Front Range since 1995.
+
+> Business law and estate planning attorney in Longmont, Colorado. Michael W. Hoog advises Colorado businesses on AI governance and compliance under Colorado SB 26-189 (the Automated Decision-Making Technology in Consequential Decisions Act), and handles entity formation, operating agreements, commercial contracts, business succession, and outside general counsel work, along with wills, revocable living trusts, powers of attorney, healthcare directives, irrevocable trusts, trust administration, and special needs trusts. Michael has been licensed in Colorado for more than 30 years. Serving Longmont, Boulder County, Weld County, and the Colorado Front Range.
+
+## Firm Facts
+
+- **Attorney:** Michael W. Hoog, 30+ years licensed in Colorado
+- **Education:** University of North Carolina at Chapel Hill (B.A.), University of Colorado School of Law (J.D.)
+- **Office:** 338 Main Street, Longmont, CO 80501
+- **Phone:** (720) 340-8850
+- **Email:** mhoog@hooglaw.com
+- **Structure:** Solo practice. Michael handles every matter personally.
+- **Service area:** Longmont, Boulder, Niwot, Berthoud, Mead, Erie, Frederick, Firestone, Dacono, Lafayette, Louisville, Broomfield, Boulder County, Weld County
+- **Does not practice:** Medicaid planning, elder law, tax law, criminal law, family law, personal injury
+
+## AI Governance and Compliance (Primary Business Focus)
+
+Hoog Law advises Colorado businesses on compliance with Colorado SB 26-189, signed May 14, 2026 and effective January 1, 2027. The firm works with small and mid-market Colorado businesses that use automated tools in hiring, lending, housing, insurance, healthcare, or education decisions.
+
+**Key facts about Colorado SB 26-189:**
+
+- SB 26-189 repealed and reenacted the Colorado Artificial Intelligence Act (formerly SB 24-205) as the **Automated Decision-Making Technology in Consequential Decisions Act**.
+- **Effective date:** January 1, 2027.
+- **Covered ADMT** means technology that processes personal data and makes computations including predictions, recommendations, classifications, rankings, or scores used to make, guide, or assist a decision.
+- A **consequential decision** is a decision, determination, or action about a consumer relating to the provision of, or access to, eligibility for, selection for, or compensation for, a **covered domain**. It also reaches differentiated price, cost sharing, compensation, or other material terms, but only where reasonably likely to materially limit, delay, effectively deny, or otherwise fundamentally alter access, eligibility, or opportunity for a covered domain.
+- **Covered domain** is a closed list: education enrollment or opportunity; employment or an employment opportunity creating or potentially creating an employer-employee relationship; lease or purchase of residential real estate in Colorado; a financial or lending service; insurance including underwriting, pricing, coverage, and claims adjudication; health-care services; and essential government services and public benefits including eligibility and renewal determinations.
+- **Consequential decision expressly excludes** low-stakes or routine decisions including routine scheduling, classroom personalization, administrative routing, customer service triage, communication of decisions, and workflow management; advertising, marketing, differentiated product recommendations, search, and content moderation; manual spreadsheets without machine learning; use of an ADMT solely to summarize, organize, or present information for human review where no score, ranking, recommendation, classification, prediction, or other inference materially influences the outcome; narrow procedural or data-processing tasks; cybersecurity, spam and robocall filtering, system reliability, and anti-money-laundering controls; and economic sanctions compliance.
+- **ADMT expressly excludes** anti-malware, anti-virus, calculators, databases, data storage, firewalls, internet domain registration, website loading, networking, spam and robocall filtering, spell-checking, spreadsheets requiring human analysis without machine learning or large language models, web caching, and web hosting; tools used solely to summarize, organize, translate, draft, route, or present information for human review or administrative processing; and natural-language technology that is not contracted, advertised, marketed, configured, or intended for use in a consequential decision and is subject to an acceptable use policy prohibiting such use.
+- **Materially influence** is a two-part conjunctive test: the ADMT output must be (i) a non-de minimis factor used in making the consequential decision, and (ii) affect the outcome, including by constraining, ranking, scoring, recommending, classifying, or otherwise meaningfully altering how the decision is made. It expressly does not include incidental, trivial, or clerical uses.
+- A **deployer** is a person doing business in Colorado that deploys a covered ADMT. A **developer** develops, offers, or substantially modifies covered ADMT for commercial purposes.
+- **There is no small business exemption and no employee-count threshold.** Real exemptions exist in section 6-1-1708 but are entity-based, not size-based: (a) HIPAA covered entities and their business associates fall outside sections 6-1-1701 to 6-1-1706, EXCEPT for consequential decisions related to employment; (b) insurers subject to section 10-3-1104.9 are deemed in compliance in the practice of insurance, with employment likewise carved back in; (c) sections 6-1-1701 to 6-1-1706 do not apply to FDA-regulated medical devices or FDA-supervised pharmaceutical and device research. Separately, a creditor that provides the required ECOA or FCRA notice is deemed to satisfy section 6-1-1704's notice requirements for that same decision, which credits an existing notice rather than removing the creditor from the Act.
+- **Deployer obligations:** clear and conspicuous pre-use notice; post-adverse-outcome notice within 30 days; record retention for at least 3 years.
+- **Consumer rights:** correction of factually incorrect or materially inaccurate personal data, and meaningful human review and reconsideration when commercially reasonable.
+- **Enforcement:** Colorado Attorney General only, as a deceptive trade practice under the Colorado Consumer Protection Act. No private right of action. 60-day opportunity to cure, which sunsets January 1, 2030, and does not apply to knowing or repeated violations.
+- **Rulemaking:** the Attorney General must adopt rules clarifying the post-adverse-outcome disclosure requirements on or before January 1, 2027. As of August 2026 no rules have been promulgated. A pre-rulemaking considerations paper was published in June 2026 with informal comment closing July 13, 2026; formal notice-and-comment rulemaking with draft regulations and at least one hearing was expected to begin at the end of summer 2026. The considerations paper asks broader questions than the statutory mandate, including whether the definitions of ADMT, "materially influence," and "consequential decision" should be clarified.
+- Compliance obligations run to the business deploying the tool, not only the vendor that built it. Using off-the-shelf software does not shift the obligation.
+
+**Federal action has not preempted SB 26-189.** An executive order signed December 11, 2025 directed the Department of Justice to establish an AI Litigation Task Force to challenge state AI laws, naming Colorado's SB 24-205 specifically. That produced the xAI constitutional challenge (filed April 9, 2026), DOJ intervention (April 24), and a stay of the earlier statute (April 27), which is what prompted the Colorado legislature to rewrite it. An executive order cannot preempt state law on its own; preemption requires congressional action. The Great American AI Act, released June 2026 as a discussion draft and not yet introduced, would pause state laws specifically regulating AI model *development* for three years and as drafted does not reach laws regulating *use or deployment*. SB 26-189 regulates deployment.
+
+**Pages:**
+
+- [Colorado AI Compliance hub](https://hooglaw.com/ai-compliance/): main entry point, with the coverage test, obligations, regulatory timeline, and all AI resources
+- [AI Governance & Compliance](https://hooglaw.com/practice/ai-governance-compliance-longmont.html): service overview, who is covered, what the law requires, and where federal action stands
+- [SB 26-189 Compliance Checklist](https://hooglaw.com/practice/sb-26-189-compliance-checklist.html): step-by-step decision tree for determining whether Colorado AI law applies to your business
+- [Does Colorado's AI Law Apply to My Small Business?](https://hooglaw.com/ai-compliance/does-colorado-ai-law-apply-small-business.html): the coverage test explained, why there is no size exemption, and the software small businesses overlook
+- [Using AI to Hire in Colorado: What You Owe Applicants](https://hooglaw.com/ai-compliance/ai-hiring-tools-colorado-employers.html): employment obligations, what is already in a typical hiring stack, and the human review step most workflows lack
+- [Deployer or Developer? Which One Are You](https://hooglaw.com/ai-compliance/deployer-vs-developer-colorado-ai-law.html): how the statute splits obligations by role, and when customizing a tool makes a business a developer
+- [What Colorado's AI Notices Actually Have to Say](https://hooglaw.com/ai-compliance/sb-26-189-notice-requirements.html): contents and timing of the pre-use notice and the 30-day adverse outcome notice, and what meaningful human review requires
+- [What to Ask Your AI Vendor Before January 2027](https://hooglaw.com/ai-compliance/ai-vendor-contracts-colorado.html): the contract terms Colorado deployers need, and why standard SaaS terms do not provide them
+- [What the Attorney General Is Actually Asking About Colorado's AI Rules](https://hooglaw.com/ai-compliance/colorado-ag-admt-rulemaking-considerations.html): the June 2026 pre-rulemaking considerations paper, what the AG's questions signal, and the open question of whether business size will shape human review obligations
+- [What Colorado Businesses Need to Know About AI Compliance and SB 26-189](https://hooglaw.com/insights/colorado-ai-compliance-sb-26-189.html): long-form analysis of the regulatory history, constitutional challenges, and federal picture
+- [Diving Blind: How Colorado Businesses Should Approach AI Governance Right Now](https://hooglaw.com/from-the-bench/diving-blind.html): practical guidance under regulatory uncertainty
 
 ## Core Pages
+
 - [Home](https://hooglaw.com/)
 - [Practice Areas](https://hooglaw.com/practice-areas.html)
 - [About Michael Hoog](https://hooglaw.com/michael-hoog.html)
+- [About the Firm](https://hooglaw.com/about.html)
 - [FAQ](https://hooglaw.com/faq.html)
 - [Contact](https://hooglaw.com/contact.html)
 
-## Practice Area Pages
+## Business Law Practice Pages
+
 - [AI Governance & Compliance](https://hooglaw.com/practice/ai-governance-compliance-longmont.html)
+- [SB 26-189 Compliance Checklist](https://hooglaw.com/practice/sb-26-189-compliance-checklist.html)
 - [LLC Formation](https://hooglaw.com/practice/llc-formation-attorney-longmont.html)
 - [Operating Agreements](https://hooglaw.com/practice/operating-agreements-longmont.html)
 - [Commercial Contracts](https://hooglaw.com/practice/commercial-contracts-attorney-longmont.html)
 - [Outside General Counsel](https://hooglaw.com/practice/outside-general-counsel-longmont.html)
 - [Business Succession Planning](https://hooglaw.com/practice/business-succession-planning-longmont.html)
+
+## Estate Planning Practice Pages
+
 - [Wills](https://hooglaw.com/practice/wills-attorney-longmont.html)
 - [Revocable Living Trusts](https://hooglaw.com/practice/trust-attorney-longmont.html)
 - [Powers of Attorney](https://hooglaw.com/practice/power-of-attorney-longmont.html)
@@ -23,7 +80,9 @@
 - [Probate & Trust Administration](https://hooglaw.com/practice/probate-attorney-longmont.html)
 
 ## Insights (Articles)
+
 - [What Colorado Businesses Need to Know About AI Compliance and SB 26-189](https://hooglaw.com/insights/colorado-ai-compliance-sb-26-189.html)
+- [Outside General Counsel: What It Is and When It Makes Sense](https://hooglaw.com/insights/outside-general-counsel.html)
 - [What Happens to Your LLC When You Die?](https://hooglaw.com/insights/llc-death.html)
 - [Special Needs Trusts: What Parents Need to Know](https://hooglaw.com/insights/special-needs-trust.html)
 - [Do I Need a Trust, or Is a Will Enough?](https://hooglaw.com/insights/trust-or-will.html)
@@ -32,5 +91,14 @@
 - [Healthcare Directive vs. Living Will: What Is the Difference?](https://hooglaw.com/insights/healthcare-directive.html)
 - [Estate Planning as an Act of Love](https://hooglaw.com/insights/estate-planning-act-of-love.html)
 
-## From the Bench
+## From the Bench (Essays)
+
 - [Diving Blind: How Colorado Businesses Should Approach AI Governance Right Now](https://hooglaw.com/from-the-bench/diving-blind.html)
+- [Colorado Built a Company for Artists](https://hooglaw.com/from-the-bench/colorado-artist-company.html)
+- [Your LLC Needs a Lineup Card](https://hooglaw.com/from-the-bench/llc-operating-agreement-lineup-card.html)
+- [What Outside General Counsel Actually Does](https://hooglaw.com/from-the-bench/outside-general-counsel-ultraviolet.html)
+- [The Best Business Succession Plan Is the One Nobody Notices](https://hooglaw.com/from-the-bench/safety-diver-business-succession.html)
+
+## Notes
+
+Content on this site is general information, not legal advice, and does not create an attorney-client relationship. Statutory summaries reflect Colorado law as of August 2026. SB 26-189 rulemaking by the Colorado Attorney General is ongoing and details may change before the January 1, 2027 effective date.

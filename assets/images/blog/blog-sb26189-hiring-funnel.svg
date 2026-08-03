@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="346" viewBox="0 0 660 346" role="img" aria-label="Where Colorado SB 26-189 attaches in a hiring process: the software narrows the applicant pool before a human reviews, which is selection for employment and triggers pre-use notice, adverse outcome notice, and human review obligations.">
+<defs>
+  <linearGradient id="hdr3" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#2D1F6E"/><stop offset="1" stop-color="#4B3BAF"/>
+  </linearGradient>
+  <linearGradient id="fun" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#6254C8"/><stop offset="1" stop-color="#2D1F6E"/>
+  </linearGradient>
+  <style>
+    .s{font-family:'Segoe UI',Arial,Helvetica,sans-serif}
+    .kick{font-size:8.5px;font-weight:700;letter-spacing:2.6px;fill:#C9A96E}
+    .ttl{font-size:17px;font-weight:700;fill:#ffffff}
+    .sub{font-size:9px;fill:rgba(255,255,255,0.72)}
+    .stg{font-size:8.4px;font-weight:700;letter-spacing:1.5px;fill:#2D1F6E}
+    .big{font-size:22px;font-weight:700;fill:#2D1F6E}
+    .cap{font-size:8.2px;fill:#3C4256}
+    .mut{font-size:8px;fill:#6B7291}
+    .cut{font-size:8.6px;font-weight:700;fill:#C9A96E;letter-spacing:1.2px}
+    .ob{font-size:8.4px;fill:#3C4256}
+    .oh{font-size:9.2px;font-weight:700;fill:#2D1F6E}
+    .foot{font-size:7.6px;fill:#6B7291}
+  </style>
+</defs>
+
+<rect width="660" height="346" fill="#F7F8FC"/>
+<rect width="660" height="54" fill="url(#hdr3)"/>
+<text class="s kick" x="20" y="20">COLORADO SB 26-189</text>
+<text class="s ttl" x="20" y="40">Where it attaches in hiring</text>
+<text class="s sub" x="640" y="24" text-anchor="end">Employment is a covered domain.</text>
+<text class="s sub" x="640" y="38" text-anchor="end">No small business exemption.</text>
+
+<text class="s stg" x="26" y="80">APPLICANTS IN</text>
+<text class="s big" x="26" y="104">40</text>
+<text class="s mut" x="26" y="118">people</text>
+
+<path d="M108 74 L300 74 L300 130 L108 118 Z" fill="url(#fun)" opacity="0.92"/>
+<text class="s" x="204" y="96" text-anchor="middle" font-size="9.6" font-weight="700" fill="#ffffff">SOFTWARE SCORES,</text>
+<text class="s" x="204" y="110" text-anchor="middle" font-size="9.6" font-weight="700" fill="#ffffff">RANKS, OR SCREENS</text>
+<text class="s" x="204" y="124" text-anchor="middle" font-size="7.8" fill="rgba(255,255,255,0.78)">applicant tracking &#183; resume parsing &#183; assessments</text>
+
+<line x1="300" y1="66" x2="300" y2="140" stroke="#C9A96E" stroke-width="2" stroke-dasharray="4 3"/>
+<text class="s cut" x="308" y="78">THE CUT</text>
+<text class="s mut" x="308" y="92"><tspan x="308">The field narrows before</tspan><tspan x="308" dy="10.5">a human looks. That is</tspan><tspan x="308" dy="10.5">&#8220;selection for&#8221; employment.</tspan></text>
+
+<text class="s stg" x="470" y="80">ADVANCED</text>
+<text class="s big" x="470" y="104">6</text>
+<text class="s mut" x="470" y="118">interviews</text>
+<text class="s stg" x="560" y="80" fill="#6B7291">DECLINED</text>
+<text class="s big" x="560" y="104" fill="#6B7291">34</text>
+<text class="s mut" x="560" y="118">adverse outcomes</text>
+
+<line x1="20" y1="152" x2="640" y2="152" stroke="#E3E7F2"/>
+<text class="s stg" x="20" y="172">WHAT THAT TRIGGERS</text>
+
+<rect x="20"  y="182" width="196" height="86" rx="6" fill="#ffffff" stroke="#E3E7F2"/>
+<text class="s oh" x="34" y="202">Before you use it</text>
+<text class="s ob" x="34" y="218"><tspan x="34">Clear and conspicuous notice</tspan><tspan x="34" dy="10.5">at or before application, not</tspan><tspan x="34" dy="10.5">in the rejection email.</tspan></text>
+<text class="s mut" x="34" y="258">A prominent public notice works.</text>
+
+<rect x="232" y="182" width="196" height="86" rx="6" fill="#ffffff" stroke="#C9A96E"/>
+<text class="s oh" x="246" y="202">Within 30 days</text>
+<text class="s ob" x="246" y="218"><tspan x="246">For each of the 34: plain</tspan><tspan x="246" dy="10.5">language on what the tool did,</tspan><tspan x="246" dy="10.5">how to ask for more, rights.</tspan></text>
+<text class="s mut" x="246" y="258">Batched rejections, 34 clocks.</text>
+
+<rect x="444" y="182" width="196" height="86" rx="6" fill="#ffffff" stroke="#E3E7F2"/>
+<text class="s oh" x="458" y="202">On request</text>
+<text class="s ob" x="458" y="218"><tspan x="458">A designated, trained person</tspan><tspan x="458" dy="10.5">with authority to override</tspan><tspan x="458" dy="10.5">reconsiders the decision.</tspan></text>
+<text class="s mut" x="458" y="258">Plus data correction. 3-yr records.</text>
+
+<rect x="20" y="282" width="620" height="42" rx="6" fill="#ffffff" stroke="#E3E7F2"/>
+<rect x="20" y="282" width="4" height="42" rx="2" fill="#C5CAD9"/>
+<text class="s stg" x="36" y="299" fill="#6B7291">NOT COVERED</text>
+<text class="s mut" x="36" y="314">Routine interview scheduling &#183; administrative routing &#183; workflow management &#183; communicating the decision itself</text>
+
+<text class="s foot" x="640" y="339" text-anchor="end">Statutory baseline. Attorney General rulemaking pending. hooglaw.com</text>
+</svg>

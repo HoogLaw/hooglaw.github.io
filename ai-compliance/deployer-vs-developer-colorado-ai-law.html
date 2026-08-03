@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deployer or Developer Under Colorado's AI Law | SB 26-189 | Hoog Law</title>
+  <meta name="description" content="Colorado SB 26-189 splits obligations between developers and deployers. Most Colorado businesses are deployers, some are unexpectedly both, and the difference determines what you owe. Here is how to tell.">
+  <link rel="canonical" href="https://hooglaw.com/ai-compliance/deployer-vs-developer-colorado-ai-law.html">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Michael W. Hoog, Hoog Law">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://hooglaw.com/ai-compliance/deployer-vs-developer-colorado-ai-law.html">
+  <meta property="og:title" content="Deployer or Developer? Which One Are You Under Colorado&rsquo;s AI Law">
+  <meta property="og:description" content="Colorado SB 26-189 splits obligations between developers and deployers. Most Colorado businesses are deployers, some are unexpectedly both, and the difference determines what you owe. Here is how to tell.">
+  <meta property="article:published_time" content="2026-08-01">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:image" content="https://hooglaw.com/assets/images/blog/og-ai-cascade-channels.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:image" content="https://hooglaw.com/assets/images/blog/og-ai-cascade-channels.jpg">
+  <meta name="twitter:title" content="Deployer or Developer? Which One Are You Under Colorado&rsquo;s AI Law">
+  <meta name="twitter:description" content="Colorado SB 26-189 splits obligations between developers and deployers. Most Colorado businesses are deployers, some are unexpectedly both, and the difference determines what you owe. Here is how to tell.">
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Deployer or Developer? Which One Are You Under Colorado's AI Law",
+  "description": "Colorado SB 26-189 splits obligations between developers and deployers. Most Colorado businesses are deployers, some are unexpectedly both, and the difference determines what you owe. Here is how to tell.",
+  "url": "https://hooglaw.com/ai-compliance/deployer-vs-developer-colorado-ai-law.html",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://hooglaw.com/ai-compliance/deployer-vs-developer-colorado-ai-law.html"
+  },
+  "datePublished": "2026-08-01",
+  "dateModified": "2026-08-01",
+  "author": {
+    "@type": "Person",
+    "name": "Michael W. Hoog",
+    "jobTitle": "Attorney",
+    "url": "https://hooglaw.com/michael-hoog.html",
+    "worksFor": {
+      "@type": "LegalService",
+      "name": "Hoog Law",
+      "url": "https://hooglaw.com/"
+    }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Hoog Law",
+    "url": "https://hooglaw.com/"
+  },
+  "about": {
+    "@type": "Legislation",
+    "name": "Colorado Senate Bill 26-189",
+    "alternateName": "Automated Decision-Making Technology in Consequential Decisions Act",
+    "legislationIdentifier": "SB 26-189",
+    "legislationJurisdiction": {
+      "@type": "AdministrativeArea",
+      "name": "Colorado"
+    },
+    "legislationDate": "2026-05-14",
+    "legislationType": "Statute",
+    "temporalCoverage": "2027-01-01/..",
+    "url": "https://leg.colorado.gov/bills/sb26-189"
+  },
+  "isPartOf": {
+    "@type": "CollectionPage",
+    "name": "Colorado AI Compliance",
+    "url": "https://hooglaw.com/ai-compliance/"
+  }
+}
+  </script>
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://hooglaw.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "AI Compliance",
+      "item": "https://hooglaw.com/ai-compliance/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Deployer or Developer? Which One Are You Under Colorado's AI Law",
+      "item": "https://hooglaw.com/ai-compliance/deployer-vs-developer-colorado-ai-law.html"
+    }
+  ]
+}
+  </script>
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between a deployer and a developer under Colorado SB 26-189?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A deployer is a person doing business in Colorado that deploys covered automated decision-making technology, meaning they use it in a consequential decision. A developer is a person doing business in Colorado that develops, offers, sells, leases, licenses, or otherwise makes a covered ADMT commercially available; develops a component designed or contracted to be used as part of a covered ADMT; or intentionally and substantially modifies an ADMT such that it becomes a covered ADMT. Critically, a person who develops and uses an ADMT solely for internal purposes, and does not make it available to another person for use in a consequential decision, is excluded from the developer definition. Deployer obligations center on notice, human review, and recordkeeping. Developer obligations center on disclosure and documentation that lets deployers comply."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a business be both a deployer and a developer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, but less often than people assume. A company that builds a tool and uses it only internally is not a developer, because SB 26-189 excludes a person that develops and uses an ADMT for internal purposes and does not make it available to another person for use in a consequential decision. That company is simply a deployer. The genuine both case is a company that licenses or otherwise makes a scoring product commercially available to others while also using it in its own operations. There the two sets of obligations apply independently and do not merge."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does customizing an AI tool make me a developer under Colorado law?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Less often than people assume. SB 26-189 defines intentional and substantial modification as a deliberate change to an ADMT that results in a material change to the system's intended, documented, advertised, configured, or contracted use. The test is whether you changed what the system is for, not how extensively you tuned it. Fine-tuning a hiring tool to perform better on your own hiring does not obviously change its intended use. Repurposing a marketing tool into a tenant screening tool does. Separately, a person who develops and uses an ADMT solely for internal purposes, without making it available to others for use in a consequential decision, is excluded from the developer definition entirely."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "If I license an AI tool, does the developer's compliance cover me?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Deployer obligations attach to the business deploying the technology. Licensing does not transfer them. The developer's disclosures are what let you meet your own duties, but the duties remain yours."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a Colorado software company a developer if it does not consider itself an AI company?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If the product processes personal data and produces predictions, recommendations, classifications, rankings, or scores, and customers use those outputs in education enrollment or an education opportunity; employment or an employment opportunity that creates or may create an employer-employee relationship; the lease or purchase of residential real estate in Colorado; a financial or lending service; insurance, including underwriting, pricing, coverage, and claims adjudication; health-care services; and essential government services and public benefits, including eligibility and renewal determinations decisions, the statute can reach it regardless of how the company describes itself. What the software does is the test, not how it is marketed."
+      }
+    }
+  ]
+}
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;800;900&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --navy:   #2D1F6E;
+      --purple: #4B3BAF;
+      --purple-light: #6254C8;
+      --gold:   #C9A96E;
+      --white:  #FFFFFF;
+      --off-white: #F7F8FC;
+      --light-gray: #EEF0F7;
+      --mid-gray: #C5CAD9;
+      --text-dark: #1A1F2E;
+      --text-body: #3C4256;
+      --text-muted: #6B7291;
+      --shadow-sm: 0 2px 8px rgba(45,31,110,0.08);
+      --shadow-md: 0 6px 24px rgba(45,31,110,0.12);
+      --radius: 4px;
+      --radius-lg: 8px;
+      --transition: 0.25s ease;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      color: var(--text-body);
+      background: var(--white);
+      -webkit-font-smoothing: antialiased;
+    }
+    img { display: block; max-width: 100%; }
+    a { color: inherit; text-decoration: none; }
+    h1, h2, h3, h4, h5 { font-family: 'Raleway', sans-serif; color: var(--navy); font-weight: 700; line-height: 1.25; }
+
+    .container { max-width: 1100px; margin: 0 auto; padding: 0 2rem; }
+
+    /* ── NAV ── */
+    #site-nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      background: var(--white); border-bottom: 1px solid var(--light-gray);
+      transition: box-shadow var(--transition);
+    }
+    #site-nav.scrolled { box-shadow: 0 4px 20px rgba(0,0,0,0.10); }
+    .nav-inner {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1rem 2rem; max-width: 1100px; margin: 0 auto;
+    }
+    .nav-logo { display: block; }
+    .nav-logo img { height: 120px; width: auto; display: block; }
+    .nav-links { display: flex; gap: 0.25rem; align-items: center; }
+    .nav-links a {
+      font-family: 'Montserrat', sans-serif; font-size: 0.75rem;
+      font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase;
+      color: var(--navy); padding: 0.5rem 0.85rem; border-radius: var(--radius);
+      transition: color var(--transition), background var(--transition);
+    }
+    .nav-links a:hover, .nav-links a.active { color: var(--purple); background: rgba(75,59,175,0.07); }
+    .nav-links a.btn--primary {
+      background: var(--gold); color: var(--navy);
+      font-weight: 700; padding: 0.5rem 1.1rem; margin-left: 0.5rem;
+    }
+    .nav-links a.btn--primary:hover { background: var(--navy); color: var(--white); }
+    .nav-hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 0.5rem; }
+    .nav-hamburger span { display: block; width: 22px; height: 2px; background: var(--navy); border-radius: 2px; }
+
+    /* ── ARTICLE HERO: headline left, graphic right (From the Bench pattern) ── */
+    .article-hero-wrap {
+      position: relative;
+      width: 100%;
+      height: 520px;
+      overflow: hidden;
+      background: linear-gradient(90deg, var(--navy), var(--purple));
+    }
+    /* The graphic is authored at exactly 660x346 and painted at exactly
+       660x346. No scaling, so the type is the size it was drawn at. */
+    .article-hero-graphic {
+      position: absolute;
+      top: 158px;             /* clear the fixed nav so the image top isn't hidden behind it */
+      right: max(2.5%, calc((100% - 1100px) / 2));   /* line up with the content column */
+      width: 660px;
+      height: 346px;
+      max-width: none;        /* override global img{max-width:100%} */
+      display: block;
+      z-index: 1;
+      border-radius: var(--radius);
+      box-shadow: 0 10px 30px rgba(10,8,40,0.35);
+    }
+    .article-hero-overlay {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      pointer-events: none;
+      background: linear-gradient(to bottom, rgba(20,12,58,0) 60%, rgba(20,12,58,0.35) 100%);
+    }
+    .article-hero-title-block {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      padding: 2.5rem 0;
+      z-index: 2;
+    }
+    .article-tag {
+      font-size: 0.72rem; font-weight: 700; letter-spacing: 0.14em;
+      text-transform: uppercase; color: var(--gold);
+      margin-bottom: 1rem;
+    }
+    .article-hero-title-block h1 {
+      font-size: clamp(1.5rem, 2.4vw, 2.2rem);
+      font-weight: 900;
+      color: var(--white); margin-bottom: 1rem;
+      max-width: 380px;       /* keep the headline clear of the graphic */
+      line-height: 1.2;
+      letter-spacing: -0.01em;
+    }
+    .article-meta {
+      font-size: 0.82rem; color: rgba(255,255,255,0.55);
+      letter-spacing: 0.05em;
+    }
+
+    /* Stack before the headline can collide with the 660px graphic */
+    @media (max-width: 1150px) {
+      .article-hero-wrap { height: auto; padding-top: 9.5rem; }
+      .article-hero-title-block { position: static; padding: 0 0 1.75rem; }
+      .article-hero-title-block h1 { max-width: none; font-size: 1.9rem; }
+      .article-hero-graphic {
+        position: static;
+        width: 100%; max-width: 660px; height: auto;
+        margin: 0 auto;
+        border-radius: 0; box-shadow: none;
+      }
+      .article-hero-overlay { display: none; }
+    }
+
+    /* ── ARTICLE BODY ── */
+    .article-body-section { padding: 3.5rem 0 5rem; }
+    .article-layout {
+      display: grid;
+      grid-template-columns: 1fr 300px;
+      gap: 4rem;
+      align-items: start;
+    }
+    .article-content h2 {
+      font-size: 1.35rem; margin: 2rem 0 0.75rem;
+    }
+    .article-content p {
+      margin-bottom: 1.25rem;
+      font-size: 1.02rem; line-height: 1.8;
+    }
+    .article-content ul, .article-content ol {
+      padding-left: 1.5rem; margin-bottom: 1.25rem;
+    }
+    .article-content li { margin-bottom: 0.4rem; }
+
+    /* ── SIDEBAR ── */
+    .article-sidebar {}
+    .sidebar-card {
+      background: var(--off-white);
+      border: 1px solid var(--light-gray);
+      border-radius: var(--radius-lg);
+      padding: 1.75rem;
+      margin-bottom: 1.5rem;
+    }
+    .sidebar-card h3 {
+      font-size: 0.9rem; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.08em;
+      margin-bottom: 0.75rem; color: var(--navy);
+    }
+    .sidebar-card p {
+      font-size: 0.88rem; color: var(--text-body); margin-bottom: 1rem;
+    }
+    .btn-sidebar {
+      display: block; text-align: center;
+      background: var(--gold); color: var(--navy);
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.8rem; font-weight: 700;
+      letter-spacing: 0.08em; text-transform: uppercase;
+      padding: 0.75rem 1.25rem; border-radius: var(--radius);
+      transition: background var(--transition), color var(--transition);
+    }
+    .btn-sidebar:hover { background: var(--navy); color: var(--white); }
+    .sidebar-related a {
+      display: block; padding: 0.5rem 0;
+      font-size: 0.85rem; color: var(--purple);
+      border-bottom: 1px solid var(--light-gray);
+      transition: color var(--transition);
+    }
+    .sidebar-related a:hover { color: var(--gold); }
+    .sidebar-related a:last-child { border-bottom: none; }
+
+    /* ── BACK LINK ── */
+    .back-link {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      font-size: 0.8rem; font-weight: 700; letter-spacing: 0.08em;
+      text-transform: uppercase; color: var(--purple);
+      margin-bottom: 2rem;
+      transition: color var(--transition);
+    }
+    .back-link:hover { color: var(--gold); }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--text-dark); color: rgba(255,255,255,0.6);
+      padding: 3rem 0 2rem;
+    }
+    .footer-inner { display: grid; grid-template-columns: 1fr auto; gap: 2rem; align-items: start; margin-bottom: 2rem; }
+    .footer-brand { font-family: 'Raleway', sans-serif; font-size: 1.05rem; font-weight: 700; color: var(--white); margin-bottom: 0.5rem; }
+    .footer-tagline { font-size: 0.8rem; color: rgba(255,255,255,0.45); font-style: italic; }
+    .footer-links { display: flex; flex-direction: column; gap: 0.35rem; text-align: right; }
+    .footer-links a { font-size: 0.78rem; color: rgba(255,255,255,0.5); letter-spacing: 0.06em; transition: color var(--transition); }
+    .footer-links a:hover { color: var(--gold); }
+    .footer-bar { border-top: 1px solid rgba(255,255,255,0.08); padding-top: 1.5rem; font-size: 0.74rem; color: rgba(255,255,255,0.35); line-height: 1.7; }
+
+    @media (max-width: 768px) {
+      .nav-links { display: none; flex-direction: column; position: fixed; top: 150px; left: 0; right: 0; background: var(--white); padding: 1.5rem 2rem 2rem; gap: 0.5rem; border-top: 1px solid var(--light-gray); box-shadow: 0 8px 24px rgba(0,0,0,0.1); }
+      .nav-links.open { display: flex; }
+      .nav-hamburger { display: flex; }
+      .article-header h1 { font-size: 1.75rem; }
+      .article-layout { grid-template-columns: 1fr; }
+      .footer-inner { grid-template-columns: 1fr; gap: 1.25rem; }
+      .footer-links { text-align: left; flex-direction: row; flex-wrap: wrap; gap: 0.5rem 1.25rem; }
+    }
+      .reg-status{background:#FFFBF2;border:1px solid #E8D9B8;border-left:4px solid var(--gold);border-radius:0 var(--radius-lg) var(--radius-lg) 0;padding:1.35rem 1.5rem;margin:2.5rem 0 0;}
+    .reg-status h4{font-family:'Raleway',sans-serif;font-size:0.82rem;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;color:var(--navy);margin:0 0 0.6rem;}
+    .reg-status p{font-size:0.88rem;line-height:1.7;color:var(--text-body);margin:0 0 0.7rem;}
+    .reg-status p:last-child{margin-bottom:0;}
+    .reg-status .asof{font-size:0.76rem;color:var(--text-muted);font-style:italic;}
+    .article-hero-wrap.hero-photo{background:#2D1F6E url("/assets/images/blog/blog-ai-cascade-channels.jpg") center 38%/cover no-repeat;}
+    .article-hero-wrap.hero-photo .article-hero-overlay{background:linear-gradient(to bottom,rgba(20,12,58,0.42) 0%,rgba(20,12,58,0.30) 45%,rgba(20,12,58,0.86) 100%);}
+    .hero-credit{position:absolute;right:14px;top:150px;z-index:3;font-family:'Montserrat',sans-serif;font-size:0.62rem;letter-spacing:0.06em;color:rgba(255,255,255,0.62);}
+    .legal-disc{background:#ffffff;border:1px solid #E3E7F2;border-radius:var(--radius-lg);padding:1.25rem 1.5rem;margin:1rem 0 0;}
+    .legal-disc h4{font-family:'Raleway',sans-serif;font-size:0.78rem;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;color:#6B7291;margin:0 0 0.55rem;}
+    .legal-disc p{font-size:0.82rem;line-height:1.7;color:#6B7291;margin:0;}
+    .faq-block{margin:2.75rem 0 0;padding-top:1.5rem;border-top:1px solid var(--light-gray);}
+    .faq-block h2{margin-bottom:0.4rem;}
+    .faq-block h3{font-family:'Raleway',sans-serif;font-size:1rem;font-weight:700;color:var(--navy);margin:1.4rem 0 0.4rem;line-height:1.35;}
+    .faq-block p{font-size:0.95rem;line-height:1.75;color:var(--text-body);margin:0;}
+</style>
+</head>
+<body>
+
+<nav id="site-nav">
+  <div class="container nav-inner">
+    <a href="/" class="nav-logo" aria-label="Hoog Law home">
+      <img src="/assets/images/logo.png" alt="Hoog Law" style="height:120px;width:auto;display:block;">
+    </a>
+    <div class="nav-links" id="nav-links">
+      <a href="/about.html">About</a>
+      <a href="/practice-areas.html">Practice Areas</a>
+      <a href="/ai-compliance/" class="active">AI Compliance</a>
+      <a href="/michael-hoog.html">Michael Hoog</a>
+      <a href="/insights/">Insights</a>
+      <a href="/from-the-bench/">From the Bench</a>
+      <a href="/contact.html" class="btn--primary">Contact Us</a>
+    </div>
+    <div class="nav-hamburger" id="hamburger" onclick="document.getElementById('nav-links').classList.toggle('open')" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<div class="article-hero-wrap hero-photo" style="height:440px;">
+  <div class="article-hero-title-block">
+    <div class="container">
+      <div class="article-tag">AI Governance &amp; Compliance</div>
+      <h1>Deployer or Developer? Which One Are You Under Colorado&rsquo;s AI Law</h1>
+      <div class="article-meta">By Michael Hoog &nbsp;|&nbsp; August 1, 2026</div>
+    </div>
+  </div>
+  <div class="article-hero-overlay"></div>
+  <div class="hero-credit">Photograph by Michael Hoog</div>
+</div>
+
+<section class="article-body-section">
+  <div class="container">
+    <a class="back-link" href="index.html">&larr; Colorado AI Compliance</a>
+
+    <div class="article-layout">
+
+      <div class="article-content">
+
+        <p>SB 26-189 assigns duties by role. A developer builds the technology. A deployer uses it. Most Colorado businesses are deployers and nothing else, which is the simpler position to be in. A meaningful number are quietly both, and they are usually the ones who have not thought about it.</p>
+
+        <h2>The definitions</h2>
+        <p>A <strong>deployer</strong> is a person doing business in Colorado that deploys a covered automated decision-making technology. Deploying means putting it to use in your operation to make, guide, or assist a consequential decision.</p>
+        <p>A <strong>developer</strong> is a person doing business in Colorado that does any of three things: develops, offers, sells, leases, licenses, or otherwise makes a covered ADMT commercially available; develops a component designed, marketed, intended, documented, advertised, configured, or contracted to be used as part of a covered ADMT; or intentionally and substantially modifies an ADMT such that it becomes a covered ADMT.</p>
+
+        <h2>The internal-use exclusion, which changes the answer for a lot of businesses</h2>
+        <p>The Act says a developer does <em>not</em> include a person that develops and uses an ADMT for internal purposes, including use and development activities by affiliates and commercial support functions, so long as that person does not make the system available to another person for use in a consequential decision.</p>
+        <p>So a staffing firm that built its own candidate ranking tool and runs it only on its own hiring is not a developer. It is a deployer, with deployer obligations, and that is the whole answer. Building something for yourself does not put you on the developer side of the line. Handing it to someone else does.</p>
+        <p>There is a parallel exclusion for research: developing and using an ADMT solely for research, where it is not used in a consequential decision within that research.</p>
+
+        <h2>What &ldquo;intentionally and substantially modifies&rdquo; actually means</h2>
+        <p>This one is defined too, and more narrowly than the plain words suggest. An intentional and substantial modification is a deliberate change to an ADMT that results in a material change to the system&rsquo;s intended, documented, advertised, configured, or contracted <em>use</em>.</p>
+        <p>The test is whether you changed what the system is for, not how hard you tuned it. Fine-tuning a hiring tool to work better on your own hiring is not obviously a change in intended use. Repurposing a marketing tool into a tenant screening tool plainly is. If you customized heavily but the documented purpose never moved, you have a real argument that you did not modify it within the meaning of the Act.</p>
+        <p>The Attorney General has asked for comment on what facts should determine whether a component is designed, marketed, intended, documented, advertised, configured, or contracted for use as part of a covered ADMT. Expect the rules to say more here.</p>
+
+        <h2>Two more exclusions worth knowing</h2>
+        <p>A preceding developer that makes an ADMT commercially available is not a developer as to changes an unaffiliated person makes that alter the system&rsquo;s intended, documented, marketed, advertised, configured, or contracted use. If a customer repurposes your product into something you never built it for, that is on them.</p>
+        <p>Likewise, someone who supplied a component is not a developer where the component was integrated into a covered ADMT without that person&rsquo;s actual knowledge.</p>
+
+        <h2>When you really are both</h2>
+        <p>The overlap case that survives all of the above is selling. A Colorado software company that added a scoring feature its customers use in consequential decisions is a developer, even if it thinks of itself as selling workflow software, and it is separately a deployer as to anything it runs internally.</p>
+        <p>That catches Front Range companies who do not consider themselves AI companies at all. If your product scores, ranks, or classifies people, and customers use those outputs in one of the seven covered domains, the statute is looking at you regardless of how the product is described.</p>
+
+        <h2>What each role owes</h2>
+        <p>Deployer obligations are the ones most Colorado businesses will live with: clear and conspicuous notice before covered ADMT materially influences a consequential decision, notice within 30 days of an adverse outcome describing the role the technology played, and records retained at least three years. Plus a working process for consumers who ask to correct inaccurate personal data or request meaningful human review.</p>
+        <p>Developer obligations run to disclosure and documentation that lets deployers meet their own duties. A developer who tells customers nothing about how the system works is selling a product its customers cannot lawfully deploy in Colorado, which is a commercial problem before it is a legal one.</p>
+        <p>Do not read the split as a way to pass the duty along. A deployer who licenses a tool still owes the notices. Buying the software does not transfer anything.</p>
+
+        <h2>How to place yourself</h2>
+        <p>Work through it in order:</p>
+        <ul>
+          <li>Do you use software that scores, ranks, classifies, or recommends people in education enrollment or an education opportunity; employment or an employment opportunity that creates or may create an employer-employee relationship; the lease or purchase of residential real estate in Colorado; a financial or lending service; insurance, including underwriting, pricing, coverage, and claims adjudication; health-care services; and essential government services and public benefits, including eligibility and renewal determinations decisions? If yes, you are a deployer.</li>
+          <li>Did you build any of it, tune it on your own data, or assemble tools into something that produces a new output? If yes, look hard at developer status.</li>
+          <li>Do you sell, license, or offer any of it to others who use it that way? If yes, you are a developer as to that product.</li>
+        </ul>
+        <p>Most businesses answer yes to the first and no to the others. If you answered yes to more than one, you are carrying two sets of obligations and they do not collapse into each other.</p>
+
+        <h2>Why this is worth settling now</h2>
+        <p>In short, the effective date is January 1, 2027 and the Attorney General&rsquo;s rules are due the same day, which means operational detail arrives close to the deadline. A business that knows its role can absorb the rules when they issue. A business still arguing about whether it is a developer will be starting from zero in December.</p>
+        <p>If you are somewhere in the middle, that is a reason to work it through rather than a reason to wait. Start with <a href="/practice/sb-26-189-compliance-checklist.html">the compliance checklist</a>, and see <a href="does-colorado-ai-law-apply-small-business.html">the coverage article</a> for why company size does not resolve it. If placing yourself is not obvious, I would welcome the chance to work through it with you.</p>
+
+        <div class="faq-block">
+          <h2>Common questions</h2>
+        <h3>What is the difference between a deployer and a developer under Colorado SB 26-189?</h3>
+        <p>A deployer is a person doing business in Colorado that deploys covered automated decision-making technology, meaning they use it in a consequential decision. A developer is a person doing business in Colorado that develops, offers, sells, leases, licenses, or otherwise makes a covered ADMT commercially available; develops a component designed or contracted to be used as part of a covered ADMT; or intentionally and substantially modifies an ADMT such that it becomes a covered ADMT. Critically, a person who develops and uses an ADMT solely for internal purposes, and does not make it available to another person for use in a consequential decision, is excluded from the developer definition. Deployer obligations center on notice, human review, and recordkeeping. Developer obligations center on disclosure and documentation that lets deployers comply.</p>
+        <h3>Can a business be both a deployer and a developer?</h3>
+        <p>Yes, but less often than people assume. A company that builds a tool and uses it only internally is not a developer, because SB 26-189 excludes a person that develops and uses an ADMT for internal purposes and does not make it available to another person for use in a consequential decision. That company is simply a deployer. The genuine both case is a company that licenses or otherwise makes a scoring product commercially available to others while also using it in its own operations. There the two sets of obligations apply independently and do not merge.</p>
+        <h3>Does customizing an AI tool make me a developer under Colorado law?</h3>
+        <p>Less often than people assume. SB 26-189 defines intentional and substantial modification as a deliberate change to an ADMT that results in a material change to the system&rsquo;s intended, documented, advertised, configured, or contracted use. The test is whether you changed what the system is for, not how extensively you tuned it. Fine-tuning a hiring tool to perform better on your own hiring does not obviously change its intended use. Repurposing a marketing tool into a tenant screening tool does. Separately, a person who develops and uses an ADMT solely for internal purposes, without making it available to others for use in a consequential decision, is excluded from the developer definition entirely.</p>
+        <h3>If I license an AI tool, does the developer&rsquo;s compliance cover me?</h3>
+        <p>No. Deployer obligations attach to the business deploying the technology. Licensing does not transfer them. The developer&rsquo;s disclosures are what let you meet your own duties, but the duties remain yours.</p>
+        <h3>Is a Colorado software company a developer if it does not consider itself an AI company?</h3>
+        <p>If the product processes personal data and produces predictions, recommendations, classifications, rankings, or scores, and customers use those outputs in education enrollment or an education opportunity; employment or an employment opportunity that creates or may create an employer-employee relationship; the lease or purchase of residential real estate in Colorado; a financial or lending service; insurance, including underwriting, pricing, coverage, and claims adjudication; health-care services; and essential government services and public benefits, including eligibility and renewal determinations decisions, the statute can reach it regardless of how the company describes itself. What the software does is the test, not how it is marketed.</p>
+        </div>
+
+        <div class="reg-status">
+          <h4>Regulatory status as of August 1, 2026</h4>
+          <p>This describes what the statute says. The Colorado Attorney General has not yet promulgated rules under SB 26-189, and the rules will matter.</p>
+          <p>The statute requires the Attorney General to adopt rules clarifying the post-adverse-outcome disclosure requirements on or before January 1, 2027, the same day the law takes effect. The Attorney General&rsquo;s office published a pre-rulemaking considerations paper in June 2026 and accepted informal public comment through July 13, 2026. That paper asked broader questions than the statutory mandate requires, including whether the regulations should further clarify what counts as automated decision-making technology, what &ldquo;materially influence&rdquo; means, and which decisions are &ldquo;consequential.&rdquo; Formal notice-and-comment rulemaking, with draft regulations and at least one public hearing, is expected to begin in late summer 2026.</p>
+          <p>Those are the definitions this page relies on. Expect the rules to add specificity, and in some areas to change how these terms apply in practice. Anything here should be treated as the statutory baseline rather than a final answer, and revisited once the rules issue.</p>
+          <p class="asof">General information, not legal advice. No attorney-client relationship is created by reading this page.</p>
+        </div>
+        <div class="legal-disc">
+          <h4>Legal disclaimer</h4>
+          <p>This page is for general informational purposes only and does not constitute legal advice. The discussion above is a simplified summary of Colorado SB 26-189 and is not a substitute for a complete legal analysis of your specific situation. Laws and regulations change, and key terms under SB 26-189 remain subject to Attorney General rulemaking. To understand your actual compliance obligations, consult with qualified legal counsel. Nothing on this page creates an attorney-client relationship between you and Hoog Law or Michael Hoog.</p>
+        </div>
+
+      </div>
+
+      <aside class="article-sidebar">
+        <div class="sidebar-card">
+          <h3>Questions?</h3>
+          <p>Michael Hoog works personally with every client. If this article raised questions about your own situation, he is glad to talk it through.</p>
+          <a class="btn-sidebar" href="/contact.html">Schedule a Consultation</a>
+        </div>
+        <div class="sidebar-card sidebar-related">
+          <h3>Related Reading</h3>
+          <a href="does-colorado-ai-law-apply-small-business.html">Does Colorado&rsquo;s AI Law Apply to My Small Business?</a>
+          <a href="ai-vendor-contracts-colorado.html">What to Ask Your AI Vendor Before January</a>
+          <a href="sb-26-189-notice-requirements.html">What the Required Notices Actually Have to Say</a>
+          <a href="/practice/ai-governance-compliance-longmont.html">AI Governance &amp; Compliance</a>
+        </div>
+      </aside>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand">Hoog Law</div>
+        <div class="footer-tagline">Sophisticated counsel. Focused practice. Genuine relationships.</div>
+      </div>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/practice-areas.html">Practice Areas</a>
+        <a href="/ai-compliance/">AI Compliance</a>
+        <a href="/insights/">Insights</a>
+        <a href="/from-the-bench/">From the Bench</a>
+        <a href="/contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <p>&copy; 2026 Hoog Law Group, LLC. All rights reserved.</p>
+      <p style="margin-top:0.35rem;">Attorney advertising. The information on this website is for general informational purposes only and does not constitute legal advice or create an attorney-client relationship. Prior results do not guarantee similar outcomes.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  window.addEventListener('scroll', () => {
+    document.getElementById('site-nav').classList.toggle('scrolled', window.scrollY > 20);
+  });
+</script>
+</body>
+</html>

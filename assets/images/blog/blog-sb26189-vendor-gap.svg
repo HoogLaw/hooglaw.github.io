@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="346" viewBox="0 0 660 346" role="img" aria-label="The vendor information gap under Colorado SB 26-189: the deployer owes the disclosure but the vendor holds the explanation, and the contract is the only bridge between them.">
+<defs>
+  <linearGradient id="hdr4" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#2D1F6E"/><stop offset="1" stop-color="#4B3BAF"/>
+  </linearGradient>
+  <style>
+    .s{font-family:'Segoe UI',Arial,Helvetica,sans-serif}
+    .kick{font-size:8.5px;font-weight:700;letter-spacing:2.6px;fill:#C9A96E}
+    .ttl{font-size:17px;font-weight:700;fill:#ffffff}
+    .sub{font-size:9px;fill:rgba(255,255,255,0.72)}
+    .role{font-size:8.4px;font-weight:700;letter-spacing:1.6px;fill:#C9A96E}
+    .who{font-size:13px;font-weight:700;fill:#ffffff}
+    .has{font-size:8.3px;fill:rgba(255,255,255,0.85)}
+    .gap{font-size:9.6px;font-weight:700;fill:#C9A96E;letter-spacing:1.4px}
+    .gapb{font-size:8.2px;fill:#6B7291}
+    .sect{font-size:8.4px;font-weight:700;letter-spacing:1.8px;fill:#2D1F6E}
+    .ask{font-size:8.3px;fill:#3C4256}
+    .foot{font-size:7.6px;fill:#6B7291}
+  </style>
+</defs>
+
+<rect width="660" height="346" fill="#F7F8FC"/>
+<rect width="660" height="54" fill="url(#hdr4)"/>
+<text class="s kick" x="20" y="20">COLORADO SB 26-189</text>
+<text class="s ttl" x="20" y="40">The vendor information gap</text>
+<text class="s sub" x="640" y="24" text-anchor="end">Licensing does not transfer the duty.</text>
+<text class="s sub" x="640" y="38" text-anchor="end">Effective January 1, 2027.</text>
+
+<rect x="20" y="70" width="244" height="94" rx="7" fill="#2D1F6E"/>
+<text class="s role" x="36" y="90">YOU, THE DEPLOYER</text>
+<text class="s who" x="36" y="110">Owe the disclosure</text>
+<text class="s has" x="36" y="128"><tspan x="36">Within 30 days you must describe,</tspan><tspan x="36" dy="11">in plain language, the role the</tspan><tspan x="36" dy="11">technology played in the decision.</tspan></text>
+
+<rect x="396" y="70" width="244" height="94" rx="7" fill="#4B3BAF"/>
+<text class="s role" x="412" y="90">YOUR VENDOR</text>
+<text class="s who" x="412" y="110">Holds the explanation</text>
+<text class="s has" x="412" y="128"><tspan x="412">What the model weighed, what data</tspan><tspan x="412" dy="11">it used, why this applicant ranked</tspan><tspan x="412" dy="11">where they did. You cannot see it.</tspan></text>
+
+<line x1="270" y1="102" x2="330" y2="102" stroke="#C5CAD9" stroke-width="2" stroke-dasharray="5 4"/>
+<line x1="360" y1="102" x2="390" y2="102" stroke="#C5CAD9" stroke-width="2" stroke-dasharray="5 4"/>
+<text class="s gap" x="330" y="98" text-anchor="middle">THE GAP</text>
+<text class="s gapb" x="330" y="122" text-anchor="middle"><tspan x="330">Standard SaaS terms</tspan><tspan x="330" dy="10.5">do not close it.</tspan></text>
+
+<path d="M264 138 L330 158 L396 138" fill="none" stroke="#C9A96E" stroke-width="2"/>
+<rect x="242" y="168" width="176" height="24" rx="12" fill="#C9A96E"/>
+<text class="s" x="330" y="184" text-anchor="middle" font-size="9.4" font-weight="700" fill="#2D1F6E">THE CONTRACT IS THE BRIDGE</text>
+
+<line x1="20" y1="208" x2="640" y2="208" stroke="#E3E7F2"/>
+<text class="s sect" x="20" y="228">WHAT TO ASK FOR, BEFORE RENEWAL</text>
+
+<g>
+  <rect x="20"  y="238" width="200" height="34" rx="5" fill="#ffffff" stroke="#E3E7F2"/>
+  <text class="s ask" x="32" y="252">Per-decision explainability,</text>
+  <text class="s ask" x="32" y="264">delivered inside 30 days</text>
+
+  <rect x="230" y="238" width="200" height="34" rx="5" fill="#ffffff" stroke="#E3E7F2"/>
+  <text class="s ask" x="242" y="252">Access to the personal data</text>
+  <text class="s ask" x="242" y="264">used, and a correction path</text>
+
+  <rect x="440" y="238" width="200" height="34" rx="5" fill="#ffffff" stroke="#E3E7F2"/>
+  <text class="s ask" x="452" y="252">Support for human review,</text>
+  <text class="s ask" x="452" y="264">including an override</text>
+
+  <rect x="20"  y="278" width="200" height="34" rx="5" fill="#ffffff" stroke="#E3E7F2"/>
+  <text class="s ask" x="32" y="292">Advance notice of material</text>
+  <text class="s ask" x="32" y="304">changes to the model</text>
+
+  <rect x="230" y="278" width="200" height="34" rx="5" fill="#ffffff" stroke="#E3E7F2"/>
+  <text class="s ask" x="242" y="292">A carve-out from</text>
+  <text class="s ask" x="242" y="304">confidentiality for disclosures</text>
+
+  <rect x="440" y="278" width="200" height="34" rx="5" fill="#ffffff" stroke="#E3E7F2"/>
+  <text class="s ask" x="452" y="292">Cooperation on a timeline</text>
+  <text class="s ask" x="452" y="304">during a 60-day cure period</text>
+</g>
+
+<text class="s foot" x="20" y="332">Renewal is when a vendor has the most reason to accommodate you.</text>
+<text class="s foot" x="640" y="332" text-anchor="end">hooglaw.com</text>
+</svg>

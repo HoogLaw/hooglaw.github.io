@@ -1,11 +1,1 @@
-﻿{
-  "version": "0.0.1",
-  "configurations": [
-    {
-      "name": "hooglaw-preview",
-      "runtimeExecutable": "npx",
-      "runtimeArgs": ["serve", "-p", "4200", "."],
-      "port": 4200
-    }
-  ]
-}
+﻿{"version":"0.0.1","configurations":[{"name":"Hoog Law Site","runtimeExecutable":"npx","runtimeArgs":["serve","-p","4455","-s","."],"port":4455}]}

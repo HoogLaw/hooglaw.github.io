@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="346" viewBox="0 0 660 346" role="img" aria-label="Colorado SB 26-189 notice sequence: pre-use notice before the decision, the adverse outcome that starts the clock, the adverse outcome notice within thirty days, consumer rights on request, and three years of records.">
+<defs>
+  <linearGradient id="hdr2" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#2D1F6E"/>
+    <stop offset="1" stop-color="#4B3BAF"/>
+  </linearGradient>
+  <style>
+    .s{font-family:'Segoe UI',Arial,Helvetica,sans-serif}
+    .kick{font-size:8.5px;font-weight:700;letter-spacing:2.6px;fill:#C9A96E}
+    .ttl{font-size:17px;font-weight:700;fill:#ffffff}
+    .sub{font-size:9px;fill:rgba(255,255,255,0.72)}
+    .stage{font-size:8.4px;font-weight:700;letter-spacing:1.5px;fill:#2D1F6E}
+    .ch{font-size:9.4px;font-weight:700;fill:#2D1F6E}
+    .cb{font-size:8.1px;fill:#3C4256}
+    .mut{font-size:8.1px;fill:#6B7291}
+    .clock{font-size:9px;font-weight:700;fill:#C9A96E;letter-spacing:0.8px}
+    .foot{font-size:7.6px;fill:#6B7291}
+    .rl{font-size:8.4px;font-weight:700;letter-spacing:1.9px;fill:#2D1F6E}
+  </style>
+</defs>
+
+<rect width="660" height="346" fill="#F7F8FC"/>
+<rect width="660" height="54" fill="url(#hdr2)"/>
+<text class="s kick" x="20" y="20">COLORADO SB 26-189</text>
+<text class="s ttl" x="20" y="40">What you owe, and when</text>
+<text class="s sub" x="640" y="24" text-anchor="end">Deployer obligations.</text>
+<text class="s sub" x="640" y="38" text-anchor="end">Effective January 1, 2027.</text>
+
+<line x1="90" y1="106" x2="570" y2="106" stroke="#C5CAD9" stroke-width="2"/>
+<path d="M568 102 L578 106 L568 110 Z" fill="#C5CAD9"/>
+
+<text class="s clock" x="330" y="90" text-anchor="middle">30-DAY CLOCK</text>
+<line x1="250" y1="96" x2="410" y2="96" stroke="#C9A96E" stroke-width="2"/>
+<line x1="250" y1="92" x2="250" y2="100" stroke="#C9A96E" stroke-width="2"/>
+<line x1="410" y1="92" x2="410" y2="100" stroke="#C9A96E" stroke-width="2"/>
+
+<circle cx="90"  cy="106" r="7" fill="#4B3BAF"/>
+<circle cx="250" cy="106" r="7" fill="#2D1F6E"/>
+<circle cx="410" cy="106" r="7" fill="#4B3BAF"/>
+<circle cx="570" cy="106" r="7" fill="#4B3BAF"/>
+
+<text class="s stage" x="90"  y="130" text-anchor="middle">BEFORE USE</text>
+<text class="s stage" x="250" y="130" text-anchor="middle">THE DECISION</text>
+<text class="s stage" x="410" y="130" text-anchor="middle">WITHIN 30 DAYS</text>
+<text class="s stage" x="570" y="130" text-anchor="middle">ON REQUEST</text>
+
+<rect x="20"  y="140" width="140" height="118" rx="6" fill="#ffffff" stroke="#E3E7F2"/>
+<rect x="180" y="140" width="140" height="118" rx="6" fill="#ffffff" stroke="#C9A96E"/>
+<rect x="340" y="140" width="140" height="118" rx="6" fill="#ffffff" stroke="#E3E7F2"/>
+<rect x="500" y="140" width="140" height="118" rx="6" fill="#ffffff" stroke="#E3E7F2"/>
+
+<text class="s ch" x="32" y="160">Pre-use notice</text>
+<text class="s cb" x="32" y="176"><tspan x="32">Clear and conspicuous,</tspan><tspan x="32" dy="10.5">given before the tool</tspan><tspan x="32" dy="10.5">influences the decision.</tspan><tspan x="32" dy="10.5">Include instructions for</tspan><tspan x="32" dy="10.5">getting more information.</tspan></text>
+<text class="s mut" x="32" y="238"><tspan x="32">A prominent public notice</tspan><tspan x="32" dy="10.5">near the transaction works.</tspan></text>
+
+<text class="s ch" x="192" y="160">Adverse outcome</text>
+<text class="s cb" x="192" y="176"><tspan x="192">Denies, terminates,</tspan><tspan x="192" dy="10.5">revokes, or materially</tspan><tspan x="192" dy="10.5">reduces access. Or gives</tspan><tspan x="192" dy="10.5">materially less favorable</tspan><tspan x="192" dy="10.5">terms than similarly</tspan><tspan x="192" dy="10.5">situated consumers get.</tspan></text>
+<text class="s mut" x="192" y="248">The clock starts here.</text>
+
+<text class="s ch" x="352" y="160">Outcome notice</text>
+<text class="s cb" x="352" y="176"><tspan x="352">Plain-language account of</tspan><tspan x="352" dy="10.5">the role the tool played.</tspan><tspan x="352" dy="10.5">A simple-to-follow process</tspan><tspan x="352" dy="10.5">to request more detail.</tspan><tspan x="352" dy="10.5">An explanation of rights.</tspan></text>
+<text class="s mut" x="352" y="238"><tspan x="352">Naming the tool is not a</tspan><tspan x="352" dy="10.5">description of its role.</tspan></text>
+
+<text class="s ch" x="512" y="160">Consumer rights</text>
+<text class="s cb" x="512" y="176"><tspan x="512">Correct personal data that</tspan><tspan x="512" dy="10.5">is factually incorrect or</tspan><tspan x="512" dy="10.5">materially inaccurate.</tspan><tspan x="512" dy="10.5">Meaningful human review</tspan><tspan x="512" dy="10.5">and reconsideration.</tspan></text>
+<text class="s mut" x="512" y="238"><tspan x="512">To the extent commercially</tspan><tspan x="512" dy="10.5">reasonable.</tspan></text>
+
+<rect x="20" y="272" width="620" height="46" rx="6" fill="#ffffff" stroke="#E3E7F2"/>
+<rect x="20" y="272" width="4" height="46" rx="2" fill="#4B3BAF"/>
+<text class="s rl" x="36" y="290">AND FOR AT LEAST THREE YEARS AFTER THE DECISION</text>
+<text class="s cb" x="36" y="306">Retain documentation of compliance: the notices sent, when they went out, requests received, what you did, and the outcome.</text>
+
+<text class="s foot" x="640" y="337" text-anchor="end">Statutory baseline. Attorney General rulemaking pending. hooglaw.com</text>
+</svg>
