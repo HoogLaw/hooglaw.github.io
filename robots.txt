@@ -32,4 +32,4 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-Sitemap: https://www.hooglaw.com/sitemap.xml
+Sitemap: https://hooglaw.com/sitemap.xml
