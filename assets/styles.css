@@ -106,7 +106,7 @@ p:last-child { margin-bottom: 0; }
 #site-nav.scrolled { box-shadow: 0 4px 20px rgba(0,0,0,0.10); }
 .nav-inner {
   display: flex; align-items: center; justify-content: space-between;
-  height: 140px;
+  height: 96px;
 }
 .nav-logo {
   display: flex; align-items: center;
