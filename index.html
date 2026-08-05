@@ -227,8 +227,6 @@
   .nav-hamburger span { display: block; width: 22px; height: 2px; background: var(--navy); border-radius: 2px; transition: all var(--transition); }
 
   /* ─── PAGE SECTIONS (single-page) ────────────────────────────────── */
-  .page-section { display: none; }
-  .page-section.active { display: block; }
 
   /* ─── HERO ────────────────────────────────────────────────────────── */
   .hero {
@@ -516,9 +514,9 @@
 ════════════════════════════════════════════════════ -->
 <nav id="site-nav">
   <div class="container nav-inner">
-    <div class="nav-logo" onclick="showPage(&#39;home&#39;)" style="cursor:pointer;">
+    <a class="nav-logo" href="/" style="cursor:pointer;display:block;" aria-label="Hoog Law home">
       <img src="/assets/images/logo.png" alt="Hoog Law" style="height:80px;width:auto;display:block;">
-    </div>
+    </a>
     <div class="nav-links" id="nav-links">
       <a href="/about.html" data-nav="about">About</a>
       <a href="/practice-areas.html" data-nav="practice">Practice Areas</a>
@@ -534,10 +532,6 @@
   </div>
 </nav>
 
-<!-- ═══════════════════════════════════════════════════
-     PAGE: HOME
-════════════════════════════════════════════════════ -->
-<div id="page-home" class="page-section active">
 
   <!-- Hero -->
   <section class="hero">
@@ -547,7 +541,7 @@
       <p class="hero-sub">Business law and estate planning attorney serving Longmont and the Front Range, every matter handled personally by Michael Hoog, from first conversation to final signature.</p>
       <div class="hero-btns">
         <a href="/contact.html" class="btn btn--primary">Schedule a Consultation</a>
-        <button class="btn btn--outline-light" onclick="showPage(&#39;practice&#39;)">Our Practice Areas</button>
+        <a href="/practice-areas.html" class="btn btn--outline-light">Our Practice Areas</a>
       </div>
       <div class="hero-cards">
         <div class="hero-card">
@@ -573,7 +567,7 @@
         <div class="divider"></div>
         <p>Hoog Law is a Longmont-based firm focused exclusively on business and corporate law and estate planning.</p>
         <p>That focus is a choice. That focus is also a standard. Hoog Law brings decades of high-stakes counsel to every matter. That foundation, built advising businesses and organizations through their most consequential decisions, shapes how every engagement is approached: with rigor, precision, and a clear understanding of what is actually at stake.</p>
-        <button class="btn btn--outline-navy" onclick="showPage(&#39;about&#39;)" style="margin-top:1.25rem;">Learn About Our Firm</button>
+        <a href="/about.html" class="btn btn--outline-navy" style="margin-top:1.25rem;">Learn About Our Firm</a>
       </div>
       <div class="stats-grid">
         <div class="stat-item">
@@ -609,13 +603,13 @@
           <div class="practice-card-icon">🏢</div>
           <h3>Business &amp; Corporate Law</h3>
           <p>Entity formation, operating agreements, contracts, mergers &amp; acquisitions, business succession, and ongoing corporate counsel for companies of all sizes.</p>
-          <div class="card-link" onclick="showPage(&#39;practice&#39;)">Explore Services →</div>
+          <a class="card-link" href="/practice-areas.html#business">Explore Services →</a>
         </div>
         <div class="practice-card">
           <div class="practice-card-icon">🏛️</div>
           <h3>Estate Planning &amp; Trusts</h3>
           <p>Wills, revocable and irrevocable trusts, powers of attorney, healthcare directives, trust administration, and comprehensive plans that protect your legacy.</p>
-          <div class="card-link" onclick="showPage(&#39;practice&#39;)">Explore Services →</div>
+          <a class="card-link" href="/practice-areas.html#estate">Explore Services →</a>
         </div>
       </div>
     </div>
@@ -630,7 +624,7 @@
         <div class="divider"></div>
         <p>Longmont has grown into one of Colorado’s most distinctive cities: a genuine local economy, a strong entrepreneurial culture, and families putting down real roots. The businesses and individuals we serve here are building something worth protecting.</p>
         <p>Michael Hoog has lived and practiced here throughout his career. He knows this community the way you know a place you’ve actually lived, not as a market, but as home.</p>
-        <button class="btn btn--outline-navy" onclick="showPage(&#39;bio&#39;)" style="margin-top:1.25rem;">Meet Michael Hoog</button>
+        <a href="/michael-hoog.html" class="btn btn--outline-navy" style="margin-top:1.25rem;">Meet Michael Hoog</a>
       </div>
       <div class="where-map-placeholder" style="padding:0;overflow:hidden;height:auto;display:block;background:none;border:none;">
         <img src="/assets/images/downtown-longmont.jpg" alt="Downtown Longmont" style="width:100%;height:280px;object-fit:cover;object-position:center;border-radius:var(--radius-lg);display:block;">
@@ -649,441 +643,10 @@
     </div>
   </section>
 
-</div><!-- /page-home -->
 
-<!-- ═══════════════════════════════════════════════════
-     PAGE: ABOUT
-════════════════════════════════════════════════════ -->
-<div id="page-about" class="page-section">
 
-  <div class="page-header">
-    <div class="container">
-      <p class="breadcrumb">About Hoog Law</p>
-      <h1>Experienced. Focused.<br>Personal.</h1>
-      <p class="lead">A focused practice in business law and estate planning, built on the conviction that depth of experience produces better counsel than breadth of coverage.</p>
-    </div>
-  </div>
 
-  <!-- Our Story -->
-  <section class="about-story section">
-    <div class="container">
-      <div>
-        <span class="overline">Our Story</span>
-        <h2>Built Around a Simple Conviction</h2>
-        <div class="divider"></div>
-        <p>Hoog Law was built around a simple conviction: depth of experience produces better counsel. As a business law and estate planning attorney in Longmont, Colorado, Hoog Law concentrates in two areas because focused expertise produces better work, and better work produces better outcomes. That depth is rooted in decades of corporate and transactional practice, and it directly shapes the estate planning work, where business owners need counsel who understands both sides of the equation.</p>
-        <p>Michael Hoog grew up here and raised a family here, and the clients he serves are doing the same. They’re building companies, protecting assets, and planning for their families. Hoog Law provides experienced, personal counsel designed to help their businesses, their families, and this community thrive.</p>
 
-        <h3 style="margin-top:2rem;margin-bottom:0.75rem;">Our Approach</h3>
-        <p>The starting point is always what you are actually trying to accomplish, not just the legal question on the surface. A contract drafted well protects you. An entity structured correctly saves money for years. An estate plan done right spares your family avoidable expense and conflict. Every matter gets the attention it deserves.</p>
-        <p>Every matter receives direct, personal attention from day one, the analysis, the drafting, the advice. There are no junior associates. You work with one attorney, from first call to final signature.</p>
-      </div>
-      <div class="about-story-aside">
-        <span class="overline">Our Values</span>
-        <h3 style="margin-bottom:1.25rem;">What We Stand For</h3>
-        <ul class="values-list">
-          <li class="value-item">
-            <div class="value-icon">🎯</div>
-            <div>
-              <strong>Depth over breadth</strong>
-              <p>Hoog Law concentrates in two areas because focused practice produces better work. The judgment brought to your matter is built on decades of high-stakes legal experience, and a deliberate commitment to the clients and matters accepted.</p>
-            </div>
-          </li>
-          <li class="value-item">
-            <div class="value-icon">💬</div>
-            <div>
-              <strong>Direct, honest counsel</strong>
-              <p>If your deal has a problem, you will hear about it. If your plan needs rethinking, that conversation happens.</p>
-            </div>
-          </li>
-          <li class="value-item">
-            <div class="value-icon">⭐</div>
-            <div>
-              <strong>Personal attention on every matter</strong>
-              <p>Every matter is handled personally, from first conversation to final signature. Every matter is handled personally, start to finish.</p>
-            </div>
-          </li>
-          <li class="value-item">
-            <div class="value-icon">📞</div>
-            <div>
-              <strong>Responsive communication</strong>
-              <p>Prompt responses and clear communication throughout. Legal questions do not wait for convenient moments. Neither does this office.</p>
-            </div>
-          </li>
-          <li class="value-item">
-            <div class="value-icon">🔍</div>
-            <div>
-              <strong>Rigorous attention to detail</strong>
-              <p>Vague language and overlooked provisions in contracts and estate plans create real problems down the road. The details get the attention they deserve.</p>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- CTA -->
-  <section class="cta-band section--sm">
-    <div class="container text-center">
-      <span class="overline">Take the Next Step</span>
-      <h2>Let’s Talk About Your Situation</h2>
-      <p>Confidential consultations. No obligation, no pressure.</p>
-      <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
-        <a href="/contact.html" class="btn btn--primary">Schedule a Consultation</a>
-        <button class="btn btn--outline-navy" onclick="showPage(&#39;bio&#39;)">Meet Michael Hoog</button>
-      </div>
-    </div>
-  </section>
-
-</div><!-- /page-about -->
-
-<!-- ═══════════════════════════════════════════════════
-     PAGE: PRACTICE AREAS
-════════════════════════════════════════════════════ -->
-<div id="page-practice" class="page-section">
-
-  <div class="page-header">
-    <div class="container">
-      <p class="breadcrumb">Practice Areas</p>
-      <h1>Two Areas. One Attorney.<br>Your Entire Matter.</h1>
-      <p class="lead">Two focused practice areas. One attorney who knows them deeply and handles your matter personally.</p>
-    </div>
-  </div>
-
-  <!-- Business Law -->
-  <section class="pa-section">
-    <div class="container">
-      <div class="pa-section-header">
-        <span class="overline">Practice Area 01</span>
-        <h2>Business &amp; Corporate Law</h2>
-        <div class="divider"></div>
-        <p>Hoog Law counsels business owners, entrepreneurs, and companies across the entire arc of business life, from entity formation to exit strategy. Good legal counsel at each stage is about building something structurally sound from the beginning, not just avoiding problems after they surface.</p>
-        <p>Many clients engage Hoog Law as outside general counsel, working with an attorney who knows your business, your agreements, and your goals, and who you can call before problems arise, not just after.</p>
-      </div>
-      <div class="service-grid">
-        <div class="service-card">
-          <h4>Entity Formation &amp; Structure</h4>
-          <p>LLC formation, corporations, partnerships, and professional entities, Hoog Law helps you choose and form the right business structure for your goals and risk profile. Getting the entity right from the start avoids problems that are much harder to fix later.</p>
-          <a class="service-link" href="practice/llc-formation-attorney-longmont.html">Learn More →</a>
-        </div>
-        <div class="service-card">
-          <h4>Operating &amp; Shareholder Agreements</h4>
-          <p>Carefully drafted LLC operating agreements and shareholder agreements that define ownership rights, management responsibilities, and decision-making processes from day one. Colorado's default rules were not written for your business, your agreement should be.</p>
-          <a class="service-link" href="practice/operating-agreements-longmont.html">Learn More →</a>
-        </div>
-        <div class="service-card">
-          <h4>Commercial Contracts</h4>
-          <p>Vendor agreements, service contracts, NDAs, employment agreements, and custom commercial arrangements, drafted to reflect your actual deal and protect your interests.</p>
-          <a class="service-link" href="practice/commercial-contracts-attorney-longmont.html">Learn More →</a>
-        </div>
-        <div class="service-card">
-          <h4>AI Governance &amp; Compliance</h4>
-          <p>Colorado SB 26-189, the Automated Decision-Making Technology in Consequential Decisions Act, takes effect January 1, 2027, and there is no small business exemption. If software scores, ranks, or classifies people in your hiring, lending, housing, insurance, healthcare, or education decisions, you are likely a deployer. Hoog Law helps you confirm coverage and build the notices, human review process, and records the law requires.</p>
-          <a class="service-link" href="/ai-compliance/">AI Compliance Resources →</a>
-        </div>
-        <div class="service-card">
-          <h4>Mergers &amp; Acquisitions</h4>
-          <p>Buying or selling a business involves legal considerations that can make or break the deal. Hoog Law guides you through due diligence, deal structure, and the documentation that makes the transaction hold.</p>
-        </div>
-        <div class="service-card">
-          <h4>Business Succession Planning</h4>
-          <p>Business succession planning covers the full range of transitions, retirement, incapacity, or death, whether ownership passes to family members, partners, or outside buyers. Most owners wait too long. The best options require time to implement.</p>
-          <a class="service-link" href="practice/business-succession-planning-longmont.html">Learn More →</a>
-        </div>
-        <div class="service-card">
-          <h4>Outside General Counsel</h4>
-          <p>For growing businesses without in-house legal staff, Hoog Law serves as ongoing counsel, reviewing contracts, advising on governance, and flagging issues before they become disputes.</p>
-          <a class="service-link" href="practice/outside-general-counsel-longmont.html">Learn More →</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Estate Planning -->
-  <section class="pa-section">
-    <div class="container">
-      <div class="pa-section-header">
-        <span class="overline">Practice Area 02</span>
-        <h2>Estate Planning &amp; Trusts</h2>
-        <div class="divider"></div>
-        <p>A good estate plan does more than direct where your assets go when you die. It names the people who make decisions on your behalf if you become incapacitated, protects minor children, keeps assets out of probate, and spares your family from having to navigate any of it without guidance from you.</p>
-        <p>For most families, a trust-based plan provides meaningfully better protection than a will alone. A will still has to go through probate, public, time-consuming, and more expensive than most people expect. A properly funded trust avoids all of that.</p>
-        <p>For business owners, estate planning and business planning are deeply connected. Hoog Law handles both.</p>
-      </div>
-      <div class="service-grid">
-        <div class="service-card">
-          <h4>Wills</h4>
-          <p>A foundational document directing distribution of your assets, naming guardians for minor children, and designating an executor to administer your estate.</p>
-          <a class="service-link" href="practice/wills-attorney-longmont.html">Learn More →</a>
-        </div>
-        <div class="service-card">
-          <h4>Revocable Living Trusts</h4>
-          <p>A revocable living trust in Colorado avoids probate entirely, keeps your affairs private, and provides a clear mechanism for managing assets if you become incapacitated. For most families with a home and meaningful assets, a trust-based plan provides better protection than a will alone.</p>
-          <a class="service-link" href="practice/trust-attorney-longmont.html">Learn More →</a>
-        </div>
-        <div class="service-card">
-          <h4>Irrevocable Trusts &amp; Complex Structures</h4>
-          <p>Hoog Law works with your financial advisors and, where a matter calls for it, specialist co-counsel, to make sure the right expertise is applied. The goal is a clean, complete plan without gaps.</p>
-        </div>
-        <div class="service-card">
-          <h4>Powers of Attorney</h4>
-          <p>Powers of attorney in Colorado are among the most important documents in any estate plan. Durable financial and healthcare powers of attorney ensure trusted individuals can act on your behalf when you cannot, and must be drafted carefully to be accepted by banks and healthcare providers.</p>
-          <a class="service-link" href="practice/power-of-attorney-longmont.html">Learn More →</a>
-        </div>
-        <div class="service-card">
-          <h4>Healthcare Directives</h4>
-          <p>A living will tells your family and doctors your wishes in an end-of-life situation, removing an extraordinarily difficult decision from the people you love most.</p>
-          <a class="service-link" href="practice/healthcare-directive-longmont.html">Learn More →</a>
-        </div>
-        <div class="service-card">
-          <h4>Trust Administration &amp; Probate</h4>
-          <p>Guidance for trustees, personal representatives, and beneficiaries navigating estate and trust administration, ensuring the process is handled properly and in accordance with the governing documents.</p>
-          <a class="service-link" href="practice/probate-attorney-longmont.html">Learn More →</a>
-        </div>
-        <div class="service-card">
-          <h4>Special Needs Trusts</h4>
-          <p>A special needs trust allows you to leave assets for a child or family member with a disability without disqualifying them from government benefits. Getting the structure right from the start is essential.</p>
-          <a class="service-link" href="practice/special-needs-trust-attorney-colorado.html">Learn More →</a>
-        </div>
-      </div>
-
-      <div class="business-owner-callout">
-        <div class="callout-icon">💼</div>
-        <div>
-          <h4>A Note for Business Owners</h4>
-          <p>If you own a business, your estate plan and your business succession plan need to work together. How your ownership interest is held, what your operating agreement says about transfer at death, and how that interest is valued for estate tax purposes are all questions that affect both documents. Hoog Law handles both sides of that equation, which means the plan actually holds together.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CTA -->
-  <section class="cta-band section--sm">
-    <div class="container text-center">
-      <span class="overline">Ready to Begin?</span>
-      <h2>Schedule a Confidential Consultation</h2>
-      <p>A straightforward conversation about your situation. No obligation.</p>
-      <a href="/contact.html" class="btn btn--primary">Contact Us Today</a>
-    </div>
-  </section>
-
-</div><!-- /page-practice -->
-
-<!-- ═══════════════════════════════════════════════════
-     PAGE: ATTORNEY BIO
-════════════════════════════════════════════════════ -->
-<div id="page-bio" class="page-section">
-
-  <div class="page-header">
-    <div class="container">
-      <p class="breadcrumb">Attorney Profile</p>
-      <h1>Michael Hoog</h1>
-      <p class="lead">Longmont Attorney | Business &amp; Corporate Law | Estate Planning for Business Owners &amp; Families</p>
-    </div>
-  </div>
-
-  <section class="bio-layout section">
-    <div class="container">
-
-      <!-- LEFT COLUMN: bio content (2/3) -->
-      <div class="bio-main">
-
-        <!-- Headshot: compact portrait -->
-        <div style="margin-bottom:1.75rem;">
-          <img src="/assets/images/michael-hoog.jpg" alt="Michael Hoog" style="width:200px;border-radius:10px;box-shadow:0 6px 24px rgba(45,31,110,0.2);display:block;">
-        </div>
-
-        <!-- Background -->
-        <div class="bio-section">
-          <span class="overline">Background &amp; Experience</span>
-          <h3>A Career Built on Complex Counsel</h3>
-          <div class="divider"></div>
-          <p>After graduating from the University of North Carolina at Chapel Hill with a degree in Political Science, Michael pursued professional baseball with the Atlanta Braves organization. Faced with the daunting challenge of breaking into a rotation that included Hall of Famers Tom Glavine, Greg Maddux, and John Smoltz, and with some not so subtle encouragement from manager Bobby Cox and general manager John Schuerholz to perhaps seek another career, he returned to Colorado and enrolled at the University of Colorado School of Law.</p>
-          <p>Michael launched his legal career at Patton Boggs LLP, now Squire Patton Boggs, one of the most prominent and politically connected law firms in the country. There he counseled technology, environmental, and public-sector clients on legal strategy, regulatory matters, and complex multi-stakeholder initiatives. He subsequently became a partner at Seman, Hoog &amp; Powell, LLC, concentrating in corporate and regulatory law.</p>
-          <p>His work navigating complex regulatory and transactional matters across multiple stakeholders drew him into a broader advisory role. Over time, Michael was engaged as outside communications counsel to national and international organizations facing consequential, high-profile situations, experience that sharpened his instincts for how business leaders think, how boards make decisions, and what business owners are genuinely worried about when they pick up the phone. That perspective shapes his legal practice today.</p>
-          <p>In 2011, that perspective became personal. Michael's son suffered a serious injury that required a special needs trust to provide for his long-term care, and for the first time, Michael found himself on the other side of the table, not as counsel but as a father trying to protect someone he loved. That experience sparked a serious interest in estate planning and shaped the perspective he brings to it today. Thirty years of legal experience told him what the documents needed to say. Being on the other side of the table told him what was actually at stake.</p>
-        </div>
-
-        <!-- Longmont -->
-        <div class="bio-section">
-          <span class="overline">Community</span>
-          <h3>Rooted in Longmont</h3>
-          <div class="divider"></div>
-          <p>Michael grew up in Longmont and has remained rooted in the community throughout his career. He served as head football coach at Skyline High School for ten years, coached youth football and baseball in Longmont, and mentored student-athletes at the University of Colorado. The establishment of Hoog Law is, in many ways, the natural culmination of that commitment, a practice built to serve the people and businesses he has spent a lifetime alongside.</p>
-        </div>
-
-        <!-- Baseball Photo -->
-        <div class="bio-section">
-          <figure style="margin:0;max-width:200px;">
-            <img src="/assets/images/michael-baseball-1986.jpg" alt="Michael Hoog pitching" style="width:100%;border-radius:8px;box-shadow:0 4px 16px rgba(45,31,110,0.15);display:block;">
-            <figcaption style="margin-top:0.5rem;font-size:0.75rem;color:var(--text-muted);font-style:italic;">Niwot circa 1986</figcaption>
-          </figure>
-        </div>
-
-      </div><!-- /bio-main -->
-
-      <!-- RIGHT COLUMN: sidebar info (1/3) -->
-      <div>
-        <div class="bio-sidebar">
-          <h4>Bar Admissions &amp; Memberships</h4>
-          <ul>
-            <li>State of Colorado</li>
-            <li>Colorado Bar Association</li>
-            <li>Boulder County Bar Association</li>
-          </ul>
-
-          <h4>Education</h4>
-          <ul>
-            <li>University of Colorado School of Law, J.D.</li>
-            <li>University of North Carolina at Chapel Hill, B.A., Political Science</li>
-          </ul>
-
-          <h4>Practice Areas</h4>
-          <ul>
-            <li>Business &amp; Corporate Law</li>
-            <li>Entity Formation &amp; Governance</li>
-            <li>Commercial Contracts</li>
-            <li>Mergers &amp; Acquisitions</li>
-            <li>Business Succession</li>
-            <li>Estate Planning</li>
-            <li>Trusts &amp; Trust Administration</li>
-            <li>Powers of Attorney</li>
-          </ul>
-
-          <h4>Community &amp; Civic</h4>
-          <ul>
-            <li>Christopher &amp; Dana Reeve Foundation, Board of Directors</li>
-            <li>American Heritage Rivers Advisory Committee, Presidential Appointee</li>
-            <li>Colorado Council on the Arts, Governor’s Appointee</li>
-            <li>Arts for Colorado, Founding Chair</li>
-            <li>Longmont native</li>
-          </ul>
-
-          <div class="bio-focus">
-            <p>A career counseling business leaders and major organizations through complex, high-stakes matters, and a personal experience that made estate planning anything but abstract, led to a deliberate focus on two areas: business and corporate law, and estate planning.</p>
-          </div>
-        </div>
-
-        <div style="margin-top:1.5rem;">
-          <a href="/contact.html" class="btn btn--primary" style="width:100%;justify-content:center;">Schedule a Consultation</a>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-</div><!-- /page-bio -->
-
-<!-- ═══════════════════════════════════════════════════
-     PAGE: CONTACT
-════════════════════════════════════════════════════ -->
-<div id="page-contact" class="page-section">
-
-  <div class="page-header">
-    <div class="container">
-      <p class="breadcrumb">Contact Us</p>
-      <h1>Let’s Start a Conversation</h1>
-      <p class="lead">Hoog Law welcomes inquiries from individuals and businesses in Longmont, Boulder County, and across the Front Range. Reach out to schedule a confidential initial consultation with Michael Hoog.</p>
-    </div>
-  </div>
-
-  <section class="contact-layout section">
-    <div class="container">
-      <div>
-        <span class="overline">Send Us a Message</span>
-        <h2 style="margin-bottom:0.5rem;">Get in Touch</h2>
-        <div class="divider"></div>
-        <form class="contact-form" onsubmit="handleFormSubmit(event)">
-          <div class="form-row">
-            <div class="form-group">
-              <label for="first-name">First Name</label>
-              <input type="text" id="first-name" placeholder="Jane" required="">
-            </div>
-            <div class="form-group">
-              <label for="last-name">Last Name</label>
-              <input type="text" id="last-name" placeholder="Smith" required="">
-            </div>
-          </div>
-          <div class="form-row">
-            <div class="form-group">
-              <label for="email">Email Address</label>
-              <input type="email" id="email" placeholder="jane@example.com" required="">
-            </div>
-            <div class="form-group">
-              <label for="phone">Phone Number</label>
-              <input type="tel" id="phone" placeholder="(720) 000-0000">
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="matter-type">Matter Type</label>
-            <select id="matter-type">
-              <option value="">Please select…</option>
-              <option>Business &amp; Corporate Law</option>
-              <option>Estate Planning &amp; Trusts</option>
-              <option>Business Succession Planning</option>
-              <option>Other / Not Sure Yet</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="message">Your Message</label>
-            <textarea id="message" rows="6" placeholder="Please briefly describe what you’d like to discuss…" required=""></textarea>
-          </div>
-          <div class="form-disclaimer">
-            Submitting this form does not create an attorney-client relationship. Please do not include confidential information in your initial message. Michael Hoog will respond within one business day.
-          </div>
-          <button type="submit" class="btn btn--primary" style="align-self:flex-start;">Send Message →</button>
-          <div id="form-success" style="display:none;padding:1rem 1.25rem;background:#EDF7ED;border-radius:var(--radius);color:#2E6B30;font-size:0.9rem;font-weight:500;">
-            Thank you for reaching out. We’ll be in touch within one business day.
-          </div>
-        </form>
-      </div>
-
-      <div>
-        <div class="contact-info-card">
-          <h3>Office Information</h3>
-
-          <div class="contact-detail">
-            <div class="contact-detail-icon">📍</div>
-            <div>
-              <div class="contact-detail-label">Address</div>
-              <div class="contact-detail-value">338 Main Street<br>Longmont, CO 80501</div>
-            </div>
-          </div>
-
-          <div class="contact-detail">
-            <div class="contact-detail-icon">📞</div>
-            <div>
-              <div class="contact-detail-label">Phone</div>
-              <div class="contact-detail-value"><a href="tel:7203408850">(720) 340-8850</a></div>
-            </div>
-          </div>
-
-          <div class="contact-detail">
-            <div class="contact-detail-icon">✉️</div>
-            <div>
-              <div class="contact-detail-label">Email</div>
-              <div class="contact-detail-value"><a href="mailto:info@hooglaw.com">info@hooglaw.com</a></div>
-            </div>
-          </div>
-
-          <div class="contact-detail">
-            <div class="contact-detail-icon">🕐</div>
-            <div>
-              <div class="contact-detail-label">Office Hours</div>
-              <div class="contact-detail-value">Monday – Friday<br>8:30 a.m. – 5:30 p.m.<br><span style="color:rgba(255,255,255,0.55);font-size:0.82rem;">Evenings &amp; weekends by appointment</span></div>
-            </div>
-          </div>
-
-          <div class="service-area">
-            <div class="contact-detail-label" style="margin-bottom:0.4rem;">Service Area</div>
-            <p>Hoog Law serves clients throughout Longmont, Boulder, Niwot, Erie, Frederick, Firestone, Dacono, Louisville, Lafayette, Broomfield, and the broader Boulder County Front Range. In-person, phone, and video consultations are available.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-</div><!-- /page-contact -->
 
 <!-- ═══════════════════════════════════════════════════
      FOOTER
@@ -1097,10 +660,10 @@
         <div style="margin-top:0.85rem;font-size:0.74rem;color:rgba(255,255,255,0.4);line-height:1.6;max-width:520px;">Serving Longmont, Boulder, Niwot, Berthoud, Mead, Erie, Frederick, Firestone, Dacono, Lafayette, Louisville, and Broomfield from our Longmont office at 338 Main Street, Longmont, CO 80501. <a href="tel:+17203408850" style="color:rgba(255,255,255,0.55);">(720) 340-8850</a></div>
       </div>
       <div class="footer-links">
-        <a onclick="showPage(&#39;home&#39;)">Home</a>
-        <a onclick="showPage(&#39;about&#39;)">About</a>
-        <a onclick="showPage(&#39;practice&#39;)">Practice Areas</a>
-        <a onclick="showPage(&#39;bio&#39;)">Michael Hoog</a>
+        <a href="/">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/practice-areas.html">Practice Areas</a>
+        <a href="/michael-hoog.html">Michael Hoog</a>
         <a href="/insights/">Insights</a>
         <a href="/from-the-bench/">From the Bench</a>
         <a href="/faq.html">FAQ</a>
@@ -1116,27 +679,6 @@
 
 <script>
   /* ─── PAGE NAVIGATION ─────────────────────────────── */
-  function showPage(id) {
-    document.querySelectorAll('.page-section').forEach(el => el.classList.remove('active'));
-    const target = document.getElementById('page-' + id);
-    if (target) target.classList.add('active');
-    document.querySelectorAll('.nav-links a[data-page]').forEach(a => {
-      a.classList.toggle('active', a.dataset.page === id);
-    });
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-    document.getElementById('nav-links').classList.remove('open');
-    return false;
-  }
-
-  /* ─── NAV LINK CLICK HANDLER ──────────────────────── */
-  document.addEventListener('DOMContentLoaded', function() {
-    document.querySelectorAll('.nav-links a[data-page]').forEach(a => {
-      a.addEventListener('click', function(e) {
-        e.preventDefault();
-        showPage(this.dataset.page);
-      });
-    });
-  });
 
   /* ─── STICKY NAV SHADOW ───────────────────────────── */
   window.addEventListener('scroll', () => {
