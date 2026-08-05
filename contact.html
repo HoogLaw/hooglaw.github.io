@@ -161,10 +161,15 @@
           <label for="message">Your Message</label>
           <textarea id="message" name="message" rows="6" placeholder="Please briefly describe what you’d like to discuss..." required></textarea>
         </div>
-        <div class="form-disclaimer">
-          Submitting this form does not create an attorney-client relationship. Please do not include confidential information in your initial message. Hoog Law will respond within one business day.
+        <div class="form-ack">
+          <input type="checkbox" id="ack-box" required>
+          <label for="ack-box" id="ack-text">I understand that submitting this form does not create an attorney-client relationship, and that I should not include confidential information in my initial message.</label>
         </div>
-        <button type="submit" id="submit-btn" class="btn btn--primary" style="align-self:flex-start;">Send Message &rarr;</button>
+        <div class="form-disclaimer">
+          Hoog Law will respond within one business day.
+        </div>
+        <input type="hidden" id="ack-record" name="Acknowledgment">
+        <button type="submit" id="submit-btn" class="btn btn--primary" style="align-self:flex-start;" disabled>Send Message &rarr;</button>
       </form>
       <div id="form-success" style="display:none;margin-top:1.5rem;padding:1.25rem 1.5rem;background:#e8f5e9;border-left:4px solid #2e7d32;border-radius:4px;color:#1b5e20;font-size:0.95rem;">
         Thank you — your message has been received. Hoog Law will be in touch within one business day.
@@ -246,10 +251,23 @@
 </footer>
 
 <script>
+  /* Acknowledgment gate — Send stays disabled until the box is checked */
+  var ackBox = document.getElementById('ack-box');
+  var sendBtn = document.getElementById('submit-btn');
+  ackBox.addEventListener('change', function() { sendBtn.disabled = !ackBox.checked; });
+
   /* Contact form — Formspree AJAX */
   document.getElementById('contact-form').addEventListener('submit', function(e) {
     e.preventDefault();
     if (document.getElementById('gotcha-field').value) return; // honeypot
+    if (!ackBox.checked) return;
+    /* Record the acknowledgment in the submitted payload. The displayed text is read
+       from the DOM so the record always reflects the wording actually shown. */
+    var now = new Date();
+    document.getElementById('ack-record').value =
+      'CHECKED at ' + now.toISOString() + ' (UTC) / ' +
+      now.toLocaleString() + ' local to sender. Text displayed: "' +
+      document.getElementById('ack-text').textContent.trim() + '"';
     var btn = document.getElementById('submit-btn');
     btn.disabled = true;
     btn.textContent = 'Sending…';

@@ -85,6 +85,10 @@ p:last-child { margin-bottom: 0; }
   background: var(--gold); color: var(--navy);
 }
 .btn--primary:hover { background: #D9B97E; transform: translateY(-1px); box-shadow: 0 6px 20px rgba(201,169,110,0.35); }
+.btn:disabled, .btn:disabled:hover {
+  background: var(--mid-gray); color: var(--white); cursor: not-allowed;
+  transform: none; box-shadow: none;
+}
 .btn--outline-light {
   background: transparent; color: var(--white);
   border: 1.5px solid rgba(255,255,255,0.55);
@@ -391,6 +395,12 @@ p:last-child { margin-bottom: 0; }
   border-color: var(--purple); box-shadow: 0 0 0 3px rgba(75,59,175,0.1);
 }
 .form-disclaimer { font-size: 0.78rem; color: var(--text-muted); line-height: 1.6; padding-top: 0.25rem; }
+.form-ack { display: flex; gap: 0.65rem; align-items: flex-start; padding-top: 0.25rem; }
+.form-ack input[type="checkbox"] {
+  flex-shrink: 0; width: 16px; height: 16px; margin: 0.15rem 0 0;
+  accent-color: var(--purple); cursor: pointer;
+}
+.form-ack label { font-size: 0.78rem; color: var(--text-muted); line-height: 1.6; cursor: pointer; }
 .contact-info-card {
   background: #2D1F6E; color: var(--white);
   border-radius: var(--radius-lg); padding: 2.25rem; position: sticky; top: 90px;
