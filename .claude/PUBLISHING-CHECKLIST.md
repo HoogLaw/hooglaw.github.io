@@ -8,9 +8,12 @@ a link. Removing the `noindex` is the act of publishing.
 
 | Publish date | File | Headline |
 |---|---|---|
-| September 1, 2026 | `insights/llc-operating-agreement.html` | What Your LLC Operating Agreement Should and Should Not Do |
-| October 1, 2026 | `insights/when-need-lawyer-contract.html` | When Do You Actually Need a Lawyer to Review a Contract? |
 | November 1, 2026 | `insights/business-succession.html` | Business Succession: The Thing Most Owners Never Plan For |
+
+Published October 9, 2026: `llc-operating-agreement.html` (Sept slot) and
+`when-need-lawyer-contract.html` (Oct slot).
+
+Always use the apex domain (`https://hooglaw.com`), never `www`.
 
 ## Publish day: four steps
 
@@ -32,7 +35,7 @@ grep -n "SCHEDULED-NOINDEX\|noindex" insights/THE-FILE.html
 
 ```xml
 <url>
-  <loc>https://www.hooglaw.com/insights/THE-FILE.html</loc>
+  <loc>https://hooglaw.com/insights/THE-FILE.html</loc>
   <lastmod>YYYY-MM-DD</lastmod>
   <changefreq>yearly</changefreq>
   <priority>0.7</priority>
@@ -48,7 +51,7 @@ tile pattern from the SB 26-189 card rather than pointing at a missing file.
 Then commit and push. Confirm the live page returns no `noindex`:
 
 ```bash
-curl -s https://www.hooglaw.com/insights/THE-FILE.html | grep -c noindex
+curl -s https://hooglaw.com/insights/THE-FILE.html | grep -c noindex
 ```
 
 That should print `0`.
