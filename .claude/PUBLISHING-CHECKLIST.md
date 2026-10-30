@@ -8,7 +8,10 @@ a link. Removing the `noindex` is the act of publishing.
 
 | Publish date | File | Headline |
 |---|---|---|
-| November 1, 2026 | `insights/business-succession.html` | Business Succession: The Thing Most Owners Never Plan For |
+| December 1, 2026 | `insights/business-succession.html` | Business Succession: The Thing Most Owners Never Plan For |
+
+Published October 30, 2026 (November slot): `ai-compliance/colorado-ai-law-enforcement-stay-final-rules.html`,
+listed on the AI hub and the Insights index. Business succession moved to December.
 
 Published October 9, 2026: `llc-operating-agreement.html` (Sept slot) and
 `when-need-lawyer-contract.html` (Oct slot).
