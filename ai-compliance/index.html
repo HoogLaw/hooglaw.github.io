@@ -70,7 +70,7 @@
   "@type": "ItemList",
   "name": "Colorado AI Compliance Articles",
   "itemListOrder": "https://schema.org/ItemListOrderAscending",
-  "numberOfItems": 8,
+  "numberOfItems": 9,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -119,6 +119,12 @@
       "position": 8,
       "name": "Two Years of Regulatory Whiplash: Where Colorado AI Compliance Stands",
       "url": "https://hooglaw.com/insights/colorado-ai-compliance-sb-26-189.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "name": "Colorado's Chatbot Safety Act: What It Requires and Who It Covers",
+      "url": "https://hooglaw.com/ai-compliance/colorado-chatbot-safety-act-hb-26-1263.html"
     }
   ]
 }
@@ -167,6 +173,14 @@
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "No. An executive order signed December 11, 2025 directed the Department of Justice to establish an AI Litigation Task Force to challenge state AI laws and named Colorado's SB 24-205 specifically, which led to the xAI constitutional challenge and a stipulated order that limits enforcement of that statute and the law that replaced it. But an executive order cannot preempt state law on its own; preemption requires congressional action. The Great American AI Act, released June 2026 as a discussion draft, would pause state laws regulating AI model development and as drafted does not reach laws regulating use or deployment. SB 26-189 regulates deployment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Colorado regulate AI chatbots?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, separately from SB 26-189. HB 26-1263, the Chatbot Safety Act, takes effect January 1, 2027 and applies to operators of general-purpose conversational AI and companion apps offered to Colorado residents. It requires AI disclosure, a self-harm protocol, age estimation and protections for minors, and an annual report to the Attorney General. Most customer service and single-purpose bots are exempt."
       }
     }
   ]
@@ -284,6 +298,25 @@
     .fact .big{font-family:'Raleway',sans-serif;font-size:1.5rem;font-weight:900;color:var(--navy);line-height:1.1;}
     .fact .lbl{font-size:0.78rem;color:var(--text-muted);margin-top:0.3rem;line-height:1.5;}
     @media(max-width:768px){.hub-grid{grid-template-columns:1fr;}}
+    .law-notice{background:#FFF6E3;border-top:3px solid var(--gold);border-bottom:1px solid #E8D9B8;padding:1.15rem 0;}
+    .law-notice-inner{max-width:1100px;margin:0 auto;padding:0 2rem;font-size:1.05rem;line-height:1.6;color:var(--text-body);}
+    .law-notice strong{color:var(--navy);}
+    .law-notice a{color:var(--purple);font-weight:700;white-space:nowrap;}
+    .law-notice a:hover{color:var(--gold);}
+    .second-law{padding:3.5rem 0 1rem;scroll-margin-top:150px;}
+    .second-law-panel{display:grid;grid-template-columns:1.25fr 1fr;gap:2.5rem;align-items:center;background:var(--white);border:1px solid var(--light-gray);border-top:4px solid var(--gold);border-radius:var(--radius-lg);padding:2.25rem;box-shadow:0 2px 8px rgba(45,31,110,0.08);}
+    .second-law .kicker{font-size:0.7rem;font-weight:700;letter-spacing:0.13em;text-transform:uppercase;color:var(--gold);margin-bottom:0.6rem;}
+    .second-law h2{font-size:1.5rem;margin-bottom:0.75rem;}
+    .second-law p{font-size:0.96rem;line-height:1.7;margin-bottom:1rem;}
+    .second-law ul{list-style:none;padding:0;margin:0 0 1.1rem;}
+    .second-law li{position:relative;padding-left:1.1rem;font-size:0.92rem;line-height:1.55;margin-bottom:0.4rem;}
+    .second-law li::before{content:"";position:absolute;left:0;top:0.6em;width:6px;height:6px;border-radius:50%;background:var(--gold);}
+    .second-law-panel>*{min-width:0;}
+    .second-law-graphic{display:block;}
+    .second-law-graphic img{width:100%;max-width:100%;height:auto;border-radius:var(--radius);box-shadow:0 6px 24px rgba(45,31,110,0.12);}
+    .btn-law{display:inline-block;background:var(--navy);color:var(--white);font-size:0.78rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;padding:0.8rem 1.4rem;border-radius:var(--radius);transition:background var(--transition),color var(--transition);}
+    .btn-law:hover{background:var(--gold);color:var(--navy);}
+    @media(max-width:900px){.second-law-panel{grid-template-columns:1fr;padding:1.5rem;gap:1.5rem;}}
       .reg-status{background:#FFFBF2;border:1px solid #E8D9B8;border-left:4px solid var(--gold);border-radius:0 var(--radius-lg) var(--radius-lg) 0;padding:1.35rem 1.5rem;margin:2.5rem 0 0;}
     .reg-status h4{font-family:'Raleway',sans-serif;font-size:0.82rem;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;color:var(--navy);margin:0 0 0.6rem;}
     .reg-status p{font-size:0.88rem;line-height:1.7;color:var(--text-body);margin:0 0 0.7rem;}
@@ -339,6 +372,10 @@
   </div>
 </div>
 
+<div class="law-notice">
+  <div class="law-notice-inner"><strong>Also taking effect January 1, 2027:</strong> Colorado&rsquo;s Chatbot Safety Act (HB 26-1263), a separate law for businesses that offer AI chatbots. <a href="#chatbot-safety-act">See the chatbot law &darr;</a></div>
+</div>
+
 <section class="content-section" style="padding-bottom:2rem;">
   <div class="container">
     <div class="body-content" style="max-width:800px;">
@@ -371,6 +408,7 @@
         <li class="done"><span class="when">December 11, 2025</span><span class="what">Executive order directs DOJ to establish an AI Litigation Task Force to challenge state AI laws. Colorado&rsquo;s law is the only one named.</span></li>
         <li class="done"><span class="when">April 2026</span><span class="what">xAI files a constitutional challenge. DOJ intervenes April 24. The court stays enforcement April 27.</span></li>
         <li class="done"><span class="when">May 14, 2026</span><span class="what">Governor Polis signs SB 26-189, repealing and reenacting the statute as the ADMT Act.</span></li>
+        <li class="done"><span class="when">May 29, 2026</span><span class="what">Governor Polis signs HB 26-1263, the <a href="colorado-chatbot-safety-act-hb-26-1263.html">Chatbot Safety Act</a>, a separate law for AI chatbot operators.</span></li>
         <li class="done"><span class="when">June 2026</span><span class="what">The Great American AI Act is released as a federal discussion draft. Its preemption provision targets model development, not deployment.</span></li>
         <li class="done"><span class="when">August 11, 2026</span><span class="what">The Attorney General files proposed ADMT and Chatbot Safety rules, 4 CCR 904-6, with the Secretary of State.</span></li>
         <li class="done"><span class="when">October 6, 2026</span><span class="what">The Department releases an interim draft that defines &ldquo;materially influence&rdquo; using the narrower of its two proposed standards.</span></li>
@@ -463,6 +501,27 @@
   </div>
 </div>
 
+<section class="second-law" id="chatbot-safety-act">
+  <div class="container">
+    <div class="second-law-panel">
+      <div>
+        <div class="kicker">A separate law &nbsp;&middot;&nbsp; HB 26-1263</div>
+        <h2>Colorado&rsquo;s Chatbot Safety Act</h2>
+        <p>SB 26-189 governs decisions software makes about people. The Chatbot Safety Act governs conversations software has with them. Starting January 1, 2027, a business that offers a general-purpose AI chatbot or companion app to Colorado residents must:</p>
+        <ul>
+          <li>Disclose that users are talking to AI</li>
+          <li>Run a protocol for users at risk of self-harm</li>
+          <li>Estimate users&rsquo; ages and protect minors</li>
+          <li>Report to the Attorney General each year, starting July 1, 2027</li>
+        </ul>
+        <p>Most customer service and single-purpose bots are exempt. Companion apps are not.</p>
+        <a class="btn-law" href="colorado-chatbot-safety-act-hb-26-1263.html">Read the chatbot law guide &rarr;</a>
+      </div>
+      <a class="second-law-graphic" href="colorado-chatbot-safety-act-hb-26-1263.html"><img src="/assets/images/blog/blog-hb261263-chatbot-coverage.svg" width="660" height="346" loading="lazy" alt="Is your chatbot covered: a flowchart of who Colorado&rsquo;s Chatbot Safety Act reaches and who is exempt"></a>
+    </div>
+  </div>
+</section>
+
 <section class="content-section">
   <div class="container">
     <div class="content-layout">
@@ -478,6 +537,8 @@
         <p>The work generally starts with an inventory of tools that score, rank, or classify people, followed by a coverage analysis under the statute, drafting the required pre-use and adverse outcome notices, designing a meaningful human review process, reviewing vendor agreements to secure the information the notices require, and setting up three-year recordkeeping.</p>
         <h3>Has federal action preempted Colorado's AI law?</h3>
         <p>No. An executive order signed December 11, 2025 directed the Department of Justice to establish an AI Litigation Task Force to challenge state AI laws and named Colorado's SB 24-205 specifically, which led to the xAI constitutional challenge and a stipulated order that limits enforcement of that statute and the law that replaced it. But an executive order cannot preempt state law on its own; preemption requires congressional action. The Great American AI Act, released June 2026 as a discussion draft, would pause state laws regulating AI model development and as drafted does not reach laws regulating use or deployment. SB 26-189 regulates deployment.</p>
+        <h3>Does Colorado regulate AI chatbots?</h3>
+        <p>Yes, separately from SB 26-189. HB 26-1263, the Chatbot Safety Act, takes effect January 1, 2027 and applies to operators of general-purpose conversational AI and companion apps offered to Colorado residents. It requires AI disclosure, a self-harm protocol, age estimation and protections for minors, and an annual report to the Attorney General. Most customer service and single-purpose bots are exempt. <a href="colorado-chatbot-safety-act-hb-26-1263.html">More on the Chatbot Safety Act</a>.</p>
       </div>
       <aside>
         <div class="sidebar-card">

@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="346" viewBox="0 0 660 346" role="img" aria-label="Is your chatbot covered by Colorado's Chatbot Safety Act: offered to the public, simulates conversation, and fits no exemption means covered. Companionship designs lose the school and embedded feature exemptions.">
+<defs>
+  <linearGradient id="hdr7" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#2D1F6E"/>
+    <stop offset="1" stop-color="#4B3BAF"/>
+  </linearGradient>
+  <style>
+    .s{font-family:'Segoe UI',Arial,Helvetica,sans-serif}
+    .kick{font-size:8.5px;font-weight:700;letter-spacing:2.6px;fill:#C9A96E}
+    .ttl{font-size:17px;font-weight:700;fill:#ffffff}
+    .sub{font-size:9px;fill:rgba(255,255,255,0.72)}
+    .ch{font-size:9.4px;font-weight:700;fill:#2D1F6E}
+    .cb{font-size:8.1px;fill:#3C4256}
+    .mut{font-size:8.1px;fill:#6B7291}
+    .yn{font-size:7.6px;font-weight:700;fill:#C9A96E;letter-spacing:1.2px}
+    .foot{font-size:7.6px;fill:#6B7291}
+    .rl{font-size:8.4px;font-weight:700;letter-spacing:1.9px;fill:#2D1F6E}
+  </style>
+</defs>
+
+<rect width="660" height="346" fill="#F7F8FC"/>
+<rect width="660" height="54" fill="url(#hdr7)"/>
+<text class="s kick" x="20" y="20">COLORADO HB 26-1263</text>
+<text class="s ttl" x="20" y="40">Is your chatbot covered?</text>
+<text class="s sub" x="640" y="24" text-anchor="end">The Chatbot Safety Act, C.R.S. 6-1-1710.</text>
+<text class="s sub" x="640" y="38" text-anchor="end">Operator duties begin January 1, 2027.</text>
+
+<!-- question boxes -->
+<rect x="20"  y="74" width="130" height="92" rx="6" fill="#ffffff" stroke="#E3E7F2"/>
+<rect x="175" y="74" width="130" height="92" rx="6" fill="#ffffff" stroke="#E3E7F2"/>
+<rect x="330" y="74" width="130" height="92" rx="6" fill="#ffffff" stroke="#E3E7F2"/>
+<rect x="490" y="74" width="150" height="188" rx="6" fill="#ffffff" stroke="#C9A96E" stroke-width="1.5"/>
+
+<text class="s ch" x="30" y="94">Open to the public?</text>
+<text class="s cb" x="30" y="110"><tspan x="30">Offered to consumers,</tspan><tspan x="30" dy="10.5">not internal only and</tspan><tspan x="30" dy="10.5">not built for developers.</tspan></text>
+
+<text class="s ch" x="185" y="94">Simulates conversation?</text>
+<text class="s cb" x="185" y="110"><tspan x="185">Adaptive text, voice, or</tspan><tspan x="185" dy="10.5">images that mimic</tspan><tspan x="185" dy="10.5">human conversation.</tspan></text>
+
+<text class="s ch" x="340" y="94">Fits an exemption?</text>
+<text class="s cb" x="340" y="110"><tspan x="340">Twelve statutory</tspan><tspan x="340" dy="10.5">exemptions, read with</tspan><tspan x="340" dy="10.5">draft Rule 9.</tspan></text>
+
+<!-- right arrows -->
+<line x1="150" y1="130" x2="170" y2="130" stroke="#C5CAD9" stroke-width="2"/>
+<path d="M168 126 L176 130 L168 134 Z" fill="#C5CAD9"/>
+<text class="s yn" x="162" y="122" text-anchor="middle">YES</text>
+<line x1="305" y1="130" x2="325" y2="130" stroke="#C5CAD9" stroke-width="2"/>
+<path d="M323 126 L331 130 L323 134 Z" fill="#C5CAD9"/>
+<text class="s yn" x="317" y="122" text-anchor="middle">YES</text>
+<line x1="460" y1="130" x2="484" y2="130" stroke="#C5CAD9" stroke-width="2"/>
+<path d="M482 126 L490 130 L482 134 Z" fill="#C5CAD9"/>
+<text class="s yn" x="474" y="122" text-anchor="middle">NO</text>
+
+<!-- down arrows -->
+<line x1="85"  y1="166" x2="85"  y2="200" stroke="#C5CAD9" stroke-width="2"/>
+<path d="M81 198 L85 206 L89 198 Z" fill="#C5CAD9"/>
+<text class="s yn" x="92" y="188">NO</text>
+<line x1="240" y1="166" x2="240" y2="200" stroke="#C5CAD9" stroke-width="2"/>
+<path d="M236 198 L240 206 L244 198 Z" fill="#C5CAD9"/>
+<text class="s yn" x="247" y="188">NO</text>
+<line x1="395" y1="166" x2="395" y2="200" stroke="#C5CAD9" stroke-width="2"/>
+<path d="M391 198 L395 206 L399 198 Z" fill="#C5CAD9"/>
+<text class="s yn" x="402" y="188">YES</text>
+
+<!-- off-ramps -->
+<rect x="20"  y="206" width="130" height="56" rx="6" fill="#EEF0F7" stroke="#E3E7F2"/>
+<rect x="175" y="206" width="130" height="56" rx="6" fill="#EEF0F7" stroke="#E3E7F2"/>
+<rect x="330" y="206" width="130" height="56" rx="6" fill="#EEF0F7" stroke="#E3E7F2"/>
+
+<text class="s ch" x="30" y="224">Not covered</text>
+<text class="s mut" x="30" y="239"><tspan x="30">Internal, research, and</tspan><tspan x="30" dy="10.5">developer tools.</tspan></text>
+
+<text class="s ch" x="185" y="224">Not covered</text>
+<text class="s mut" x="185" y="239"><tspan x="185">Not a conversational</tspan><tspan x="185" dy="10.5">AI service.</tspan></text>
+
+<text class="s ch" x="340" y="224">Exempt</text>
+<text class="s mut" x="340" y="239"><tspan x="340">Support, commerce,</tspan><tspan x="340" dy="10.5">narrow tasks, and more.</tspan></text>
+
+<!-- covered -->
+<text class="s ch" x="502" y="94">Covered</text>
+<text class="s cb" x="502" y="110">Duties from January 1, 2027:</text>
+<text class="s cb" x="502" y="128"><tspan x="502">AI disclosure</tspan><tspan x="502" dy="15">Self-harm protocol</tspan><tspan x="502" dy="15">No professional claims</tspan><tspan x="502" dy="15">Age estimation</tspan><tspan x="502" dy="15">Minor safeguards</tspan></text>
+<text class="s mut" x="502" y="215"><tspan x="502">Annual report to the</tspan><tspan x="502" dy="10.5">Attorney General from</tspan><tspan x="502" dy="10.5">July 1, 2027.</tspan></text>
+
+<rect x="20" y="276" width="620" height="46" rx="6" fill="#ffffff" stroke="#E3E7F2"/>
+<rect x="20" y="276" width="4" height="46" rx="2" fill="#4B3BAF"/>
+<text class="s rl" x="36" y="294">THE COMPANIONSHIP CAVEAT</text>
+<text class="s cb" x="36" y="310">Built for companionship or emotional dependence? The school and embedded feature exemptions do not apply.</text>
+
+<text class="s foot" x="640" y="337" text-anchor="end">Reflects the October 6, 2026 interim draft rules, not yet final. hooglaw.com</text>
+</svg>
