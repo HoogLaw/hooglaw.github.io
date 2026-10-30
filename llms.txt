@@ -48,6 +48,7 @@ Hoog Law advises Colorado businesses on compliance with Colorado SB 26-189, sign
 - [What Colorado's AI Notices Actually Have to Say](https://hooglaw.com/ai-compliance/sb-26-189-notice-requirements.html): contents and timing of the pre-use notice and the 30-day adverse outcome notice, and what meaningful human review requires
 - [What to Ask Your AI Vendor Before January 2027](https://hooglaw.com/ai-compliance/ai-vendor-contracts-colorado.html): the contract terms Colorado deployers need, and why standard SaaS terms do not provide them
 - [Colorado's Draft ADMT Rules Under SB 26-189](https://hooglaw.com/ai-compliance/colorado-ag-admt-rulemaking-considerations.html): the proposed rules filed August 11, 2026, what the draft adds beyond the statute on notices and human review, the still-undefined coverage term, who owes the notice when a vendor or staffing agency runs the tool, and the comment deadlines
+- [Colorado's AI Law After the October 26 Rulemaking Hearing](https://hooglaw.com/ai-compliance/colorado-ai-law-enforcement-stay-final-rules.html): where the rulemaking stands after the October 26, 2026 hearing, what the October 6 interim draft changed, how long the xAI court order bars enforcement, and how to prepare
 - [What Colorado Businesses Need to Know About AI Compliance and SB 26-189](https://hooglaw.com/insights/colorado-ai-compliance-sb-26-189.html): long-form analysis of the regulatory history, constitutional challenges, and federal picture
 - [Diving Blind: How Colorado Businesses Should Approach AI Governance Right Now](https://hooglaw.com/from-the-bench/diving-blind.html): practical guidance under regulatory uncertainty
 
@@ -81,6 +82,7 @@ Hoog Law advises Colorado businesses on compliance with Colorado SB 26-189, sign
 
 ## Insights (Articles)
 
+- [Colorado's AI Law After the October 26 Rulemaking Hearing](https://hooglaw.com/ai-compliance/colorado-ai-law-enforcement-stay-final-rules.html)
 - [What Colorado Businesses Need to Know About AI Compliance and SB 26-189](https://hooglaw.com/insights/colorado-ai-compliance-sb-26-189.html)
 - [When Do You Actually Need a Lawyer to Review a Contract?](https://hooglaw.com/insights/when-need-lawyer-contract.html)
 - [What Your LLC Operating Agreement Should and Should Not Do](https://hooglaw.com/insights/llc-operating-agreement.html)

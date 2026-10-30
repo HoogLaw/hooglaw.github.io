@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="346" viewBox="0 0 660 346" role="img" aria-label="How long the xAI court order bars enforcement of Colorado's AI law: final adoption of the rules, xAI's motion within 28 days, briefing, the ruling, and fourteen more days. Conduct through that point is covered.">
+<defs>
+  <linearGradient id="hdr6" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#2D1F6E"/>
+    <stop offset="1" stop-color="#4B3BAF"/>
+  </linearGradient>
+  <style>
+    .s{font-family:'Segoe UI',Arial,Helvetica,sans-serif}
+    .kick{font-size:8.5px;font-weight:700;letter-spacing:2.6px;fill:#C9A96E}
+    .ttl{font-size:17px;font-weight:700;fill:#ffffff}
+    .sub{font-size:9px;fill:rgba(255,255,255,0.72)}
+    .stage{font-size:8.4px;font-weight:700;letter-spacing:1.5px;fill:#2D1F6E}
+    .ch{font-size:9.4px;font-weight:700;fill:#2D1F6E}
+    .cb{font-size:8.1px;fill:#3C4256}
+    .mut{font-size:8.1px;fill:#6B7291}
+    .clock{font-size:9px;font-weight:700;fill:#C9A96E;letter-spacing:0.8px}
+    .foot{font-size:7.6px;fill:#6B7291}
+    .rl{font-size:8.4px;font-weight:700;letter-spacing:1.9px;fill:#2D1F6E}
+  </style>
+</defs>
+
+<rect width="660" height="346" fill="#F7F8FC"/>
+<rect width="660" height="54" fill="url(#hdr6)"/>
+<text class="s kick" x="20" y="20">COLORADO SB 26-189 AND THE XAI ORDER</text>
+<text class="s ttl" x="20" y="40">When the enforcement bar runs out</text>
+<text class="s sub" x="640" y="24" text-anchor="end">Stipulated order of April 27, 2026.</text>
+<text class="s sub" x="640" y="38" text-anchor="end">The bar turns on when the conduct occurs.</text>
+
+<text class="s clock" x="300" y="80" text-anchor="middle">ENFORCEMENT BARRED FOR CONDUCT THROUGH THIS POINT</text>
+<line x1="20" y1="88" x2="582" y2="88" stroke="#C9A96E" stroke-width="2"/>
+<line x1="20" y1="84" x2="20" y2="92" stroke="#C9A96E" stroke-width="2"/>
+<line x1="582" y1="84" x2="582" y2="92" stroke="#C9A96E" stroke-width="2"/>
+
+<line x1="78" y1="106" x2="620" y2="106" stroke="#C5CAD9" stroke-width="2"/>
+<path d="M618 102 L628 106 L618 110 Z" fill="#C5CAD9"/>
+
+<circle cx="78"  cy="106" r="7" fill="#4B3BAF"/>
+<circle cx="204" cy="106" r="7" fill="#4B3BAF"/>
+<circle cx="330" cy="106" r="7" fill="#4B3BAF"/>
+<circle cx="456" cy="106" r="7" fill="#4B3BAF"/>
+<circle cx="582" cy="106" r="7" fill="#2D1F6E"/>
+
+<text class="s stage" x="78"  y="130" text-anchor="middle">FINAL RULES</text>
+<text class="s stage" x="204" y="130" text-anchor="middle">WITHIN 28 DAYS</text>
+<text class="s stage" x="330" y="130" text-anchor="middle">ABOUT 5 WEEKS</text>
+<text class="s stage" x="456" y="130" text-anchor="middle">NO DEADLINE</text>
+<text class="s stage" x="582" y="130" text-anchor="middle">14 DAYS LATER</text>
+
+<rect x="20"  y="140" width="116" height="118" rx="6" fill="#ffffff" stroke="#E3E7F2"/>
+<rect x="146" y="140" width="116" height="118" rx="6" fill="#ffffff" stroke="#E3E7F2"/>
+<rect x="272" y="140" width="116" height="118" rx="6" fill="#ffffff" stroke="#E3E7F2"/>
+<rect x="398" y="140" width="116" height="118" rx="6" fill="#ffffff" stroke="#E3E7F2"/>
+<rect x="524" y="140" width="116" height="118" rx="6" fill="#ffffff" stroke="#C9A96E"/>
+
+<text class="s ch" x="30" y="160">Adoption</text>
+<text class="s cb" x="30" y="176"><tspan x="30">The Attorney General</tspan><tspan x="30" dy="10.5">adopts final rules,</tspan><tspan x="30" dy="10.5">likely in late November</tspan><tspan x="30" dy="10.5">or early December.</tspan></text>
+<text class="s mut" x="30" y="238"><tspan x="30">Starts the 28-day</tspan><tspan x="30" dy="10.5">clock.</tspan></text>
+
+<text class="s ch" x="156" y="160">xAI&#8217;s motion</text>
+<text class="s cb" x="156" y="176"><tspan x="156">xAI files for a</tspan><tspan x="156" dy="10.5">preliminary injunction,</tspan><tspan x="156" dy="10.5">around the turn of</tspan><tspan x="156" dy="10.5">the year.</tspan></text>
+<text class="s mut" x="156" y="238"><tspan x="156">The law takes effect</tspan><tspan x="156" dy="10.5">January 1 regardless.</tspan></text>
+
+<text class="s ch" x="282" y="160">Briefing</text>
+<text class="s cb" x="282" y="176"><tspan x="282">The State responds and</tspan><tspan x="282" dy="10.5">xAI replies on the</tspan><tspan x="282" dy="10.5">court&#8217;s usual</tspan><tspan x="282" dy="10.5">schedule.</tspan></text>
+<text class="s mut" x="282" y="238"><tspan x="282">The United States is</tspan><tspan x="282" dy="10.5">a co-plaintiff.</tspan></text>
+
+<text class="s ch" x="408" y="160">The ruling</text>
+<text class="s cb" x="408" y="176"><tspan x="408">Nothing requires the</tspan><tspan x="408" dy="10.5">court to rule by a</tspan><tspan x="408" dy="10.5">set date.</tspan></text>
+<text class="s mut" x="408" y="238"><tspan x="408">If granted, the bar</tspan><tspan x="408" dy="10.5">continues.</tspan></text>
+
+<text class="s ch" x="534" y="160">Exposure begins</text>
+<text class="s cb" x="534" y="176"><tspan x="534">If the motion is</tspan><tspan x="534" dy="10.5">denied, conduct after</tspan><tspan x="534" dy="10.5">this point can be</tspan><tspan x="534" dy="10.5">enforced.</tspan></text>
+<text class="s mut" x="534" y="238"><tspan x="534">Earlier conduct stays</tspan><tspan x="534" dy="10.5">covered.</tspan></text>
+
+<rect x="20" y="272" width="620" height="46" rx="6" fill="#ffffff" stroke="#E3E7F2"/>
+<rect x="20" y="272" width="4" height="46" rx="2" fill="#4B3BAF"/>
+<text class="s rl" x="36" y="290">WHAT THE ORDER DOES NOT PAUSE</text>
+<text class="s cb" x="36" y="306">The obligations themselves. SB 26-189 takes effect January 1, 2027, whether or not anyone can enforce it yet.</text>
+
+<text class="s foot" x="640" y="337" text-anchor="end">Dates after adoption are estimates. Final rules not yet adopted as of October 30, 2026. hooglaw.com</text>
+</svg>
