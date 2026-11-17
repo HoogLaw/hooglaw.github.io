@@ -59,7 +59,25 @@ curl -s https://hooglaw.com/insights/THE-FILE.html | grep -c noindex
 
 That should print `0`.
 
+**5. Ping IndexNow** once the live page shows no `noindex`. This gets the post into
+Bing (which feeds ChatGPT search and Copilot) within hours:
+
+```bash
+python .claude/_indexnow.py https://hooglaw.com/insights/THE-FILE.html https://hooglaw.com/insights/index.html
+```
+
+Never ping a page that still carries `noindex`. The key file
+`a27562bc38934354975f28cabf8f2b9b.txt` in the site root must stay deployed.
+
 ## Verify before pushing
+
+```bash
+python .claude/_regstatus_check.py
+```
+
+Fails if any of the 11 SB 26-189 regulatory-status blocks has a different date or
+wording. When the status changes, edit `.claude/_regstatus_refresh.py` and rerun it
+rather than hand-editing 11 files.
 
 ```bash
 python -c "import xml.etree.ElementTree as ET; ET.parse('sitemap.xml'); print('sitemap ok')"
@@ -69,7 +87,7 @@ python -c "import xml.etree.ElementTree as ET; ET.parse('sitemap.xml'); print('s
 grep -rc "SCHEDULED-NOINDEX" insights/ | grep -v ':0'
 ```
 
-The second command lists everything still held. It should match the queue table above
+The last command lists everything still held. It should match the queue table above
 minus whatever you just published.
 
 ## House drafting standards
