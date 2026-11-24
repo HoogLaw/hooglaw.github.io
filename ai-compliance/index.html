@@ -360,6 +360,11 @@
     .hub-card.featured{border-top:4px solid var(--gold);}
     @media(max-width:960px){.hero-grid{grid-template-columns:1fr;gap:2rem;}}
     @media(max-width:600px){.page-hero .hero-desc{display:none;}.page-hero .btn-hero{margin-bottom:0;}}
+    .hero-btns{display:flex;flex-wrap:wrap;gap:0.75rem;align-items:center;}
+    .btn-hero-ghost{display:inline-block;border:2px solid rgba(255,255,255,0.75);color:var(--white);font-family:'Montserrat',sans-serif;font-size:0.82rem;font-weight:700;letter-spacing:0.09em;text-transform:uppercase;padding:calc(0.9rem - 2px) 1.5rem;border-radius:var(--radius);transition:background var(--transition),color var(--transition),border-color var(--transition);}
+    .btn-hero-ghost:hover{background:var(--white);color:var(--navy);border-color:var(--white);}
+    .jump-bar .sep{color:var(--mid-gray);margin:0 0.6rem;}
+    #articles,#faq{scroll-margin-top:150px;}
     .hub-credit{position:absolute;right:16px;bottom:10px;z-index:2;font-size:0.62rem;letter-spacing:0.06em;color:rgba(255,255,255,0.55);}
     .legal-disc{background:#ffffff;border:1px solid #E3E7F2;border-radius:var(--radius-lg);padding:1.25rem 1.5rem;margin:1rem 0 0;}
     .legal-disc h4{font-family:'Raleway',sans-serif;font-size:0.78rem;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;color:#6B7291;margin:0 0 0.55rem;}
@@ -396,7 +401,10 @@
         <h1>Colorado&rsquo;s AI Law Takes Effect January 1, 2027</h1>
         <p class="hero-sub">The Attorney General adopted the final rules on November 19, 2026.</p>
         <p class="hero-desc">SB 26-189, the Automated Decision-Making Technology in Consequential Decisions Act, reaches businesses that use software to score, rank, or classify people in hiring, lending, housing, insurance, healthcare, and education decisions. There is no small business exemption.</p>
-        <a class="btn-hero" href="/contact.html">Schedule a Consultation</a>
+        <div class="hero-btns">
+          <a class="btn-hero" href="/contact.html">Schedule a Consultation</a>
+          <a class="btn-hero-ghost" href="#articles">See all AI articles &darr;</a>
+        </div>
       </div>
       <div class="final-panel">
         <div class="fp-flag">New &nbsp;&middot;&nbsp; Final rules adopted November 19</div>
@@ -427,7 +435,7 @@
 </div>
 
 <div class="law-notice">
-  <div class="law-notice-inner"><strong>Also taking effect January 1, 2027:</strong> Colorado&rsquo;s Chatbot Safety Act (HB 26-1263), a separate law for businesses that offer AI chatbots. <a href="#chatbot-safety-act">See the chatbot law &darr;</a></div>
+  <div class="law-notice-inner jump-bar"><strong>Jump to:</strong> <a href="#articles">All AI articles &darr;</a><span class="sep">&middot;</span><a href="#chatbot-safety-act">Chatbot Safety Act &darr;</a><span class="sep">&middot;</span><a href="#faq">Common questions &darr;</a></div>
 </div>
 
 <section class="content-section" style="padding-bottom:2rem;">
@@ -487,7 +495,7 @@
   </div>
 </section>
 
-<div class="start-band">
+<div class="start-band" id="articles">
   <div class="container">
     <h2>Where to start</h2>
     <p>Most businesses cannot name every tool in their operation that scores or ranks people, because those features arrived inside products bought for other reasons. Building that list is the first real task, and everything else follows from it.</p>
@@ -589,7 +597,7 @@
   </div>
 </section>
 
-<section class="content-section">
+<section class="content-section" id="faq">
   <div class="container">
     <div class="content-layout">
       <div class="body-content">
