@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="346" viewBox="0 0 660 346" role="img" aria-label="Where your decisions fall under Colorado's final AI rules: predictably outside, in between, and predictably inside. In all three, not covered is something you prove.">
+<defs>
+  <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#2D1F6E"/>
+    <stop offset="1" stop-color="#4B3BAF"/>
+  </linearGradient>
+  <style>
+    .s{font-family:'Segoe UI',Arial,Helvetica,sans-serif}
+    .kick{font-size:8.5px;font-weight:700;letter-spacing:2.6px;fill:#C9A96E}
+    .ttl{font-size:17px;font-weight:700;fill:#ffffff}
+    .sub{font-size:9px;fill:rgba(255,255,255,0.72)}
+    .gt{font-size:10.5px;font-weight:700;fill:#2D1F6E;letter-spacing:0.4px}
+    .gb{font-size:8.6px;fill:#3C4256}
+    .need{font-size:8.2px;font-weight:700;letter-spacing:1.5px;fill:#8A6A2E}
+    .nb{font-size:8.6px;fill:#2D1F6E;font-weight:600}
+    .band{font-size:10px;font-weight:700;fill:#ffffff}
+    .foot{font-size:7.6px;fill:#6B7291}
+  </style>
+</defs>
+
+<rect width="660" height="346" fill="#F7F8FC"/>
+<rect width="660" height="54" fill="url(#hdr)"/>
+<text class="s kick" x="20" y="20">COLORADO 4 CCR 904-6</text>
+<text class="s ttl" x="20" y="40">Where do your decisions fall?</text>
+<text class="s sub" x="640" y="24" text-anchor="end">Final rules adopted November 19, 2026.</text>
+<text class="s sub" x="640" y="38" text-anchor="end">SB 26-189 takes effect January 1, 2027.</text>
+
+<g>
+  <rect x="20" y="68" width="198" height="208" rx="6" fill="#ffffff" stroke="#E3E7F2"/>
+  <rect x="20" y="68" width="198" height="5" rx="2" fill="#C5CAD9"/>
+  <text class="s gt" x="34" y="94">PREDICTABLY OUTSIDE</text>
+  <text class="s gb" x="34" y="114"><tspan x="34">The tool only organizes or presents</tspan><tspan x="34" dy="11">information for human review of</tspan><tspan x="34" dy="11">administrative processing, the</tspan><tspan x="34" dy="11">decision isn't one the law covers,</tspan><tspan x="34" dy="11">or the scoring is turned off.</tspan></text>
+  <text class="s need" x="34" y="222">WHAT YOU NEED</text>
+  <text class="s nb" x="34" y="238"><tspan x="34">Configuration records, rechecked</tspan><tspan x="34" dy="11">after every vendor update</tspan></text>
+</g>
+
+<g>
+  <rect x="231" y="68" width="198" height="208" rx="6" fill="#ffffff" stroke="#E3E7F2"/>
+  <rect x="231" y="68" width="198" height="5" rx="2" fill="#C9A96E"/>
+  <text class="s gt" x="245" y="94">IN BETWEEN</text>
+  <text class="s gb" x="245" y="114"><tspan x="245">A person sometimes looks past the</tspan><tspan x="245" dy="11">tool and sometimes doesn't. The</tspan><tspan x="245" dy="11">answer turns on the record of</tspan><tspan x="245" dy="11">each decision.</tspan></text>
+  <text class="s need" x="245" y="222">WHAT YOU NEED</text>
+  <text class="s nb" x="245" y="238"><tspan x="245">Written cutoffs or documented</tspan><tspan x="245" dy="11">independent review, decision</tspan><tspan x="245" dy="11">by decision</tspan></text>
+</g>
+
+<g>
+  <rect x="442" y="68" width="198" height="208" rx="6" fill="#ffffff" stroke="#E3E7F2"/>
+  <rect x="442" y="68" width="198" height="5" rx="2" fill="#4B3BAF"/>
+  <text class="s gt" x="456" y="94">PREDICTABLY INSIDE</text>
+  <text class="s gb" x="456" y="114"><tspan x="456">The tool decides with no human,</tspan><tspan x="456" dy="11">or its score or ranking is put in</tspan><tspan x="456" dy="11">front of the decision maker with no</tspan><tspan x="456" dy="11">realistic room for independent</tspan><tspan x="456" dy="11">review.</tspan></text>
+  <text class="s need" x="456" y="222">WHAT YOU NEED</text>
+  <text class="s nb" x="456" y="238"><tspan x="456">Notices, a request process, and</tspan><tspan x="456" dy="11">a qualified human reviewer</tspan></text>
+</g>
+
+<rect x="20" y="288" width="620" height="32" rx="5" fill="url(#hdr)"/>
+<text class="s band" x="330" y="308" text-anchor="middle">In all three, "not covered" is something you prove, not something you declare.</text>
+
+<text class="s foot" x="20" y="338">Simplified summary. General information, not legal advice.</text>
+<text class="s foot" x="640" y="338" text-anchor="end">hooglaw.com</text>
+</svg>

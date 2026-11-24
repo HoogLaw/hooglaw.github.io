@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="346" viewBox="0 0 660 346" role="img" aria-label="What changed in Colorado's final AI rules, adopted November 19, 2026, compared with the October 6 draft: the presumption trigger, hard cutoffs, independent review, human review deadlines, and the adverse outcome notice.">
+<defs>
+  <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#2D1F6E"/>
+    <stop offset="1" stop-color="#4B3BAF"/>
+  </linearGradient>
+  <style>
+    .s{font-family:'Segoe UI',Arial,Helvetica,sans-serif}
+    .kick{font-size:8.5px;font-weight:700;letter-spacing:2.6px;fill:#C9A96E}
+    .ttl{font-size:17px;font-weight:700;fill:#ffffff}
+    .sub{font-size:9px;fill:rgba(255,255,255,0.72)}
+    .colh{font-size:8.5px;font-weight:700;letter-spacing:1.9px;fill:#2D1F6E}
+    .colg{font-size:8.5px;font-weight:700;letter-spacing:1.9px;fill:#8A6A2E}
+    .rt{font-size:9.6px;font-weight:700;fill:#2D1F6E}
+    .rb{font-size:8.6px;fill:#3C4256}
+    .rn{font-size:8.6px;fill:#2D1F6E;font-weight:600}
+    .foot{font-size:7.6px;fill:#6B7291}
+  </style>
+</defs>
+
+<rect width="660" height="346" fill="#F7F8FC"/>
+<rect width="660" height="54" fill="url(#hdr)"/>
+<text class="s kick" x="20" y="20">COLORADO 4 CCR 904-6</text>
+<text class="s ttl" x="20" y="40">What changed in the final rules</text>
+<text class="s sub" x="640" y="24" text-anchor="end">Adopted November 19, 2026.</text>
+<text class="s sub" x="640" y="38" text-anchor="end">Compared with the October 6 draft.</text>
+
+<text class="s colh" x="20" y="74">TOPIC</text>
+<text class="s colh" x="170" y="74">OCTOBER 6 DRAFT</text>
+<text class="s colg" x="420" y="74">FINAL RULES</text>
+
+<g>
+  <rect x="14" y="82" width="632" height="46" rx="5" fill="#ffffff" stroke="#E3E7F2"/>
+  <rect x="410" y="82" width="236" height="46" rx="5" fill="#FFF6E3" stroke="#E8D9B8"/>
+  <text class="s rt" x="24" y="101">Presumption</text>
+  <text class="s rt" x="24" y="114">trigger</text>
+  <text class="s rb" x="170" y="99"><tspan x="170">Output reviewed or used to screen,</tspan><tspan x="170" dy="11">and consistent with the outcome</tspan></text>
+  <text class="s rn" x="420" y="99"><tspan x="420">Reviewed, used to screen, or used</tspan><tspan x="420" dy="11">with no human. "Consistent" deleted.</tspan></text>
+</g>
+
+<g>
+  <rect x="14" y="134" width="632" height="46" rx="5" fill="#ffffff" stroke="#E3E7F2"/>
+  <rect x="410" y="134" width="236" height="46" rx="5" fill="#FFF6E3" stroke="#E8D9B8"/>
+  <text class="s rt" x="24" y="153">Hard cutoff</text>
+  <text class="s rt" x="24" y="166">rebuttal</text>
+  <text class="s rb" x="170" y="151"><tspan x="170">Applied consistently</tspan></text>
+  <text class="s rn" x="420" y="151"><tspan x="420">Also documented in advance and not</tspan><tspan x="420" dy="11">derived from or dependent on the tool</tspan></text>
+</g>
+
+<g>
+  <rect x="14" y="186" width="632" height="46" rx="5" fill="#ffffff" stroke="#E3E7F2"/>
+  <rect x="410" y="186" width="236" height="46" rx="5" fill="#FFF6E3" stroke="#E8D9B8"/>
+  <text class="s rt" x="24" y="205">Independent</text>
+  <text class="s rt" x="24" y="218">review rebuttal</text>
+  <text class="s rb" x="170" y="203"><tspan x="170">Other information, authority,</tspan><tspan x="170" dy="11">subject matter understanding</tspan></text>
+  <text class="s rn" x="420" y="203"><tspan x="420">Adds the time reasonably</tspan><tspan x="420" dy="11">necessary to do the review</tspan></text>
+</g>
+
+<g>
+  <rect x="14" y="238" width="632" height="46" rx="5" fill="#ffffff" stroke="#E3E7F2"/>
+  <rect x="410" y="238" width="236" height="46" rx="5" fill="#FFF6E3" stroke="#E8D9B8"/>
+  <text class="s rt" x="24" y="257">Human review</text>
+  <text class="s rt" x="24" y="270">deadline</text>
+  <text class="s rb" x="170" y="255"><tspan x="170">45 days</tspan></text>
+  <text class="s rn" x="420" y="255"><tspan x="420">45 days, extendable once by 45,</tspan><tspan x="420" dy="11">not for food, shelter, or medical care</tspan></text>
+</g>
+
+<g>
+  <rect x="14" y="290" width="632" height="34" rx="5" fill="#ffffff" stroke="#E3E7F2"/>
+  <rect x="410" y="290" width="236" height="34" rx="5" fill="#FFF6E3" stroke="#E8D9B8"/>
+  <text class="s rt" x="24" y="310">Adverse outcome notice</text>
+  <text class="s rb" x="170" y="310">No principal reasons or score</text>
+  <text class="s rn" x="420" y="310">Unchanged</text>
+</g>
+
+<text class="s foot" x="20" y="338">Simplified summary. General information, not legal advice.</text>
+<text class="s foot" x="640" y="338" text-anchor="end">hooglaw.com</text>
+</svg>

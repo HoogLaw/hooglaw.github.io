@@ -49,6 +49,8 @@ Hoog Law advises Colorado businesses on compliance with Colorado SB 26-189, sign
 - [What to Ask Your AI Vendor Before January 2027](https://hooglaw.com/ai-compliance/ai-vendor-contracts-colorado.html): the contract terms Colorado deployers need, and why standard SaaS terms do not provide them
 - [Colorado's Draft ADMT Rules Under SB 26-189](https://hooglaw.com/ai-compliance/colorado-ag-admt-rulemaking-considerations.html): the proposed rules filed August 11, 2026, what the draft adds beyond the statute on notices and human review, the still-undefined coverage term, who owes the notice when a vendor or staffing agency runs the tool, and the comment deadlines
 - [Colorado's Chatbot Safety Act: What It Requires and Who It Covers](https://hooglaw.com/ai-compliance/colorado-chatbot-safety-act-hb-26-1263.html): HB 26-1263, a separate law from SB 26-189; who counts as an operator, the exemptions, disclosure, self-harm, age estimation, and minor protection duties under the statute and the October 6, 2026 draft rules, enforcement, and the annual report
+- [Colorado's Final AI Rules: Lighter Notices, a Wider Net](https://hooglaw.com/ai-compliance/colorado-final-ai-rules-adopted.html): the final rules, 4 CCR 904-6, adopted November 19, 2026; what changed from the October 6 draft (the material-influence presumption, the hard-cutoff and independent-review rebuttals, human review), what the law and rules require, enforcement, and timing
+- ["Not Covered" Is Something You Prove: What to Do Now About Colorado's AI Rules](https://hooglaw.com/ai-compliance/colorado-ai-rules-what-to-do-now.html): what businesses should do now under the final rules; why coverage is predictable but has to be proven with records, LinkedIn and Indeed as the exposure almost every employer shares, and eight steps from inventory to human review
 - [Colorado's AI Law After the October 26 Rulemaking Hearing](https://hooglaw.com/ai-compliance/colorado-ai-law-enforcement-stay-final-rules.html): where the rulemaking stands after the October 26, 2026 hearing, what the October 6 interim draft changed, how long the xAI court order bars enforcement, and how to prepare
 - [What Colorado Businesses Need to Know About AI Compliance and SB 26-189](https://hooglaw.com/insights/colorado-ai-compliance-sb-26-189.html): long-form analysis of the regulatory history, constitutional challenges, and federal picture
 - [Diving Blind: How Colorado Businesses Should Approach AI Governance Right Now](https://hooglaw.com/from-the-bench/diving-blind.html): practical guidance under regulatory uncertainty
@@ -83,6 +85,8 @@ Hoog Law advises Colorado businesses on compliance with Colorado SB 26-189, sign
 
 ## Insights (Articles)
 
+- [Colorado's Final AI Rules: Lighter Notices, a Wider Net](https://hooglaw.com/ai-compliance/colorado-final-ai-rules-adopted.html)
+- ["Not Covered" Is Something You Prove: What to Do Now About Colorado's AI Rules](https://hooglaw.com/ai-compliance/colorado-ai-rules-what-to-do-now.html)
 - [Colorado's AI Law After the October 26 Rulemaking Hearing](https://hooglaw.com/ai-compliance/colorado-ai-law-enforcement-stay-final-rules.html)
 - [What Colorado Businesses Need to Know About AI Compliance and SB 26-189](https://hooglaw.com/insights/colorado-ai-compliance-sb-26-189.html)
 - [When Do You Actually Need a Lawyer to Review a Contract?](https://hooglaw.com/insights/when-need-lawyer-contract.html)

@@ -42,55 +42,67 @@
   <!-- AI compliance hub -->
   <url>
     <loc>https://hooglaw.com/ai-compliance/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
     <loc>https://hooglaw.com/ai-compliance/does-colorado-ai-law-apply-small-business.html</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://hooglaw.com/ai-compliance/ai-hiring-tools-colorado-employers.html</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://hooglaw.com/ai-compliance/deployer-vs-developer-colorado-ai-law.html</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://hooglaw.com/ai-compliance/sb-26-189-notice-requirements.html</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://hooglaw.com/ai-compliance/ai-vendor-contracts-colorado.html</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://hooglaw.com/ai-compliance/colorado-ag-admt-rulemaking-considerations.html</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://hooglaw.com/ai-compliance/colorado-final-ai-rules-adopted.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://hooglaw.com/ai-compliance/colorado-ai-rules-what-to-do-now.html</loc>
+    <lastmod>2026-11-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://hooglaw.com/ai-compliance/colorado-ai-law-enforcement-stay-final-rules.html</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://hooglaw.com/ai-compliance/colorado-chatbot-safety-act-hb-26-1263.html</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -116,7 +128,7 @@
   </url>
   <url>
     <loc>https://hooglaw.com/practice/ai-governance-compliance-longmont.html</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
@@ -134,7 +146,7 @@
   </url>
   <url>
     <loc>https://hooglaw.com/practice/sb-26-189-compliance-checklist.html</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -180,7 +192,7 @@
   <!-- Insights (blog) -->
   <url>
     <loc>https://hooglaw.com/insights/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
