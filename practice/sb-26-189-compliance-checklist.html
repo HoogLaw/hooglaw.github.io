@@ -73,7 +73,7 @@
         "name": "What is ADMT under Colorado SB 26-189?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "ADMT stands for Automated Decision-Making Technology. Under SB 26-189, it means technology that processes personal data and uses computation to generate output, including predictions, recommendations, classifications, rankings, or scores, that is used to make, guide, or assist to a decision about a specific individual, including systems that substantially inform a human decision-maker. Examples include AI hiring screeners, credit scoring models, insurance underwriting tools, tenant screening algorithms, and clinical decision support software."
+          "text": "ADMT stands for Automated Decision-Making Technology. Under SB 26-189, it means technology that processes personal data and uses computation to generate output, including predictions, recommendations, classifications, rankings, or scores, that is used to make, guide, or assist a decision about a specific individual, including systems that substantially inform a human decision-maker. Examples include AI hiring screeners, credit scoring models, insurance underwriting tools, tenant screening algorithms, and clinical decision support software."
         }
       },
       {
@@ -89,7 +89,7 @@
         "name": "What are the compliance obligations for a covered deployer under SB 26-189?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "A covered deployer under SB 26-189 must: (1) provide written pre-decision notice before using ADMT in any decision affecting an individual; (2) issue an adverse action disclosure after any negative decision, explaining what was decided, what personal data was used, and the basis for the outcome; (3) offer the individual a meaningful opportunity to request human review of AI-influenced decisions; (4) obtain and retain the developer's technical documentation including intended uses, training data categories, and known inappropriate uses; (5) retain all compliance documentation, decision logs, and changelogs for a minimum of 3 years; and (6) monitor AG rulemaking and update compliance programs when rules are finalized."
+          "text": "A covered deployer must: (1) give clear and conspicuous notice before covered ADMT is used to materially influence a consequential decision; (2) within 30 days of an adverse outcome, send a notice describing the decision and the technology's role, how to request more information, and the consumer's rights (the final rules don't require the principal reasons or the score); (3) on request, give instructions for obtaining and correcting the personal data used, and provide meaningful human review and reconsideration where commercially reasonable; (4) obtain the developer's documentation; and (5) keep compliance records for at least three years after the decision."
         }
       },
       {
@@ -105,7 +105,7 @@
         "name": "What is the deadline for SB 26-189 compliance?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Colorado SB 26-189 takes effect January 1, 2027. A 60-day cure window applies before penalties attach, through January 1, 2030. Enforcement is by the Colorado Attorney General only, there is no private right of action. Key terms including materially influence, meaningful human review, adverse outcome, and covered domain are defined in the statute. What remains open is how they will be applied. The Attorney General must adopt rules clarifying the post-adverse-outcome disclosure requirements on or before January 1, 2027."
+          "text": "Colorado SB 26-189 takes effect January 1, 2027. A 60-day cure window applies before penalties attach, through January 1, 2030. Enforcement is by the Colorado Attorney General only, there is no private right of action. Key terms including materially influence, meaningful human review, adverse outcome, and covered domain are defined in the statute. The Attorney General adopted final rules, 4 CCR 904-6, on November 19, 2026, which show how they apply; the rules take effect 20 days after publication."
         }
       },
       {
@@ -113,7 +113,7 @@
         "name": "What exemptions exist under SB 26-189?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Four exemptions apply under SB 26-189: (1) HIPAA-covered entities for non-employment uses of ADMT; (2) insurers already satisfying existing Colorado algorithmic discrimination rules; (3) creditors satisfying ECOA or FCRA adverse action notice requirements; and (4) FDA-regulated medical devices. Where an exemption applies, businesses should document the exemption basis and retain that documentation on file."
+          "text": "Section 6-1-1708 has three entity-based exemptions: HIPAA covered entities and business associates (except employment decisions), insurers subject to section 10-3-1104.9 in the practice of insurance (except employment), and FDA-regulated medical devices and FDA-supervised research. Separately, a notice the ECOA or FCRA already requires can satisfy the adverse outcome notice if it also explains how to request more information and the consumer's rights; that is not an exemption. Where an exemption applies, document the basis and keep it on file."
         }
       }
     ]
@@ -325,7 +325,7 @@
               <div class="dt-step-q">Does the technology process personal data and generate output used to make, guide, or assist a decision about an individual?</div>
             </div>
             <div class="dt-step-body">
-              <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:0.75rem;">The Act lists technologies that are not ADMT: anti-malware, anti-virus, calculators, databases, data storage, firewalls, internet domain registration, website loading, networking, spam and robocall filtering, spell-checking, spreadsheets that require human analysis and do not use machine learning or large language models, web caching, and web hosting. Also excluded is a tool used solely to summarize, organize, translate, draft, route, or present information for human review, and natural-language technology that is neither intended for use in a consequential decision nor permitted to be so used under an acceptable use policy.</p>
+              <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:0.75rem;">The Act lists technologies that are not ADMT: anti-malware, anti-virus, calculators, databases, data storage, firewalls, internet domain registration, website loading, networking, spam and robocall filtering, spell-checking, spreadsheets that require human analysis and do not use machine learning or large language models, web caching, and web hosting. Also excluded is a tool used solely to summarize, organize, translate, draft, route, or present information for human review of administrative processing, and natural-language technology that is neither intended for use in a consequential decision nor permitted to be so used under an acceptable use policy.</p>
               <div class="dt-outcomes">
                 <div class="dt-outcome out">
                   <div class="dt-outcome-label">No</div>
@@ -350,7 +350,7 @@
               <div class="dt-step-q">Is the output a non-de minimis factor that affects the outcome?</div>
             </div>
             <div class="dt-step-body">
-              <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:0.75rem;">Material influence does not include incidental, trivial, or clerical uses. The practical question is whether the software narrowed the field before a person looked at it.</p>
+              <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:0.75rem;">Material influence does not include incidental, trivial, or clerical uses. The practical question is whether the software&rsquo;s output shaped what a person saw or decided. Under the final rules, a score or ranking is presumed to influence the decision if the decision maker reviewed it, it screened what they saw, or it decided with no human.</p>
               <div class="dt-outcomes">
                 <div class="dt-outcome out">
                   <div class="dt-outcome-label">No</div>
@@ -434,7 +434,7 @@
         </div>
 
         <div class="warning-box">
-          <p><strong>One provision that is often mistaken for an exemption.</strong> A creditor that provides the notice already required by the Equal Credit Opportunity Act, and where applicable the Fair Credit Reporting Act, is treated as satisfying section 6-1-1704's notice requirements for that same decision or adverse outcome. That credits a notice you were already giving. It does not put the creditor outside the Act.</p>
+          <p><strong>One provision that is often mistaken for an exemption.</strong> A creditor that provides the notice already required by the Equal Credit Opportunity Act, and where applicable the Fair Credit Reporting Act, is treated as satisfying section 6-1-1704's notice requirements for that same decision or adverse outcome, as long as that notice, or a supplement sent with it, also explains how to request more information and how to exercise the consumer&rsquo;s rights (Rule 7.7). That credits a notice you were already giving. It does not put the creditor outside the Act.</p>
         </div>
 
         <div class="decision-tree">
@@ -466,7 +466,7 @@
             <div class="obligation-col-label">Deployer: Using a Vendor's System</div>
             <div class="obligation-item"><div class="obligation-num">1</div><div class="obligation-text"><strong>Pre-use notice</strong><span>Clear and conspicuous notice before covered ADMT is used to materially influence the decision, with instructions for obtaining more information. Satisfied by a prominent public notice that is reasonably accessible and reasonably proximate to the interaction.</span></div></div>
             <div class="obligation-item"><div class="obligation-num">2</div><div class="obligation-text"><strong>Adverse outcome notice within 30 days</strong><span>A plain-language description of the consequential decision and the role the ADMT played, a simple-to-follow process to request additional information, and an explanation of the consumer's rights.</span></div></div>
-            <div class="obligation-item"><div class="obligation-num">3</div><div class="obligation-text"><strong>Correction of personal data</strong><span>On request after an adverse outcome, provide instructions for correcting personal data that is factually incorrect or materially inaccurate.</span></div></div>
+            <div class="obligation-item"><div class="obligation-num">3</div><div class="obligation-text"><strong>Correction of personal data</strong><span>On request after an adverse outcome, provide instructions for obtaining and correcting personal data that is factually incorrect or materially inaccurate.</span></div></div>
             <div class="obligation-item"><div class="obligation-num">4</div><div class="obligation-text"><strong>Meaningful human review</strong><span>Where commercially reasonable, review by a designated individual with authority to approve, modify, or override the decision, who considers available relevant primary evidence, is trained, does not default to the system output, and has access to sufficient information about the ADMT.</span></div></div>
             <div class="obligation-item"><div class="obligation-num">5</div><div class="obligation-text"><strong>Vendor documentation</strong><span>Obtain and retain the developer's documentation. You cannot describe the role the system played if the vendor will not tell you.</span></div></div>
             <div class="obligation-item"><div class="obligation-num">6</div><div class="obligation-text"><strong>Records for at least three years</strong><span>Documentation of compliance retained for a minimum of three years after the consequential decision.</span></div></div>
@@ -482,7 +482,7 @@
         </div>
 
         <div class="warning-box">
-          <p><strong>What is settled and what is not.</strong> Meaningful human review, materially influence, adverse outcome, and covered domain are all defined in the statute. What remains open is how they will be applied. The Attorney General is required to adopt rules clarifying the post-adverse-outcome disclosure requirements on or before January 1, 2027, and the June 2026 pre-rulemaking paper asked broader questions than that, including whether to further clarify what counts as ADMT, what materially influence means, and which decisions are consequential. A 60-day cure window applies before penalties attach, sunsetting January 1, 2030. There is no private right of action. Enforcement is by the Colorado Attorney General only.</p>
+          <p><strong>What is settled and what is not.</strong> Meaningful human review, materially influence, adverse outcome, and covered domain are all defined in the statute. The Attorney General adopted final rules, 4 CCR 904-6, on November 19, 2026, which show how they apply; the rules take effect 20 days after publication. A 60-day cure window applies before penalties attach, sunsetting January 1, 2030. There is no private right of action. Enforcement is by the Colorado Attorney General only.</p>
         </div>
 
         <div class="sources-section" style="margin-top:1.75rem;padding-top:1.25rem;border-top:1px solid var(--light-gray);">
@@ -492,17 +492,17 @@
         <div class="faq-block">
           <h2>Common questions</h2>
         <h3>What is ADMT under Colorado SB 26-189?</h3>
-        <p>ADMT stands for Automated Decision-Making Technology. Under SB 26-189, it means technology that processes personal data and uses computation to generate output, including predictions, recommendations, classifications, rankings, or scores, that is used to make, guide, or assist to a decision about a specific individual, including systems that substantially inform a human decision-maker. Examples include AI hiring screeners, credit scoring models, insurance underwriting tools, tenant screening algorithms, and clinical decision support software.</p>
+        <p>ADMT stands for Automated Decision-Making Technology. Under SB 26-189, it means technology that processes personal data and uses computation to generate output, including predictions, recommendations, classifications, rankings, or scores, that is used to make, guide, or assist a decision about a specific individual, including systems that substantially inform a human decision-maker. Examples include AI hiring screeners, credit scoring models, insurance underwriting tools, tenant screening algorithms, and clinical decision support software.</p>
         <h3>Which industries does Colorado SB 26-189 cover?</h3>
         <p>SB 26-189 uses a closed list of seven covered domains: education enrollment or an education opportunity; employment or an employment opportunity that creates or may create an employer-employee relationship; the lease or purchase of residential real estate in Colorado; a financial or lending service; insurance, including underwriting, pricing, coverage, and claims adjudication; health-care services; and essential government services and public benefits, including eligibility and renewal determinations. The Act expressly excludes low-stakes and routine decisions such as routine scheduling, administrative routing, customer service triage, communication of decisions, and workflow management, as well as advertising, marketing, differentiated product recommendations, search, and content moderation. Utilities such as electricity, gas, water, and broadband are not named in the Act.</p>
         <h3>What are the compliance obligations for a covered deployer under SB 26-189?</h3>
-        <p>A covered deployer under SB 26-189 must: (1) provide written pre-decision notice before using ADMT in any decision affecting an individual; (2) issue an adverse action disclosure after any negative decision, explaining what was decided, what personal data was used, and the basis for the outcome; (3) offer the individual a meaningful opportunity to request human review of AI-influenced decisions; (4) obtain and retain the developer&rsquo;s technical documentation including intended uses, training data categories, and known inappropriate uses; (5) retain all compliance documentation, decision logs, and changelogs for a minimum of 3 years; and (6) monitor AG rulemaking and update compliance programs when rules are finalized.</p>
+        <p>A covered deployer must: (1) give clear and conspicuous notice before covered ADMT is used to materially influence a consequential decision; (2) within 30 days of an adverse outcome, send a notice describing the decision and the technology's role, how to request more information, and the consumer's rights (the final rules don't require the principal reasons or the score); (3) on request, give instructions for obtaining and correcting the personal data used, and provide meaningful human review and reconsideration where commercially reasonable; (4) obtain the developer's documentation; and (5) keep compliance records for at least three years after the decision.</p>
         <h3>Does SB 26-189 apply if I use third-party AI software?</h3>
         <p>Yes. If you use a third-party AI tool and your use of it influences decisions about identifiable individuals in a covered category, the deployer compliance obligations are yours regardless of where the software came from. You must also obtain and retain the vendor&rsquo;s technical documentation as part of your compliance program.</p>
         <h3>What is the deadline for SB 26-189 compliance?</h3>
-        <p>Colorado SB 26-189 takes effect January 1, 2027. A 60-day cure window applies before penalties attach, through January 1, 2030. Enforcement is by the Colorado Attorney General only, there is no private right of action. Key terms including materially influence, meaningful human review, adverse outcome, and covered domain are defined in the statute. What remains open is how they will be applied. The Attorney General must adopt rules clarifying the post-adverse-outcome disclosure requirements on or before January 1, 2027.</p>
+        <p>Colorado SB 26-189 takes effect January 1, 2027. A 60-day cure window applies before penalties attach, through January 1, 2030. Enforcement is by the Colorado Attorney General only, there is no private right of action. Key terms including materially influence, meaningful human review, adverse outcome, and covered domain are defined in the statute. The Attorney General adopted final rules, 4 CCR 904-6, on November 19, 2026, which show how they apply; the rules take effect 20 days after publication.</p>
         <h3>What exemptions exist under SB 26-189?</h3>
-        <p>Four exemptions apply under SB 26-189: (1) HIPAA-covered entities for non-employment uses of ADMT; (2) insurers already satisfying existing Colorado algorithmic discrimination rules; (3) creditors satisfying ECOA or FCRA adverse action notice requirements; and (4) FDA-regulated medical devices. Where an exemption applies, businesses should document the exemption basis and retain that documentation on file.</p>
+        <p>Section 6-1-1708 has three entity-based exemptions: HIPAA covered entities and business associates (except employment decisions), insurers subject to section 10-3-1104.9 in the practice of insurance (except employment), and FDA-regulated medical devices and FDA-supervised research. Separately, a notice the ECOA or FCRA already requires can satisfy the adverse outcome notice if it also explains how to request more information and the consumer's rights; that is not an exemption. Where an exemption applies, document the basis and keep it on file.</p>
         </div>
 
         <div class="reg-status">
@@ -536,7 +536,7 @@
 
         <div class="sidebar-card">
           <h3>Effective Date</h3>
-          <p style="font-size:0.85rem;color:var(--text-body);margin:0;line-height:1.65;">SB 26-189 takes effect <strong>January 1, 2027</strong>. AG rulemaking is ongoing. Five months is enough time to build a compliant program if you start now.</p>
+          <p style="font-size:0.85rem;color:var(--text-body);margin:0;line-height:1.65;">SB 26-189 takes effect <strong>January 1, 2027</strong>. The final rules were adopted November 19, 2026 and take effect 20 days after publication.</p>
         </div>
       </aside>
 
