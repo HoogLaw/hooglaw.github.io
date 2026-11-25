@@ -285,6 +285,7 @@ p:last-child { margin-bottom: 0; }
 .bio-sidebar h4:first-child { margin-top: 0; }
 .bio-sidebar ul { list-style: none; display: flex; flex-direction: column; gap: 0.25rem; }
 .bio-sidebar ul li { font-size: 0.76rem; color: var(--text-body); padding-left: 0.85rem; position: relative; line-height: 1.45; }
+.bio-sidebar ul li a { color: var(--purple); text-decoration: underline; text-underline-offset: 2px; }
 .bio-sidebar ul li::before { content: '–'; position: absolute; left: 0; color: var(--purple); }
 .bio-focus { background: var(--white); border: 1px solid var(--light-gray); border-radius: var(--radius-lg); padding: 0.85rem 1rem; margin-top: 1rem; }
 .bio-focus p { font-size: 0.75rem; color: var(--text-muted); font-style: italic; line-height: 1.6; margin: 0; }
