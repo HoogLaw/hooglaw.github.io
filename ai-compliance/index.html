@@ -367,6 +367,19 @@
     @media(max-width:960px){.hero-grid{grid-template-columns:1fr;gap:2rem;}.page-hero.hub-photo{background-image:url("/assets/images/blog/hero-digital-flatirons-1280.jpg");background-size:170% auto;background-position:62% bottom;padding-bottom:58vw;}}
     @media(max-width:600px){.page-hero .hero-desc{display:none;}.page-hero .btn-hero{margin-bottom:0;}}
     .hero-btns{display:flex;flex-wrap:wrap;gap:0.75rem;align-items:center;}
+    /* compact hub hero: headline and summary side by side, final-rules panel as a wide, short bar below */
+    .hub-photo{padding-top:9.25rem;}
+    .hub-photo .hero-grid{grid-template-columns:1.1fr 1fr;gap:1.5rem 3rem;align-items:end;}
+    .hub-photo h1{font-size:2.15rem;margin-bottom:0.75rem;max-width:none;}
+    .hub-photo .hero-sub{font-size:1.15rem;margin-bottom:0;}
+    .hub-photo .hero-desc{font-size:0.95rem;line-height:1.65;margin-bottom:1.1rem;max-width:none;}
+    .hub-photo .final-panel{grid-column:1/-1;display:grid;grid-template-columns:0.8fr 1fr 1fr;gap:1rem;align-items:stretch;padding:1.1rem 1.25rem;}
+    .hub-photo .fp-intro{align-self:center;}
+    .hub-photo .final-panel h2{margin-bottom:0;font-size:1.2rem;}
+    .hub-photo .fp-link{margin-bottom:0;}
+    .hub-photo .btn-hero,.hub-photo .btn-hero-ghost{padding:0.8rem 1.15rem;font-size:0.76rem;letter-spacing:0.07em;}
+    .hub-photo .btn-hero-ghost{padding:calc(0.8rem - 2px) 1.1rem;}
+    @media(max-width:960px){.hub-photo .hero-grid{grid-template-columns:1fr;}.hub-photo .final-panel{grid-template-columns:1fr;}.hub-photo h1{font-size:1.85rem;}}
     .btn-hero-ghost{display:inline-block;border:2px solid rgba(255,255,255,0.75);color:var(--white);font-family:'Montserrat',sans-serif;font-size:0.82rem;font-weight:700;letter-spacing:0.09em;text-transform:uppercase;padding:calc(0.9rem - 2px) 1.5rem;border-radius:var(--radius);transition:background var(--transition),color var(--transition),border-color var(--transition);}
     .btn-hero-ghost:hover{background:var(--white);color:var(--navy);border-color:var(--white);}
     .jump-bar .sep{color:var(--mid-gray);margin:0 0.6rem;}
@@ -420,10 +433,12 @@
 <section class="page-hero hub-photo">
   <div class="container">
     <div class="hero-grid">
-      <div>
+      <div class="hero-head">
         <div class="page-hero-tag">Colorado AI Compliance</div>
         <h1>Colorado&rsquo;s AI Law, SB 26-189, Takes Effect January 1, 2027</h1>
         <p class="hero-sub">The Attorney General adopted the final rules on November 19, 2026.</p>
+      </div>
+      <div class="hero-side">
         <p class="hero-desc">SB 26-189, the Automated Decision-Making Technology in Consequential Decisions Act, reaches businesses that use software to score, rank, or classify people in hiring, lending, housing, insurance, healthcare, and education decisions. There is no small business exemption.</p>
         <div class="hero-btns">
           <a class="btn-hero" href="/contact.html">Schedule a Consultation</a>
@@ -431,8 +446,10 @@
         </div>
       </div>
       <div class="final-panel">
-        <div class="fp-flag">New &nbsp;&middot;&nbsp; Final rules adopted November 19</div>
-        <h2>The final rules are out. Start here.</h2>
+        <div class="fp-intro">
+          <div class="fp-flag">New &nbsp;&middot;&nbsp; Final rules adopted November 19</div>
+          <h2>The final rules are out. Start here.</h2>
+        </div>
         <a class="fp-link" href="colorado-final-ai-rules-adopted.html">
           <span class="fp-title">What changed in the final rules</span>
           <span class="fp-blurb">Lighter notices, a wider net: the few changes that affect who is covered and what you owe.</span>
