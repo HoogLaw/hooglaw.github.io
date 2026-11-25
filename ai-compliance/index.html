@@ -348,7 +348,7 @@
     .reg-status p{font-size:0.88rem;line-height:1.7;color:var(--text-body);margin:0 0 0.7rem;}
     .reg-status p:last-child{margin-bottom:0;}
     .reg-status .asof{font-size:0.76rem;color:var(--text-muted);font-style:italic;}
-    .page-hero.hub-photo{position:relative;background:#1D134F url("/assets/images/blog/hero-digital-flatirons.jpg") center bottom/100% auto no-repeat;padding-bottom:28.6vw;}
+    .page-hero.hub-photo{position:relative;background:#201657 url("/assets/images/blog/hero-digital-flatirons.jpg") right bottom/auto calc(var(--band-p) / 0.93) no-repeat;--band-p:clamp(170px, min(26.8vw, calc(100vh - 600px)), 500px);padding-bottom:var(--band-p);}
     .page-hero.hub-photo::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,6,28,0.65) 0%,rgba(8,6,28,0.25) 45%,rgba(8,6,28,0) 62%);}
     .page-hero.hub-photo .container{position:relative;z-index:2;}
     .hero-grid{display:grid;grid-template-columns:1.15fr 1fr;gap:3rem;align-items:start;}
@@ -364,7 +364,7 @@
     .fp-go{display:block;font-size:0.74rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--purple);}
     .fp-link:hover .fp-go{color:var(--gold);}
     .hub-card.featured{border-top:4px solid var(--gold);}
-    @media(max-width:960px){.hero-grid{grid-template-columns:1fr;gap:2rem;}.page-hero.hub-photo{background-image:url("/assets/images/blog/hero-digital-flatirons-1280.jpg");background-size:170% auto;background-position:62% bottom;padding-bottom:48.5vw;}}
+    @media(max-width:960px){.hero-grid{grid-template-columns:1fr;gap:2rem;}.page-hero.hub-photo{background-image:url("/assets/images/blog/hero-digital-flatirons-1280.jpg");background-size:170% auto;background-position:right bottom;padding-bottom:39vw;}}
     @media(max-width:600px){.page-hero .hero-desc{display:none;}.page-hero .btn-hero{margin-bottom:0;}}
     .hero-btns{display:flex;flex-wrap:wrap;gap:0.75rem;align-items:center;}
     /* compact hub hero: headline and summary side by side, final-rules panel as a wide, short bar below */
