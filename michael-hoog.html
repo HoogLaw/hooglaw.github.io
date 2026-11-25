@@ -171,6 +171,22 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Raleway:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/styles.css">
+<style>
+  .life-photos{display:grid;grid-template-columns:repeat(4,1fr);gap:0.9rem;max-width:680px;}
+  .life-photos figure{margin:0;}
+  .life-photos a{display:block;border-radius:8px;overflow:hidden;box-shadow:0 4px 16px rgba(45,31,110,0.15);}
+  .life-photos img{width:100%;height:auto;aspect-ratio:1/1;object-fit:cover;display:block;transition:transform .25s ease;}
+  .life-photos a:hover img,.life-photos a:focus-visible img{transform:scale(1.04);}
+  .life-photos figcaption{margin-top:0.45rem;font-size:0.75rem;color:var(--text-muted);font-style:italic;line-height:1.35;}
+  .life-credit{font-size:0.72rem;color:var(--text-muted);margin-top:1rem;}
+  #life-viewer{margin:auto;border:0;padding:0;background:transparent;max-width:92vw;max-height:92vh;overflow:visible;}
+  #life-viewer::backdrop{background:rgba(10,7,30,0.88);}
+  #life-viewer img{display:block;max-width:92vw;max-height:84vh;width:auto;height:auto;border-radius:6px;}
+  #life-viewer .lv-cap{color:#fff;text-align:center;font-size:0.85rem;margin-top:0.6rem;font-style:italic;}
+  #life-viewer .lv-close{position:absolute;top:-2.4rem;right:0;background:none;border:0;color:#fff;font-size:2rem;line-height:1;cursor:pointer;}
+  @media(max-width:700px){.life-photos{grid-template-columns:repeat(3,1fr);}}
+  @media(max-width:480px){.life-photos{grid-template-columns:repeat(2,1fr);}}
+</style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1JRLN1DYEP"></script>
 <script>
@@ -238,11 +254,18 @@
       </div>
 
       <div class="bio-section">
-        <figure style="margin:0;max-width:200px;">
-          <img src="/assets/images/michael-baseball-1986.jpg" alt="Michael Hoog pitching" style="width:100%;border-radius:8px;box-shadow:0 4px 16px rgba(45,31,110,0.15);display:block;">
-          <figcaption style="margin-top:0.5rem;font-size:0.75rem;color:var(--text-muted);font-style:italic;">Niwot circa 1986</figcaption>
-        </figure>
+        <div class="life-photos">
+          <figure><a href="/assets/images/life/pitching-1986.jpg" class="life-photo" data-caption="Niwot, circa 1986"><img src="/assets/images/life/pitching-1986-thumb.jpg" alt="Michael Hoog pitching for Niwot, circa 1986" width="200" height="200"></a><figcaption>Niwot, circa 1986</figcaption></figure>
+          <figure><a href="/assets/images/life/batting-practice.jpg" class="life-photo" data-caption="Batting practice at Skyline High School"><img src="/assets/images/life/batting-practice-thumb.jpg" alt="Batting practice at Skyline High School, seen from behind home plate" width="200" height="200"></a><figcaption>Batting practice at Skyline High School</figcaption></figure>
+          <figure><a href="/assets/images/life/jeep-trail.jpg" class="life-photo" data-caption="Holy Cross from the Rubicon"><img src="/assets/images/life/jeep-trail-thumb.jpg" alt="The Holy Cross area peaks seen over the hood of a Jeep Rubicon" width="200" height="200"></a><figcaption>Holy Cross from the Rubicon</figcaption></figure>
+          <figure><a href="/assets/images/life/alluvial-fan.jpg" class="life-photo" data-caption="Alluvial Fan, Rocky Mountain National Park"><img src="/assets/images/life/alluvial-fan-thumb.jpg" alt="Water cascading over boulders at the Alluvial Fan in Rocky Mountain National Park" width="200" height="200"></a><figcaption>Alluvial Fan, Rocky Mountain National Park</figcaption></figure>
+          <figure><a href="/assets/images/life/alberta-falls.jpg" class="life-photo" data-caption="Alberta Falls Trail"><img src="/assets/images/life/alberta-falls-thumb.jpg" alt="A rushing creek beside pines on the Alberta Falls Trail" width="200" height="200"></a><figcaption>Alberta Falls Trail</figcaption></figure>
+          <figure><a href="/assets/images/life/logjam-falls.jpg" class="life-photo" data-caption="Calypso Cascades Trail"><img src="/assets/images/life/logjam-falls-thumb.jpg" alt="A waterfall pouring over a logjam among aspens near the Calypso Cascades Trail" width="200" height="200"></a><figcaption>Calypso Cascades Trail</figcaption></figure>
+          <figure><a href="/assets/images/life/moose.jpg" class="life-photo" data-caption="Bull moose, Rocky Mountain National Park"><img src="/assets/images/life/moose-thumb.jpg" alt="A bull moose in the forest in Rocky Mountain National Park" width="200" height="200"></a><figcaption>Bull moose, Rocky Mountain National Park</figcaption></figure>
+        </div>
+        <p class="life-credit">Photographs by Michael Hoog, except the 1986 photo. Click any photo to see it full size.</p>
       </div>
+      <dialog id="life-viewer" aria-label="Photo"><button type="button" class="lv-close" aria-label="Close">&times;</button><img alt=""><p class="lv-cap"></p></dialog>
 
     </div>
 
@@ -350,5 +373,19 @@
   }
 </script>
 
+<script>
+  (function(){
+    var dlg=document.getElementById('life-viewer'); if(!dlg||!dlg.showModal) return;
+    var img=dlg.querySelector('img'), cap=dlg.querySelector('.lv-cap');
+    document.querySelectorAll('a.life-photo').forEach(function(a){
+      a.addEventListener('click',function(e){
+        e.preventDefault(); img.src=a.getAttribute('href'); img.alt=a.querySelector('img').alt;
+        cap.textContent=a.dataset.caption||''; dlg.showModal();
+      });
+    });
+    dlg.querySelector('.lv-close').addEventListener('click',function(){dlg.close();});
+    dlg.addEventListener('click',function(e){ if(e.target===dlg) dlg.close(); });
+  })();
+</script>
 </body>
 </html>
