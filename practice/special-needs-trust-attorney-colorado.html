@@ -148,7 +148,14 @@
     .footer-links a:hover{color:var(--gold);}
     .footer-bar{border-top:1px solid rgba(255,255,255,0.08);padding-top:1.5rem;font-size:0.74rem;color:rgba(255,255,255,0.35);line-height:1.7;}
     @media(max-width:768px){.nav-links{display:none;flex-direction:column;position:fixed;top:150px;left:0;right:0;background:var(--white);padding:1.5rem 2rem 2rem;gap:0.5rem;border-top:1px solid var(--light-gray);box-shadow:0 8px 24px rgba(0,0,0,0.1);}.nav-links.open{display:flex;}.nav-hamburger{display:flex;}.page-hero h1{font-size:1.85rem;}.content-layout{grid-template-columns:1fr;}.footer-inner{grid-template-columns:1fr;}.footer-links{text-align:left;flex-direction:row;flex-wrap:wrap;gap:0.5rem 1.25rem;}}
-  </style>
+              /* PHOTO-HERO */
+    .page-hero.photo-hero{position:relative;overflow:hidden;background:#2D1F6E url("/assets/images/practice/hero-winter-cottonwoods.jpg") right center/auto 100% no-repeat;}
+    .page-hero.photo-hero::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#2D1F6E 0%,#2D1F6E 44%,rgba(45,31,110,0.80) 52%,rgba(45,31,110,0.30) 66%,rgba(45,31,110,0.05) 100%);pointer-events:none;}
+    .page-hero.photo-hero .container{position:relative;z-index:2;}
+    .page-hero.photo-hero .photo-credit{position:absolute;right:14px;bottom:10px;z-index:3;font-family:"Montserrat",sans-serif;font-size:0.62rem;letter-spacing:0.06em;color:rgba(255,255,255,0.62);}
+    @media(max-width:768px){.page-hero.photo-hero{background-size:cover;background-position:75% center;}.page-hero.photo-hero::before{background:rgba(45,31,110,0.80);}}
+    /* /PHOTO-HERO */
+</style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1JRLN1DYEP"></script>
 <script>
@@ -176,7 +183,8 @@
   </div>
 </nav>
 
-<section class="page-hero">
+<section class="page-hero photo-hero">
+  <div class="photo-credit">Photograph by Michael Hoog</div>
   <div class="container">
     <div class="page-hero-tag">Estate Planning</div>
     <h1>Special Needs Trust Attorney in Colorado</h1>
