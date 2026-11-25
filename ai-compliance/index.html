@@ -70,7 +70,7 @@
   "@type": "ItemList",
   "name": "Colorado AI Compliance Articles",
   "itemListOrder": "https://schema.org/ItemListOrderAscending",
-  "numberOfItems": 11,
+  "numberOfItems": 12,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -137,6 +137,12 @@
       "position": 11,
       "name": "\"Not Covered\" Is Something You Prove: What to Do Now About Colorado's AI Rules",
       "url": "https://hooglaw.com/ai-compliance/colorado-ai-rules-what-to-do-now.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 12,
+      "name": "Colorado's AI Law: A Conversation with Michael Devous Jr. (Video)",
+      "url": "https://hooglaw.com/ai-compliance/colorado-ai-law-video-conversation.html"
     }
   ]
 }
@@ -364,7 +370,24 @@
     .btn-hero-ghost{display:inline-block;border:2px solid rgba(255,255,255,0.75);color:var(--white);font-family:'Montserrat',sans-serif;font-size:0.82rem;font-weight:700;letter-spacing:0.09em;text-transform:uppercase;padding:calc(0.9rem - 2px) 1.5rem;border-radius:var(--radius);transition:background var(--transition),color var(--transition),border-color var(--transition);}
     .btn-hero-ghost:hover{background:var(--white);color:var(--navy);border-color:var(--white);}
     .jump-bar .sep{color:var(--mid-gray);margin:0 0.6rem;}
-    #articles,#faq{scroll-margin-top:150px;}
+    #articles,#faq,#video{scroll-margin-top:150px;}
+    .video-band{padding:3rem 0;}
+    .video-band-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:2.5rem;align-items:center;}
+    .video-band-grid>*{min-width:0;}
+    .video-band .kicker{font-size:0.7rem;font-weight:700;letter-spacing:0.13em;text-transform:uppercase;color:var(--gold);margin-bottom:0.6rem;}
+    .video-band h2{font-size:1.5rem;margin-bottom:0.75rem;}
+    .video-band p{font-size:0.96rem;line-height:1.7;margin-bottom:1rem;}
+    .video-band .dated{font-size:0.85rem;color:var(--text-muted);}
+    .video-band .dated a{color:var(--purple);text-decoration:underline;text-underline-offset:2px;}
+    .video-thumb{position:relative;display:block;border-radius:var(--radius-lg);overflow:hidden;box-shadow:0 6px 24px rgba(45,31,110,0.16);}
+    .video-thumb img{width:100%;height:auto;transition:transform var(--transition);}
+    .video-thumb:hover img{transform:scale(1.02);}
+    .video-thumb .play{position:absolute;left:50%;top:50%;width:72px;height:72px;margin:-36px 0 0 -36px;border-radius:50%;background:rgba(45,31,110,0.88);box-shadow:0 4px 16px rgba(0,0,0,0.35);}
+    .video-thumb .play::after{content:"";position:absolute;left:29px;top:22px;border-style:solid;border-width:14px 0 14px 22px;border-color:transparent transparent transparent var(--gold);}
+    .video-thumb:hover .play{background:var(--gold);}
+    .video-thumb:hover .play::after{border-left-color:var(--navy);}
+    .video-thumb .dur{position:absolute;right:10px;bottom:10px;background:rgba(0,0,0,0.78);color:#fff;font-size:0.75rem;font-weight:600;padding:0.15rem 0.45rem;border-radius:3px;}
+    @media(max-width:900px){.video-band-grid{grid-template-columns:1fr;gap:1.5rem;}}
     .hub-credit{position:absolute;right:16px;bottom:10px;z-index:2;font-size:0.62rem;letter-spacing:0.06em;color:rgba(255,255,255,0.55);}
     .legal-disc{background:#ffffff;border:1px solid #E3E7F2;border-radius:var(--radius-lg);padding:1.25rem 1.5rem;margin:1rem 0 0;}
     .legal-disc h4{font-family:'Raleway',sans-serif;font-size:0.78rem;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;color:#6B7291;margin:0 0 0.55rem;}
@@ -435,7 +458,7 @@
 </div>
 
 <div class="law-notice">
-  <div class="law-notice-inner jump-bar"><strong>Jump to:</strong> <a href="#articles">All AI articles &darr;</a><span class="sep">&middot;</span><a href="#chatbot-safety-act">Chatbot Safety Act &darr;</a><span class="sep">&middot;</span><a href="#faq">Common questions &darr;</a></div>
+  <div class="law-notice-inner jump-bar"><strong>Jump to:</strong> <a href="#articles">All AI articles &darr;</a><span class="sep">&middot;</span><a href="#video">Video &darr;</a><span class="sep">&middot;</span><a href="#chatbot-safety-act">Chatbot Safety Act &darr;</a><span class="sep">&middot;</span><a href="#faq">Common questions &darr;</a></div>
 </div>
 
 <section class="content-section" style="padding-bottom:2rem;">
@@ -490,6 +513,24 @@
       <div class="legal-disc">
         <h4>Legal disclaimer</h4>
         <p>This page is for general informational purposes only and does not constitute legal advice. The discussion above is a simplified summary of Colorado SB 26-189 and is not a substitute for a complete legal analysis of your specific situation. Laws and regulations change, and the Attorney General&rsquo;s rules under SB 26-189, adopted November 19, 2026, are not yet in effect. To understand your actual compliance obligations, consult with qualified legal counsel. Nothing on this page creates an attorney-client relationship between you and Hoog Law or Michael Hoog.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="video-band" id="video">
+  <div class="container">
+    <div class="video-band-grid">
+      <a class="video-thumb" href="colorado-ai-law-video-conversation.html" aria-label="Watch the conversation on Colorado&rsquo;s AI law">
+        <img src="/assets/images/blog/video-ai-collective-thumb.jpg" width="1280" height="720" loading="lazy" alt="Michael Hoog discussing Colorado&rsquo;s AI law with Michael Devous Jr. of The AI Collective">
+        <span class="play"></span><span class="dur">11:07</span>
+      </a>
+      <div>
+        <div class="kicker">Video &nbsp;&middot;&nbsp; 11 minutes</div>
+        <h2>Colorado&rsquo;s AI Law: A Conversation with Michael Devous Jr.</h2>
+        <p>Michael Hoog talks with Michael Devous Jr., Founding Organizer of The AI Collective, Colorado Springs, about who the law covers, how LinkedIn and Indeed settings can make you a deployer, and what a small business should do first.</p>
+        <a class="btn-law" href="colorado-ai-law-video-conversation.html">Watch with transcript &rarr;</a>
+        <p class="dated" style="margin-top:1rem;">Recorded November 18, 2026, the day before the Attorney General adopted the final rules. For what changed, see <a href="colorado-final-ai-rules-adopted.html">Colorado&rsquo;s final AI rules</a>.</p>
       </div>
     </div>
   </div>
